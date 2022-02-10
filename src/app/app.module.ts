@@ -13,6 +13,7 @@ import { HomeInfoComponent } from './modules/pages/home/home-info/home-info.comp
 import { SubtitleComponent } from './modules/components/subtitle/subtitle.component';
 import { IntroductionComponent } from './modules/pages/home/home-info/introduction/introduction.component';
 import { HealthComponent } from './modules/pages/home/home-info/health/health.component';
+import { JulianDateComponent } from './modules/pages/home/home-info/julian-date/julian-date.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HealthComponent } from './modules/pages/home/home-info/health/health.co
     CollapseButtonComponent,
     SubtitleComponent,
     IntroductionComponent,
-    HealthComponent
+    HealthComponent,
+    JulianDateComponent
   ],
   imports: [
     BrowserModule,
