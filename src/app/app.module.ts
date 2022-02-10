@@ -15,6 +15,7 @@ import { IntroductionComponent } from './modules/pages/home/home-info/introducti
 import { HealthComponent } from './modules/pages/home/home-info/health/health.component';
 import { JulianDateComponent } from './modules/pages/home/home-info/julian-date/julian-date.component';
 import { BlueMoonComponent } from './modules/pages/home/home-info/blue-moon/blue-moon.component';
+import { KordylweskiComponent } from './modules/pages/home/home-info/kordylweski/kordylweski.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { BlueMoonComponent } from './modules/pages/home/home-info/blue-moon/blue
     IntroductionComponent,
     HealthComponent,
     JulianDateComponent,
-    BlueMoonComponent
+    BlueMoonComponent,
+    KordylweskiComponent
   ],
   imports: [
     BrowserModule,
