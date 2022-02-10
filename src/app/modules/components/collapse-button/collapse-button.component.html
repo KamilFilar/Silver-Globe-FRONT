@@ -1,0 +1,7 @@
+<div class="btn">
+    <a class="btn--value" data-bs-toggle="collapse" href="{{ href }}" role="button" aria-expanded="false"
+      aria-controls="ariacontrols" (click)="getState()">
+      <span *ngIf="stateOfBtn === 0">Więcej</span>
+      <span *ngIf="stateOfBtn === 1">Ukryj</span>
+    </a>
+  </div>
