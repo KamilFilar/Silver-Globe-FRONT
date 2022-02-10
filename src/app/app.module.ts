@@ -14,6 +14,7 @@ import { SubtitleComponent } from './modules/components/subtitle/subtitle.compon
 import { IntroductionComponent } from './modules/pages/home/home-info/introduction/introduction.component';
 import { HealthComponent } from './modules/pages/home/home-info/health/health.component';
 import { JulianDateComponent } from './modules/pages/home/home-info/julian-date/julian-date.component';
+import { BlueMoonComponent } from './modules/pages/home/home-info/blue-moon/blue-moon.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { JulianDateComponent } from './modules/pages/home/home-info/julian-date/
     SubtitleComponent,
     IntroductionComponent,
     HealthComponent,
-    JulianDateComponent
+    JulianDateComponent,
+    BlueMoonComponent
   ],
   imports: [
     BrowserModule,
