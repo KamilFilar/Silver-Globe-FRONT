@@ -10,6 +10,8 @@ import { PageNotFoundComponent } from './modules/pages/page-not-found/page-not-f
 import { HomeComponent } from './modules/pages/home/home.component';
 import { HomeWelcomeComponent } from './modules/pages/home/home-welcome/home-welcome.component';
 import { HomeInfoComponent } from './modules/pages/home/home-info/home-info.component';
+import { SubtitleComponent } from './modules/components/subtitle/subtitle.component';
+import { IntroductionComponent } from './modules/pages/home/home-info/introduction/introduction.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { HomeInfoComponent } from './modules/pages/home/home-info/home-info.comp
     PageNotFoundComponent,
     ButtonComponent,
     HomeComponent,
-    CollapseButtonComponent
+    CollapseButtonComponent,
+    SubtitleComponent,
+    IntroductionComponent
   ],
   imports: [
     BrowserModule,

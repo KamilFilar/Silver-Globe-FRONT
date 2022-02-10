@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeInfoComponent implements OnInit {
 
+  more = {
+    href: '#MoreInformations',
+    ariacontrols: '#MoreInformations'
+  }
+  imgSplash = './../../../../../assets/images/home/info/splashImage.gif';
+  tittle = 'Słów kilka o Księżycu';
+
   constructor() { }
 
   ngOnInit(): void {

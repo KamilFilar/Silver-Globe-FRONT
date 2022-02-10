@@ -13,9 +13,9 @@ export class HomeWelcomeComponent implements OnInit {
   }
 
   textPL = [
-    'Na ile sposobów potrafisz opisać księżyc?',
+    'Na ile sposobów potrafisz opisać Księżyc?',
     'Zatrzymaj się i spójrz w niebo nocą...',
-    'Ciemna strona księżyca nie istnieje.',
+    'Ciemna strona Księżyca nie istnieje.',
     'Zawsze patrzymy na ten sam obiekt.'
   ];
 

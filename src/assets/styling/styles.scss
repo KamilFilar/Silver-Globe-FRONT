@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body {
+  background-color: rgb(13, 13, 13);
+  color: rgb(245, 245, 245);
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+// Declare font
+@font-face {
+  font-family: Kalam;
+  src: url("./../fonts/Kalam-Regular.ttf") format("truetype");
+}
