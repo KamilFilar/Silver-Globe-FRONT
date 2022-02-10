@@ -3,7 +3,8 @@
     margin-top: 40px;
   
     &__p {
-      text-indent: 10px;
+      text-indent: 15px;
+      margin: 4px;
   
       &--color {
         color: orange;
@@ -20,6 +21,7 @@
       }
   
       &__li {
+        margin: 0 25px;
         &--color {
           color: orange;
         }

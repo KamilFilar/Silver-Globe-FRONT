@@ -12,6 +12,7 @@ import { HomeWelcomeComponent } from './modules/pages/home/home-welcome/home-wel
 import { HomeInfoComponent } from './modules/pages/home/home-info/home-info.component';
 import { SubtitleComponent } from './modules/components/subtitle/subtitle.component';
 import { IntroductionComponent } from './modules/pages/home/home-info/introduction/introduction.component';
+import { HealthComponent } from './modules/pages/home/home-info/health/health.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { IntroductionComponent } from './modules/pages/home/home-info/introducti
     HomeComponent,
     CollapseButtonComponent,
     SubtitleComponent,
-    IntroductionComponent
+    IntroductionComponent,
+    HealthComponent
   ],
   imports: [
     BrowserModule,
