@@ -1,0 +1,46 @@
+.navbar-brand {
+  padding: 0 20px;
+  color: rgb(230, 230, 230);
+  font-size: 32px;
+  font-family: Kalam;
+  font-weight: 550;
+
+  &--color {
+    color: rgb(245, 245, 245);
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+nav {
+  background: rgba(0, 0, 0, 0);
+  transition-duration: 0.5s;
+}
+
+.nav-color {
+  background-color: rgba(0, 0, 0, 0.75);
+  transition-duration: 0.8s;
+}
+
+.navbar {
+  flex-wrap: wrap;
+  padding: 0;
+
+  &__btn {
+    margin-right: 15px;
+    padding: 0;
+  }
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.no-padding {
+  padding: 0 !important;
+  margin: 0 !important;
+}

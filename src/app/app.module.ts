@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 // Import components
 import { CollapseButtonComponent } from './modules/components/collapse-button/collapse-button.component';
 import { ButtonComponent } from './modules/components/button/button.component';
@@ -16,6 +17,9 @@ import { HealthComponent } from './modules/pages/home/home-info/health/health.co
 import { JulianDateComponent } from './modules/pages/home/home-info/julian-date/julian-date.component';
 import { BlueMoonComponent } from './modules/pages/home/home-info/blue-moon/blue-moon.component';
 import { KordylweskiComponent } from './modules/pages/home/home-info/kordylweski/kordylweski.component';
+import { NavbarComponent } from './modules/components/navbar/navbar.component';
+import { NavbarItemComponent } from './modules/components/navbar/navbar-item/navbar-item.component';
+import { NavbarProgressbarComponent } from './modules/components/navbar/navbar-progressbar/navbar-progressbar.component';
 
 @NgModule({
   declarations: [
@@ -31,11 +35,15 @@ import { KordylweskiComponent } from './modules/pages/home/home-info/kordylweski
     HealthComponent,
     JulianDateComponent,
     BlueMoonComponent,
-    KordylweskiComponent
+    KordylweskiComponent,
+    NavbarComponent,
+    NavbarItemComponent,
+    NavbarProgressbarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
