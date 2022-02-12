@@ -3,6 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+// Import API 
+import { HttpClientModule } from '@angular/common/http';
+import { EmailService } from './config/services/email.service';
+import { MoonService } from './config/services/moon.service';
+import { NewsletterService } from './config/services/newsletter.service';
 // Import components
 import { CollapseButtonComponent } from './modules/components/collapse-button/collapse-button.component';
 import { ButtonComponent } from './modules/components/button/button.component';
@@ -43,9 +48,15 @@ import { NavbarProgressbarComponent } from './modules/components/navbar/navbar-p
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     FontAwesomeModule
   ],
-  providers: [],
+  providers: [
+    MoonService,
+    EmailService,
+    NewsletterService
+  ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
