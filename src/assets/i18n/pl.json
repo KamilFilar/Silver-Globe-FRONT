@@ -57,15 +57,6 @@
         "description": "W poniższe pole wpisz interesującą Cię datę lub kliknij w ikonkę kalendarza aby ją wskazać.",
         "checkDate": "Wybierz datę"
     },
-    "homeCalendar": {
-        "title": "Księżycowy kalendarz",
-        "selectedDate": "Wybrana data: ",
-        "phase": "Faza Księżyca: ",
-        "nextNew": "Następny nów: ",
-        "nextFQ": "Następna pierwsza kwarda: ",
-        "nextFull": "Następna pełnia: ",
-        "nextLQ": "Następna ostatnia kwarda: "
-    },
     "homeJulianDate": {
         "title": "Data juliańska",
         "p1": "O datach juliańskich zapewne wiesz już małe co nieco z sekcji informacyjnej, jednak jeżeli jej nie przeczytałeś (a zobacz, zobacz) to musisz wiedzieć, że jest to data wykorzystywana do obliczeń astronomicznych, którą można najczęściej spotkać pod symbolem: JD. Według tej rachuby można przypisać każdemu dniowi następującemu po dacie: ",
@@ -267,99 +258,22 @@
             "copyBtn": "Kopiuj"
         }
     },
-    "admin": {
-        "title": "Panel administratora",
-        "lastUpdate": "Ostatnia aktualizacja: ",
-        "sidebar": {
-            "title": "Zarządzaj",
-            "views": "Wyświetlenia",
-            "ai": "Predykcja",
-            "return": "Powrót",
-            "logout": "Wyloguj"
-        },
-        "general": {
-            "mobileDesktop": {
-                "today": "Dzisiaj ",
-                "yesterday": "Wczoraj ",
-                "usersUse": "użytkownicy korzystali z:",
-                "stats": "Statystyki z ",
-                "act": "aktualnego ",
-                "month": "miesiąca",
-                "browsers": "Z jakich przeglądarek korzystali użytkownicy w tym miesiącu"
-            },
-            "visits": {
-                "weekBASIC": "Wyświetlenia w ciągu ostatnich siedmiu dni: ",
-                "weekBASIC2": "Zestawienie tygodniowe:",
-                "todayText": "Dzisiaj ",
-                "today": "stronę odwiedziło: ",
-                "yesterdayText": "Wczoraj ",
-                "yesterday": "stronę odwiedziło: ",
-                "total": "Łączna liczba odsłon: ",
-                "unique": "Unikatowe wejścia: ",
-                "normal": "Powtarzające się wejścia: ",
-                "sixMonths": "Wyświetlenia strony w ostatnich sześciu miesiącach: ",
-                "currentMonth": "Wizyty w bieżącym miesiącu: ",
-                "title1": "Wyświetlenia względem świata:",
-                "title2": "Wszystkie unikatowe wejścia na stronę wg. krajów:",
-                "countryVisit": "Ilość odwiedzająch krajów:",
-                "numZones": "Liczba stref czasowych: ",
-                "userFrom": "Najczęściej użytkownik jest z:",
-                "uniqueVies": "unikatowych wejść.",
-                "usersZone": "Ich strefa czasowa to:"
-            },
-            "session": {
-                "time": "Średni czas trwania sesji: ",
-                "unit": "sek",
-                "week": "Statystyki z ostatnich siedmiu dni: "
-            }
-        },
-        "ai": {
-            "predictViews": "Przewidywana ilość wejść",
-            "predictSession": "Przewidywana długośc sessji",
-            "predToday": "jutro",
-            "predWeek": "tydzień",
-            "predMonth": "miesiąc",
-            "charWeek": "Wykres przewidywanej długośc sessji",
-            "next7days": "w następnych siedmiu dniach",
-            "unit": "sek"
-        },
-        "newsletter": {
-            "users": {
-                "titleFind": "Wyszukaj",
-                "titleRemove": "Usuń",
-                "email": "Email użytkownika",
-                "findBtn": "Znajdź",
-                "removeBtn": "Usuń",
-                "addressEmail": "Adres email"
-            },
-            "sendEmail": {
-                "writeEmail": "Napisz wiadomość",
-                "sendBtn": "Wyślij",
-                "content": "Treść",
-                "subject": "Temat",
-                "target": "Docelowy adres wiadomości",
-                "warning": "Uwaga!",
-                "warnMsg": "Jeżeli pozostawisz pusty temat wiadomości oraz docelowy adres to podana treść zostanie rozesłana jako wiadomość z newslettera do wszystkich użytkowników istniejących w bazie danych!"
-            }
-        }
-    },
     "politics": {
         "title": "Polityka prywatności",
         "p0": "Polityka prywatności serwisu",
-        "name": "www.SrebnyGlob.pl",
-        "p1": "Niniejsza Polityka Prywatności określa zasady przetwarzania i ochrony danych osobowych przekazanych przez Użytkowników w związku z korzystaniem przez nich usług XYZ poprzez Serwis. ",
-        "p2": "Administratorem danych osobowych zawartych w serwisie jest XYZ z siedzibą w XYZ.",
-        "p3": "W trosce o bezpieczeństwo powierzonych mi danych opracowałem wewnętrzne procedury i zalecenia, które mają zapobiec udostępnieniu danych osobom nieupoważnionym. Kontroluje ich wykonywanie i stale sprawdzam ich zgodność z odpowiednimi aktami prawnymi - ustawą o ochronie danych osobowych, ustawą o świadczeniu usług drogą elektroniczną, a także wszelkiego rodzaju aktach wykonawczych i aktach prawa wspólnotowego.",
-        "p4": "Dane Osobowe przetwarzane są na podstawie zgody wyrażanej przez Użytkownika oraz w przypadkach, w których przepisy prawa upoważniają Administratora do przetwarzania danych osobowych na podstawie przepisów prawa lub w celu realizacji zawartej pomiędzy stronami umowy.",
-        "p5": "Serwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniach w następujący sposób:",
-        "p5a": "a) poprzez dobrowolnie wprowadzone w formularzach informacje",
-        "p5b": "b) poprzez gromadzenie plików “cookies” [patrz podstrona 'Cookies'].",
-        "p6": "Serwis zbiera informacje dobrowolnie podane przez użytkownika.",
-        "p7": "Dane podane w formularzu są przetwarzane w celu wynikającym z funkcji konkretnego formularza.",
-        "p8": "Dane osobowe pozostawione w serwisie nie zostaną sprzedane ani udostępnione osobom trzecim, zgodnie z przepisami Ustawy o ochronie danych osobowych.",
-        "p9": "Zastrzegam sobie prawo do zmiany w polityce ochrony prywatności serwisu, na które może wpłynąć rozwój technologii internetowej, ewentualne zmiany prawa w zakresie ochrony danych osobowych oraz rozwój mojego serwisu internetowego. O wszelkich zmianach będę informować w sposób widoczny i zrozumiały.",
-        "p10": "W Serwisie mogą pojawiać się linki do innych stron internetowych. Takie strony internetowe działają niezależnie od Serwisu i nie są w żaden sposób nadzorowane przez serwis www.SrebrnyGlob.pl . Strony te mogą posiadać własne polityki dotyczące prywatności oraz regulaminy, z którymi zalecam się zapoznać.",
-        "p11": "W razie wątpliwości co któregokolwiek z zapisów niniejszej polityki prywatności jestem do dyspozycji - moje dane znaleźć można w zakładce na samym dole strony."
+        "name": "SrebnyGlob",
+        "p1": "Niniejsza Polityka Prywatności określa zasady przetwarzania i ochrony danych osobowych przekazanych przez Użytkowników w związku z korzystaniem z usług oferowanych przez Serwis. ",
+        "p2": "W trosce o bezpieczeństwo powierzonych mi danych opracowałem wewnętrzne procedury i zalecenia, które mają zapobiec udostępnieniu danych osobom nieupoważnionym. Kontroluje ich wykonywanie i stale sprawdzam ich zgodność z odpowiednimi aktami prawnymi - ustawą o ochronie danych osobowych, ustawą o świadczeniu usług drogą elektroniczną, a także wszelkiego rodzaju aktach wykonawczych i aktach prawa wspólnotowego.",
+        "p3": "Dane Osobowe przetwarzane są na podstawie zgody wyrażanej przez Użytkownika oraz w przypadkach, w których przepisy prawa upoważniają Administratora do przetwarzania danych osobowych na podstawie przepisów prawa lub w celu realizacji zawartej pomiędzy stronami umowy.",
+        "p4": "Serwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniach w następujący sposób:",
+        "p4a": "a) poprzez dobrowolnie wprowadzone w formularzach informacje",
+        "p4b": "b) poprzez gromadzenie plików „cookies”.",
+        "p5": "Serwis zbiera informacje dobrowolnie podane przez użytkownika.",
+        "p6": "Dane podane w formularzu są przetwarzane w celu wynikającym z funkcji konkretnego formularza.",
+        "p7": "Dane osobowe pozostawione w serwisie nie zostaną sprzedane ani udostępnione osobom trzecim, zgodnie z przepisami Ustawy o ochronie danych osobowych.",
+        "p8": "Zastrzegam sobie prawo do zmiany w polityce ochrony prywatności serwisu, na które może wpłynąć rozwój technologii internetowej, ewentualne zmiany prawa w zakresie ochrony danych osobowych oraz rozwój mojego serwisu internetowego. O wszelkich zmianach będę informować w sposób widoczny i zrozumiały.",
+        "p9": "W Serwisie mogą pojawiać się linki do innych stron internetowych. Takie strony internetowe działają niezależnie od Serwisu i nie są w żaden sposób nadzorowane przez serwis www.SrebrnyGlob.pl . Strony te mogą posiadać własne polityki dotyczące prywatności oraz regulaminy, z którymi zalecam się zapoznać.",
+        "p10": "W razie wątpliwości co któregokolwiek z zapisów niniejszej polityki prywatności jestem do dyspozycji - moje dane znaleźć można w zakładce na samym dole strony."
     },
     "cookies": {
         "title": "Czym są pliki cookies?",

@@ -4,7 +4,8 @@
 
 @font-face {
   font-family: "Kalam";
-  src: local("Kalam"), url(./../fonts/Kalam-Light.ttf) format("truetype");
+  font-display: swap;
+  src: local("Kalam"), url('./../fonts/Kalam-Light.ttf') format("truetype");
 }
 
 body {

@@ -1,12 +1,13 @@
 @import "/src/assets/styling/variables.scss";
 
 .container-fluid {
-  margin: 80px 0;
+  margin: 80px 0 100px;
 }
 
-.regulations {
+.politics {
   &__firstLast {
     font-weight: 600;
+    margin: 10px 0;
 
     &--name {
       color: $orange;
@@ -23,7 +24,7 @@
 
     &--special {
       text-indent: 3em;
-      margin: 0;
+      margin: 5px 0;
     }
   }
 }

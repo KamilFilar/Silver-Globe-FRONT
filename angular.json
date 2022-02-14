@@ -30,13 +30,13 @@
             "aot": false,
             "assets": [
               "src/assets/icons/logo.ico",
+              "src/assets/styling/variables.scss",
               "src/assets"
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
-              "src/assets/styling/styles.scss",
-              "src/assets/styling/variables.scss"
+              "src/assets/styling/styles.scss"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.slim.js",
