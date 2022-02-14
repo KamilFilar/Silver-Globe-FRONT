@@ -1,0 +1,57 @@
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-xl-11 col-lg-11 col-12">
+            <app-subtitle [value]="'homeState.title' | translate"></app-subtitle>
+            <div class="row justify-content-center state">
+                <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-8 col-sm-10 col-10 state__data"
+                    [ngClass]="fontSizeFunc()">
+                    <app-home-state-data [property]="'homeState.date' | translate" [APIdata]='value.date'>
+                    </app-home-state-data>
+
+                    <app-home-state-data [property]="'homeState.phase' | translate" [APIdataPhase]='value.phase'>
+                    </app-home-state-data>
+
+                    <app-home-state-data [property]="'homeState.calcPhase' | translate" [APIdata]='value.calcPhase'>
+                    </app-home-state-data>
+
+                    <app-home-state-data [property]="'homeState.age' | translate" [APIdata]='value.age'>
+                    </app-home-state-data>
+
+                    <app-home-state-data 
+                        [property]="'homeState.behavior' | translate"
+                        [APIdataBehavior]='value.behaviour'>
+                    </app-home-state-data>
+
+                    <app-home-state-data 
+                        [property]="'homeState.illumination' | translate"
+                        [APIdata]='value.illumination'>
+                    </app-home-state-data>
+
+                    <app-home-state-data [property]="'homeState.howFarIsMoon' | translate" [APIdata]='value.distance'>
+                    </app-home-state-data>
+
+                    <app-home-state-data 
+                        [property]="'homeState.nextNewMoon' | translate" 
+                        [APIdata]='value.nextNew'
+                        [isLast]=true>
+                    </app-home-state-data>
+                    
+                </div>
+                <div class="col-xx-l-5 col-xl-5 col-lg-6 col-md-8 col-sm-10 col-11 state__img">
+                    <img [src]='value.imagesPath' class="state__img--value" />
+                </div>
+            </div>
+            <div class="row justify-content-center more">
+                <div class="col-12 more__btn text-center">
+                    <app-collapse-button [href]='btn.href' [ariacontrols]='btn.ariacontrols'>
+                    </app-collapse-button>
+                </div>
+            </div>
+            <div class="row justify-content-center collapse" id='moreData'>
+                <div class="col-xl-9 col-lg-10 col-md-10 col-sm-11 col-11 more_data" [ngClass]="fontSizeFunc()">
+                    <app-home-state-more></app-home-state-more>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+@import "/src/assets/styling/variables.scss";
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 600;
+  transition-duration: 0.3s;
+
+  &__title {
+    color: $orange;
+    &--id {
+      color: $orange2;
+    }
+  }
+
+  &__text {
+    margin: 0 auto;
+    width: 80%;
+
+    &--quote {
+      color: $orange;
+    }
+  }
+}

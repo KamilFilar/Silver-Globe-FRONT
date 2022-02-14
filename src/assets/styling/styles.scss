@@ -1,20 +1,23 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./variables.scss";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@font-face {
+  font-family: "Kalam";
+  src: local("Kalam"), url(./../fonts/Kalam-Light.ttf) format("truetype");
+}
+
+body {
+  background-color: $bgColorDark;
+  color: $fontColorDark;
+}
+
 html {
   scroll-behavior: smooth;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
 
-body {
-  background-color: rgb(13, 13, 13);
-  color: rgb(245, 245, 245);
-}
-
 ::-webkit-scrollbar{
   display: none;
-}
-
-// Declare font
-@font-face {
-  font-family: Kalam;
-  src: url("./../fonts/Kalam-Regular.ttf") format("truetype");
 }

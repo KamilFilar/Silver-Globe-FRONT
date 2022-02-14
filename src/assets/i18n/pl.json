@@ -1,0 +1,391 @@
+{
+    "copySucces": "Skopiowano pomyślnie!",
+    "loginComponent": {
+        "loginPanelTitle": "Panel logowania",
+        "font": {
+            "fontTitle": "Czcionka",
+            "plus": "Powiększ",
+            "minus": "Zmniejsz"
+        },
+        "lang": "Język",
+        "email": "Adres e-mail",
+        "pass": "Hasło",
+        "logIn": "Zaloguj",
+        "goToDashboard": "Dashboard",
+        "iconMsg": "Aktualnie nie możesz posiadać konta!"
+    },
+    "cookiesModalComponent": {
+        "p1": "Kolejna inforamcja o cookies na którą nawet nie zwrócisz uwagi, ale musze Cię o tym poinformować.",
+        "p2": "O tym w jakich celach pliki cookie są używane na tej stronie, jak i wyjaśnienie czym one są znajdziesz na podstronie: ",
+        "p3": "Korzystając ze strony wyrażasz zgodę na ich używanie, w przeciwnym wypadku googluj dalej!",
+        "btn": {
+            "accept": "Akceptuj",
+            "unaccept": "Odrzuć"
+        }
+    },
+    "alertsComponents": {
+        "attention": "Uwaga!",
+        "email": "Email",
+        "sendDate": "Data wysłania"
+    },
+    "pageNotFound": {
+        "p1": "Ups! Podstępni kosmici coś popsuli i",
+        "p2": "nie możemy odnaleźć wskazanej strony",
+        "p3": "Aby wrócić do strony głównej skorzystaj z poniższego przycisku:",
+        "btnText": "Powrót",
+        "casueInfo": "Prawdopodobne przyczyny błędu:",
+        "casue1": "Niewłaściwy adres URL strony lub podstrony.",
+        "casue2": "Strona może być chwilowo niedostępna z uwagi na wprowadzane zmiany.",
+        "casue3": "Niewyczyszczone pliki cache (pamięci podręcznej) i pliki cookies (ciasteczka) przeglądarki.",
+        "casue4": "Złośliwe oprogramowanie, które wymusza komunikat błędu na określonych stronach i ich podstronach"
+    },
+    "homeWelcome": {
+        "btnText": "Eksploruj"
+    },
+    "homeState": {
+        "title": "Aktualny stan",
+        "date": "Wskazana data: ",
+        "phase": "Faza Księżyca: ",
+        "calcPhase": "Dokładna wartość fazy: ",
+        "age": "Wiek Księżyca: ",
+        "behavior": "Księżyc: ",
+        "howFarIsMoon": "Odległość od Ziemi: ",
+        "illumination": "Tarcza księżyca jest oświetlona w: ",
+        "nextNewMoon": "Kolejny nów wystąpi: "
+    },
+    "homeStateMore": {
+        "description": "W poniższe pole wpisz interesującą Cię datę lub kliknij w ikonkę kalendarza aby ją wskazać.",
+        "checkDate": "Wybierz datę"
+    },
+    "homeCalendar": {
+        "title": "Księżycowy kalendarz",
+        "selectedDate": "Wybrana data: ",
+        "phase": "Faza Księżyca: ",
+        "nextNew": "Następny nów: ",
+        "nextFQ": "Następna pierwsza kwarda: ",
+        "nextFull": "Następna pełnia: ",
+        "nextLQ": "Następna ostatnia kwarda: "
+    },
+    "homeJulianDate": {
+        "title": "Data juliańska",
+        "p1": "O datach juliańskich zapewne wiesz już małe co nieco z sekcji informacyjnej, jednak jeżeli jej nie przeczytałeś (a zobacz, zobacz) to musisz wiedzieć, że jest to data wykorzystywana do obliczeń astronomicznych, którą można najczęściej spotkać pod symbolem: JD. Według tej rachuby można przypisać każdemu dniowi następującemu po dacie: ",
+        "p2": "1 stycznia roku 4713 p.n.e.",
+        "p3": " jednoznaczny numer.",
+        "p4": "Poniżej została wyświetlona aktualna data w zapisie juliańskim (została obliczona dla czasu, w którym strona została załadowana). Jeżeli masz ochotę napisać samodzielnie swój program to tu jest odnośnik do strony na której znajdziesz opis, krok po kroku jak taki algorytm zrobić: ",
+        "clickThere": "kliknij tutaj",
+        "p5": "Swój wynik możesz porównać z poniższymy wartościami, lecz pamiętaj, że otrzymane wartości mogą się różnić częścią ułamkową.",
+        "showDate": "Aktualna data juliańska: ",
+        "calcDate": "Obliczona data: ",
+        "checkDate": "Wybierz datę"
+    },
+    "homeIntrestingFacts": {
+        "title": "Ciekawostki i fakty",
+        "intrestingFact": "Ciekawostka",
+        "table": {
+            "1": "Odległość od środka Ziemi do środka Księżyca wynosi średnio 384 403km.",
+            "2": "Powierzchnia Księżyca jest nieco większa od obszaru jaki zajmuje kontynent afrykański.",
+            "3": "Nie istnieje 'ciemnna strona' Księżyca. W rzeczywistości obie jego strony są tak samo oświetlane przez Słońce ale tylko jedna jest widoczna z Ziemi.",
+            "4": "Mons Huygens (czyt. Hajgens) jest najwyższą górą na Księżycu, ma 4700 metrów wysokości.",
+            "5": "Księżyc przemierza wokół Ziemi odległość 2 413 402 km.",
+            "6": "Księżyc oddala się od Ziemi w tempie 3 cm na 100 lat.",
+            "7": "Mimo tego, że Księżyc świeci jasno na nocnym niebie, nie wytwarza własnego światła. Widzimy Księżyc, ponieważ odbija światło słoneczne.",
+            "8": "Okres okrążenia Ziemi przez księżyc nazywamy miesiącem syderycznym i trwa on 27,3 dnia.",
+            "9": "Zaćmienie księżyca (całkowite lub częściowe) ma miejsce wtedy, gdy między nim a Słońcem znajdzie się Ziemia.",
+            "10": "Księżyc jest piątym co do wielkości księżycem w Układzie Słonecznym."
+        },
+        "pravious": "Poprzedni",
+        "next": "Następny"
+    },
+    "homeContact": {
+        "title": "Kontakt",
+        "text": "Jeżeli masz pomysł na rozwój serwisu, rzucił Ci się w oczy jakiś błąd, chcesz poinformować mnie o istotnych kwestiach dot. tej witryny lub zrezygnować z subskrypcji newslettera możesz skorzystać z gotowego formularza umieszczonego poniżej. Wystarczy, że uzupełnisz wymagane pola odpowiednimi danymi, a wiadomość zostanie mi dostarczona ekspersowo! Odpowiadam zwykle do kilku dni roboczych na adres który został wskazany w formularzu.",
+        "yourEmail": "Twój adres email",
+        "subject": "Temat",
+        "content": "Treść wiadomości",
+        "btnText": "Wyślij",
+        "required": "Pole nie jest wymagane.",
+        "msg": {
+            "modalSuccess": "Pomyślnie wysłano wiadomość!",
+            "modalError": "Wystąpił błąd! Nie udało się wysłać wiadomości!",
+            "required": "Powyższe pole jest wymagane!",
+            "error": "Wpisz poprawny adres eamil używając małych liter!"
+        }
+    },
+    "homeAlgorithms": {
+        "api": {
+            "p1": "API jest to skórt od Apliccation Programming Interface oznaczający interfejs programistyczny. API to zestawienie regół ściśle opisujące, w jaki sposób programy czy podprogramy komunikują się ze sobą. Stanowi główny łącznik, który pozwala łączyć dane i urządzenia w aplikację i komponować jedną wielką sieć powiązań dzięki czemu nie musimy budować monolitycznej aplikacji (znacznie ułatwia pracę programistom).",
+            "p2": "O właśnie dzięki API aplikacje mogą współpracować ze sobą. Nie istnieją żadne ogarniczenia co do wykorzystania API, można go używać prywatna osoba, bądź dowolna globalna marka (w zależności od licencji). Od strony technicznej API jest kodem, który kontroluje wszelkie punkty dostępowe aplikacji lub serwera.",
+            "p3": "API odgrywa istotną rolę w nowoczesnej infrastrukturze internetowej ponieważ bez interfejsów programowania aplikacji użytkownicy musieliby ciągle „przeskakiwać” między różnymi aplikacjami, aby ręcznie wypełniać w nich pożądane funkcje. Jeżeli jesteś troszkę bardziej zaawansowanym użytkownikiem udostępniam kilka zapytań typu GET z których korzysta ten serwis, dzięki czemu możesz w swoim projekcie zoszczędzić sporo czasu.",
+            "getActualJD": "Zapytanie zwraca aktualną datę juliańską. Nie wymaga żadnych parametrów.",
+            "getParamsJD": "Zapytanie zwraca datę juliańską dla wskazanej daty.  Wymagane parametry (typu: number): day, month, year, hour, min, sec.",
+            "getCurrentPhase": "Zapytanie zwraca aktualną fazę księżyca. Nie wymaga żadnych parametrów.",
+            "getPhase": "Zapytanie zwraca fazę księżyca dla wskazanej daty. Wymagane parametry (typu: number): day, month, year, hour, min, sec.",
+            "getSunInfo": "Zapytanie zwraca aktualny dystans do słońca (zapytanie jest w rozbudowie). Nie wymaga żadnych parametrów.",
+            "moreBtn": "Więcej",
+            "copyBtn": "Kopiuj"
+        },
+        "algorithms": {
+            "title": "Algorytmy",
+            "p1": "W dzisiejszym świecie fizyka ściśle współpracuje z informatyką. Musimy uświadomić sobie, że wykonywanie karkołomnych obliczeń przy współczesnym stopniu zaawansowania technologi jest po prostu marnowaniem czasu, gdyż możemy to zlecić do wykonania odpowiednio napisanym programom.",
+            "p2": "Tworzenie algorytmów przenosi nas do świata matematycznej abstrakcji, zawiłych pojęć, skomplikowanych obliczeń. Nauka programowanie to nie tylko klepanie dziwnych ciągów znaków, nic nie znaczących linii - to jednocześnie sztuka zrozumienia i opisania świata.",
+            "p3": "Programowanie to wolność rozwiązań i ideii, wszak niżej przedstawione kody rozwiązują ten sam problem (wyznaczenie ciężaru na księżycu dla masy danego obiektu) w czterech różnych, zrozumiałych dla komputera językach."
+        },
+        "stepList": {
+            "title": "Lista kroków",
+            "p1": "Poniżej zostały przedstawione jakie kroki musi wykonać algorytm aby poprawnie obliczyć ciężar użytkownika na księżycu.",
+            "step": {
+                "1": "Deklaracja zmiennych typu liczbowego: userWeight, gravityValue oraz result.",
+                "2": "Użytkownik podaje swoją wagę i przypisywana jest ona do zmiennej userWeight.",
+                "3": "Zmienna result otrzymuje wartość zmiennej userWeight pomnożonej przez gravityValue.",
+                "4": "Na ekran zostaje wypisany wynik, który znajduje się w zmiennej result."
+            },
+            "steps": {
+                "s1": "Krok 1:",
+                "s2": "Krok 2:",
+                "s3": "Krok 3:",
+                "s4": "Krok 4:"
+            }
+        },
+        "programs": {
+            "c": "Program w języku C",
+            "cplus": "Program w języku C++",
+            "java": "Program w języku Java",
+            "python": "Program w języku Python",
+            "copyCodeBtn": "Kopiuj"
+        },
+        "weight": {
+            "yourWeight": "Podaj wagę",
+            "moon": "Ciężar na Księżycu",
+            "earth": "Ciężar na Ziemi"
+        }
+    },
+    "homeInfo": {
+        "title": "Słów kilka o Księżycu",
+        "blueMoon": {
+            "t1": "Błękitny księżyc",
+            "p1": "- zjawisko to występuje co dwa lub trzy lata. Odnosi się do trzeciej pełni księżyca w sezonie z czterema pełniami księżyca i koryguje w ten sposób czas ostatniego miesiąca sezonu, który w innym wypadku byłby oczekiwany zbyt wcześnie. Każdy rok kalendarzowy zawiera około 11 dni więcej niż liczba dni w 12 cyklach księżycowych. Dodatkowe dni kumulują się, więc co dwa lub trzy lata (siedem razy w 19-letnim cyklu metonicznym) w ciągu roku przypada dodatkowa pełnia księżyca, która koniecznie przypada na jedną z czterech pór roku, co daje temu sezonowi cztery pełne księżyce zamiast zwykłych trzech, a zatem „niebieski” księżyc.",
+            "p2": "Nazwa nie ma nic wspólnego z kolorem tarczy. Srebrny Glob nie staje się niebieski, ma to jedynie zaakcentować rzadkość tego zjawiska. Efekt Księżyca z niebieskawym odcieniem może np. wystąpić w warunkach atmosferycznych takich jak erupcje wulkanów czy podczas pożarów przez cząsteczki dymu czy kurzu w atmosferze. Chmury powstałe w ten sposób zawierają mieszaninę cząstek o szerokim zakresie rozmiarów, z których większość jest mniejsza niż 1 mikrometr oraz mają tendencję do rozpraszania niebieskiego światła. Przykładem może być sytuacja po pożarach lasów w Szwecji i Kanadzie w 1950 i 1951 r. oraz po erupcji Krakatau w 1883 r., która spowodowała, że księżyc przez prawie dwa lata wydawał się niebieski."
+        },
+        "kordylewski": {
+            "t1": "Księżyce Kordylewskiego",
+            "p1": " - oprócz naturalnego satelity Księżyca, wokół Ziemi krążą również dwa obłoki pyłowe zwane pyłowymi satelitami Ziemi. Odkryte zostały przez polskiego astronoma Kazimierza Kordylewskiego blisko 60 lat temu. Odkrycie to traktowano jednak raczej jako hipotezę ze względu na trudności w obserwacji tych obiektów. ",
+            "p2": "Kordylewski potwierdził ich istnienie obserwując słabe lokalne pojaśnienie tła nieba w miejscach odpowiadających położeniu punktów libracyjnych, pochodzące od rozproszonego światła słonecznego na zagęszczeniach pyłu. Księżyce pyłowe wykazują fazy podobne do Księżyca. Obłok, który porusza się przed Księżycem ma największą jasność dwa dni po pierwszej kwadrze, drugi obłok natomiast dwa dni przed ostatnią kwadrą. ",
+            "p3": "Obłoki pyłowe znajdują się w punktach libracyjnych L4 i L5 orbity księżyca, obiegające Ziemię w tym samym czasie co Księżyc. Punkty te tworzą wierzchołki trójkątów równobocznych, których boki są równe promieniowi orbity Księżyca. L4 i L5 nie są całkowicie stabilne, ponieważ są zakłócane przez przyciąganie grawitacyjne Słońca. Uważa się jednak, że są to miejsca, w których może gromadzić się pył międzyplanetarny, przynajmniej tymczasowo. Pyłowe obłoki libracyjne są wyjątkowo trudne do obserwacji ponieważ mają bardzo małą jasność powierzchniową "
+        },
+        "mission": {
+            "t1": "Eksploracja księżyca",
+            "p1": " - rozwój dużych silników rakietowych na paliwo płynne na początku XX wieku pozwolił na praktyczne spojrzenie poza granice Ziemi. Był to przełom, zwłaszcza w porównaniu do obserwacji kosmosu z powierzchni naszej planety (znanej jako astronomia) która była dokonywana od tysiącleci. Bieżące przesłanki za eksploracją kosmosu to m.in. postęp naukowy i zapewnienie przetrwania ludzkości.",
+            "p2": "Naturalnym krokiem w ekslporacji kosmosu jest poznanie naszego naturalnego satelity - księżyca. Pierwszy krok w dziedzinie obserwacji Księżyca został poczyniony wraz z wynalazkiem teleskopu: Galileusz przy wykorzystaniu nowego instrumentu obserwował na jego powierzchni kratery i pasma górskie. Zimnowojenny wyścig kosmiczny pomiędzy USA a Związkiem Radzieckim doprowadził do znacznego zwiększenia zainteresowania ziemskim satelitą. Bezzałogowe sondy, zarówno te przelatujące obok Księżyca, jak i lądujące na jego powierzchni, wysłano bezzwłocznie po tym, jak rozwój techniki stworzył taką możliwość. Pełną listę misji związanych z księżycem znajdziesz ",
+            "p3": "Lądowanie na Księżycu pierwszych ludzi w roku 1969 uznaje się za moment kulminacyjny kosmicznego wyścigu w czasie zimnej wojny. Neil Armstrong, dowódca misji Apollo 11, stał się pierwszym człowiekiem na powierzchni Srebrnego Globu, jako pierwszy stawiając stopę na Księżycu dokładnie o 02:56 GMT 21 lipca 1969 roku (po prawej na zdjęciu widzimy astronautę Buzz Aldrina, który został sfotografowany przez Neila Amstronga). Do dziś, październik 2021, ostatnią osobą, która stąpała po księżycowym gruncie, był Eugene Cernan, członek misji Apollo 17 w grudniu 1972.",
+            "p4": "Coś się jeszcze dopisze."
+        },
+        "julianDate": {
+            "t1": "Dni Juliańskie",
+            "p1": "- Data dni juliańskich została ustalona przez Josepha Scaligera w 1583r. Nowy sposób liczenia dat nazwał on na cześć swojego ojca Juliusza Cezara Scaligero „dniami juliańskimi”. Data juliańska to liczba dni, która upłynęła od 1 stycznia roku 4713 p.n.e, wg. kalendarza juliańskiego (przedłużonego odpowiednio wstecz), godz. 12:00 czasu uniwersalnego (czasu południka zerowego). Według tych obliczeń można przypisać każdemu dniowi następującemu po tej dacie dokładnie określony numer wykorzystywany głównie do obliczeń astronomicznych. Datę juliańską oznacza się najczęściej symbolem JD.",
+            "t2": "Wyznaczania daty juliańskiej",
+            "p2": "- do roku 1925 doba astronomiczna zaczynała się w południe, o godz. 12:00 czasu UTC w związku z tym doby zaczynają się w południe. Chcąc przedstawić w tej rachubie dokładniej czas jakiegoś zdarzenia, do juliańskiego numeru dnia dodaje się część ułamkową, która określa ułamek doby, jaki upłynął od godz. 12:00 w południe. Taką ulepszoną, ciągłą rachubę czasu określa się datami juliańskimi. W związku z tym, że daty juliańskie liczy się od południa, a liczby odpowiadające naszym czasą są niesłychanie duże, coraz częściej używa się zmodyfikowanych dat juliańskich MJD (Modified Julian Date).",
+            "t3": "Zastosowanie",
+            "p3": "- ze względu na to, że jest to łatwy sposób liczenia, dni juliańskie są stosowane prawie we wszystkich skomplikowanych algorytmach astronomicznych. System ten wykorzystywany jest także wśród obserwatorów gwiazd zmiennych czy w międzynarodowym systemie wyznaczania czasu uniwersalnego, a np. chcąc obliczyć ile dni minęło między danymi datami, wystarczy odjąć od siebie dni juliańskie (liczbę mniejszą od większej). Po odjęciu można stwierdzić ile dni jest między jedną i drugą datą. "
+        },
+        "health": {
+            "t1": "Wpływ na zdrowie",
+            "p1": "- księżyc przechodzi różne fazy i w każdej z nich emanuje różnymi ilościami światła. W zależności od danej fazy księżyca ludzki organizm wykazuje różne zachowania. Naukowo udowodniono wpływ pełni księżyca na przypływy i odpływy mórz i oceanów. Podobne działanie ma pełnia na organizm człowieka. Wiele ludzi narzeka w tym czasie na bezsenność oraz trudności z zasypianiem a niektórzy zauważają wzmożony apetyt. W ciągu dnia mogą pojawiać się problemy z koncentracją, nieracjonalne zachowanie, wahania nastroju czy poirytowanie.",
+            "p2": "W czasie pełni dochodzi do zaburzeń produkcji tzw. hormonu szczęścia, czyli  serotoniny w wyniku czego pojawia się bezsenność czy wzrost apetytu. Może mieć również wpływ na układ krążenia, układ rozrodczy kobiet czy pracę jelit. Fazy Księżyca mają szczególne znaczenie dla kobiet. Jeśli ich organizm funkcjonuje zgodnie z naturą, to krwawienie miesięczne przebiega w okolicy nowiu a jajeczkowanie w czasie pełni. Warto również zaznaczyć ścisły związek Księżyca z wątrobą, co z kolei przekłada się na jakość krwi i energię całego ciała."
+        },
+        "addmission": {
+            "t1": "Księżyc",
+            "p1": " (łac. Luna) - jest to jedyny naturalny satelita Ziemi, ale trzeba mieć na uwadze, że istnieją również księżyce Kordylewskiego, o których dowiesz się nieco więcej w dalszej części strony. Nasz Księżyc jest piąty co do wielkości spośród księżycy znajdujących się w Układzie Słonecznym. Odległość od środka Ziemi do środka Księżyca jest zmienna (dokładną wartość możesz sprawdzić poniżej) ale przyjęło się że przeciętna odległość wynosi 384 399km. Aby zobrazować sobie tą liczbę wystarczy wyobrazić sobie, że musiałbyś przemierzyć naszą planetę ok. 10 razy wokół. Średnica Księżyca wynosi 3474 km, a przyspieszenie grawitacyjne na jego powierzchni jest blisko 6 razy słabsze niż na Ziemi. Księżyc wykonuje pełny obieg wokół Ziemi w ciągu 27,3 dnia (tzw. miesiąc syderyczny), a okresowe zmiany w geometrii układu Ziemia–Księżyc–Słońce powodują występowanie powtarzających się w cyklu 29,53-dniowym (tzw. miesiąc synodyczny) faz Księżyca.",
+            "t2": "Miesiąc synodyczny",
+            "p2": "- (lub inaczej: lunacja) jest to średni czas pomiędzy nowiami Księżyca. Przyjęło się, że miesiąc synodyczny trwa 29 dni 12 godzin 44 minuty i 3 sekundy. Miesiąc synodyczny jest o ponad 2 dni dłuższy od miesiąca syderycznego. Czas ten jest potrzebny, by Księżyc ponownie znalazł się w tym samym położeniu względem prostej Słońce-Ziemia.",
+            "t3": "Miesiąc syderyczny",
+            "p3": " - nazywany również Miesiącem gwiazdowym, jest to średni czas obiegu księżyca wokół Ziemi. Trwa 27 dni 7 godzin 43 minuty i 11,5 sekundy. Jest więc krótszy od miesiąca synodycznego.",
+            "t4": "Fazy Księżyca",
+            "p4": " służą do określenia jaka część Księżyca jest oświetlona przez Słońce i tym samym widzialna z Ziemi. Słońce oświetla zawsze tylko połowę powierzchni Księżyca zatem owe fazy są rezultatem oglądania tej samej połowy pod różnymi kątami spowodowanymi różnymi położeniami Słońca, Ziemi i Księżyca względem siebie. Wyróżnia się 4 fazy: ",
+            "p5": "Należy pamiętać, że fazy Księżyca są odwrotne względem siebie w zależności czy znajdujemy się na północnej czy południowej półkuli Ziemi. ",
+            "phase": {
+                "new": "Nów",
+                "q1": "Pierwsza kwadra",
+                "full": "Pełnia",
+                "q3": "Ostatnia kwadra",
+                "descNew": " - jest w momencie, gdy nie widać Księżyca z powierzchni Ziemi gołym okiem (mówiąc bardziej fachowo, Księżyc jest w koniunkcji ze Słońcem, patrząc z Ziemi).",
+                "descQ1": "- Ziemia, Księżyc i Słońce tworzą ze sobą kąt prosty. Księżyc w tym czasie zbliża się do pełni. W tym momencie, dla obserwatorów na Ziemi widoczna jest tylko wschodnia część tarczy Księżyca.",
+                "descFull": " -  faza księżyca, podczas której Księżyc znajduje się w opozycji do Słońca, tzn. kiedy Księżyc znajduje się po przeciwnej stronie Ziemi niż Słońce dzięki czemu możemy obserwować w pełni oświetloną tarczę Księżyca",
+                "descQ3": " - W tej fazie również Ziemia, Księżyc i Słońce tworzą ze sobą kąt prosty. W tym momencie, dla obserwatorów na Ziemi widoczna jest jako oświetlona tylko zachodnia część widocznej strony Księżyca."
+            }
+        }
+    },
+    "navbar": {
+        "brand": {
+            "t1": "Srebrny",
+            "t2": "Glob",
+            "t3": ".pl"
+        },
+        "items": {
+            "state": "Aktualny stan",
+            "info": "Informacje",
+            "intresting": "Ciekawostki",
+            "calendar": "Kalendarz",
+            "algorithms": "Algorytmy",
+            "contact": "Kontakt"
+        }
+    },
+    "collapse-btn": {
+        "text0": "Ukryj",
+        "text1": "Więcej"
+    },
+    "footer": {
+        "quotation": {
+            "p1": "Perfekcjonizm jest dobry",
+            "p2": "m ideałem i kierunkiem,",
+            "p3": "ale",
+            "p4": "celem",
+            "p5": "niemożliwy",
+            "p6": "m",
+            "p7": "do osiągnięcia"
+        },
+        "newsletter": {
+            "text": "Nie chcesz aby przegapiły Cię nowości na stronie? Chcesz wiedzieć szybciej od innych o wszystkich nadchodzących zmianach? Zapisz się na nasz newsletter już teraz!",
+            "errRequired": "Email jest wymagany!",
+            "errInvalid": "Email jest niepoprawny!",
+            "btnSubscribe": "Subskrybuj",
+            "btnClear": "Wyczyść",
+            "invalid": "Wystąpił błąd! Nie udało zapisać się na newsleter. ",
+            "exist": "Taki email już jest w naszej bazie!",
+            "allOk": "Pomyślnie zapisano się do newslettera!"
+        },
+        "about": {
+            "text1": "Strona na której się znajdujesz jest jedną z części pracy inżynierskiej stworzonej w 2021 roku. Motywacją do jej stworzenia było przybliżenie użytkownikom zagadnień związanych z naturalnym satelitą Ziemi ",
+            "text2": "oraz prezentacja algorytmów związanych z obliczeniami dotyczącymi Księżyca. Witryna w przyszłości będzie posiadać aplikację mobilną, prezentującą podobne funkcjonalności."
+        },
+        "reference": {
+            "usefullTitle": "Może się przydać",
+            "contactTitle": "Kontakt",
+            "politics": "Polityka prywatności",
+            "author": "O autorze",
+            "git": "Mój Github",
+            "fb": "Mój profil",
+            "copyBtn": "Kopiuj"
+        }
+    },
+    "admin": {
+        "title": "Panel administratora",
+        "lastUpdate": "Ostatnia aktualizacja: ",
+        "sidebar": {
+            "title": "Zarządzaj",
+            "views": "Wyświetlenia",
+            "ai": "Predykcja",
+            "return": "Powrót",
+            "logout": "Wyloguj"
+        },
+        "general": {
+            "mobileDesktop": {
+                "today": "Dzisiaj ",
+                "yesterday": "Wczoraj ",
+                "usersUse": "użytkownicy korzystali z:",
+                "stats": "Statystyki z ",
+                "act": "aktualnego ",
+                "month": "miesiąca",
+                "browsers": "Z jakich przeglądarek korzystali użytkownicy w tym miesiącu"
+            },
+            "visits": {
+                "weekBASIC": "Wyświetlenia w ciągu ostatnich siedmiu dni: ",
+                "weekBASIC2": "Zestawienie tygodniowe:",
+                "todayText": "Dzisiaj ",
+                "today": "stronę odwiedziło: ",
+                "yesterdayText": "Wczoraj ",
+                "yesterday": "stronę odwiedziło: ",
+                "total": "Łączna liczba odsłon: ",
+                "unique": "Unikatowe wejścia: ",
+                "normal": "Powtarzające się wejścia: ",
+                "sixMonths": "Wyświetlenia strony w ostatnich sześciu miesiącach: ",
+                "currentMonth": "Wizyty w bieżącym miesiącu: ",
+                "title1": "Wyświetlenia względem świata:",
+                "title2": "Wszystkie unikatowe wejścia na stronę wg. krajów:",
+                "countryVisit": "Ilość odwiedzająch krajów:",
+                "numZones": "Liczba stref czasowych: ",
+                "userFrom": "Najczęściej użytkownik jest z:",
+                "uniqueVies": "unikatowych wejść.",
+                "usersZone": "Ich strefa czasowa to:"
+            },
+            "session": {
+                "time": "Średni czas trwania sesji: ",
+                "unit": "sek",
+                "week": "Statystyki z ostatnich siedmiu dni: "
+            }
+        },
+        "ai": {
+            "predictViews": "Przewidywana ilość wejść",
+            "predictSession": "Przewidywana długośc sessji",
+            "predToday": "jutro",
+            "predWeek": "tydzień",
+            "predMonth": "miesiąc",
+            "charWeek": "Wykres przewidywanej długośc sessji",
+            "next7days": "w następnych siedmiu dniach",
+            "unit": "sek"
+        },
+        "newsletter": {
+            "users": {
+                "titleFind": "Wyszukaj",
+                "titleRemove": "Usuń",
+                "email": "Email użytkownika",
+                "findBtn": "Znajdź",
+                "removeBtn": "Usuń",
+                "addressEmail": "Adres email"
+            },
+            "sendEmail": {
+                "writeEmail": "Napisz wiadomość",
+                "sendBtn": "Wyślij",
+                "content": "Treść",
+                "subject": "Temat",
+                "target": "Docelowy adres wiadomości",
+                "warning": "Uwaga!",
+                "warnMsg": "Jeżeli pozostawisz pusty temat wiadomości oraz docelowy adres to podana treść zostanie rozesłana jako wiadomość z newslettera do wszystkich użytkowników istniejących w bazie danych!"
+            }
+        }
+    },
+    "politics": {
+        "title": "Polityka prywatności",
+        "p0": "Polityka prywatności serwisu",
+        "name": "www.SrebnyGlob.pl",
+        "p1": "Niniejsza Polityka Prywatności określa zasady przetwarzania i ochrony danych osobowych przekazanych przez Użytkowników w związku z korzystaniem przez nich usług XYZ poprzez Serwis. ",
+        "p2": "Administratorem danych osobowych zawartych w serwisie jest XYZ z siedzibą w XYZ.",
+        "p3": "W trosce o bezpieczeństwo powierzonych mi danych opracowałem wewnętrzne procedury i zalecenia, które mają zapobiec udostępnieniu danych osobom nieupoważnionym. Kontroluje ich wykonywanie i stale sprawdzam ich zgodność z odpowiednimi aktami prawnymi - ustawą o ochronie danych osobowych, ustawą o świadczeniu usług drogą elektroniczną, a także wszelkiego rodzaju aktach wykonawczych i aktach prawa wspólnotowego.",
+        "p4": "Dane Osobowe przetwarzane są na podstawie zgody wyrażanej przez Użytkownika oraz w przypadkach, w których przepisy prawa upoważniają Administratora do przetwarzania danych osobowych na podstawie przepisów prawa lub w celu realizacji zawartej pomiędzy stronami umowy.",
+        "p5": "Serwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniach w następujący sposób:",
+        "p5a": "a) poprzez dobrowolnie wprowadzone w formularzach informacje",
+        "p5b": "b) poprzez gromadzenie plików “cookies” [patrz podstrona 'Cookies'].",
+        "p6": "Serwis zbiera informacje dobrowolnie podane przez użytkownika.",
+        "p7": "Dane podane w formularzu są przetwarzane w celu wynikającym z funkcji konkretnego formularza.",
+        "p8": "Dane osobowe pozostawione w serwisie nie zostaną sprzedane ani udostępnione osobom trzecim, zgodnie z przepisami Ustawy o ochronie danych osobowych.",
+        "p9": "Zastrzegam sobie prawo do zmiany w polityce ochrony prywatności serwisu, na które może wpłynąć rozwój technologii internetowej, ewentualne zmiany prawa w zakresie ochrony danych osobowych oraz rozwój mojego serwisu internetowego. O wszelkich zmianach będę informować w sposób widoczny i zrozumiały.",
+        "p10": "W Serwisie mogą pojawiać się linki do innych stron internetowych. Takie strony internetowe działają niezależnie od Serwisu i nie są w żaden sposób nadzorowane przez serwis www.SrebrnyGlob.pl . Strony te mogą posiadać własne polityki dotyczące prywatności oraz regulaminy, z którymi zalecam się zapoznać.",
+        "p11": "W razie wątpliwości co któregokolwiek z zapisów niniejszej polityki prywatności jestem do dyspozycji - moje dane znaleźć można w zakładce na samym dole strony."
+    },
+    "cookies": {
+        "title": "Czym są pliki cookies?",
+        "p1": "Też chciałbym znać przepis na ciasteczka ze zdjęcia. W kontekście informatycznym pliki 'Cookies' są danymi tekstowymi, które przechowuje się w urządzeniach wykorzystywanych przez użytkowników dzięki, którym można korzystać z nieco bardziej zaawansowanych stron internetowych. Dzięki nim, identyfikuje się min. rodzaj urządzenia oraz zapamiętują Twoje preferencje (np. czy motyw strony ma być ciemny czy może jasny, rozmiar czcionki, język itd.).",
+        "p2": "Pliki „Cookies” zawierają najczęściej adres strony internetowej, czas przechowywania na urządzeniu użytkownika oraz własny unikatowy identyfikator. Wykorzystywane są do optymalizacji stron internetowych. Pomagają również w zbieraniu różnych danych statystycznych (np. ta strona zbiera dane odnośnie ilości wejść w danym dniu, miesiącu, rodzaj urządzenia z jakiego korzysta użytkownik itp.).",
+        "p3": "Te pliki dostarczają programistom informacje odnośnie tego w jaki sposób strona jest wykorzystywana, dzięki czemu w przyszłości mogą wprowadzać stosowne zmiany, korzystne dla użytkownika. Jeżeli chodzi o dane osobowe to one również są przechowywane za pomocą cookies jednak mogą być zbierane tylko w celu wykonywania określonych funkcji i aktywności na rzecz osoby używającej strony (takie dane powinny być zawsze zaszyfrowane żeby osoba nieupoważniona nie miała do nich dostępu).",
+        "p4": "Cookies można podzielić na",
+        "p5": " dwa rodzaje",
+        "p6": "Cookies sesyjne",
+        "p7": "- są przechowywane w trakcie trwania sesji strony tzn. do momentu kiedy użytkownik nie przerwie trwającej sesji (np. poprzez wylogowanie się lub opuszczenie danego serwisu).",
+        "p8": "Cookies stałe",
+        "p9": "- przechowywane są przez odgórnie zdefiniowany czas, który określany jest jako parametr zawarty w pliku cookies (w tym wypadku użytkownik ma możliwość ingerencji w owe pliki, może je np.  usunąć). Przykładem tego może być autoryzacja w serwisie i przyznanie tokenu dostępu - jeżeli on wygaśnie po zadanym czasie, automatycznie zostajemy wylogowani.",
+        "p10": "Oprogramowanie wykorzystywane do przeglądania stron WWW domyślnie dopuszcza umieszczanie plików 'cookies' na urządzeniu końcowym. Użytkownik może dokonać właściwej konfiguracji przeglądarki, aby zablokować automatyczne akceptowanie plików 'cookies' lub uzyskać każdorazową informację o przesłaniu pliku na urządzenie użytkownika. Właściwe informacje o obsłudze plików 'cookies' oraz możliwych konfiguracjach dostępne są w ustawieniach przeglądarki. Poziom ograniczeń dotyczący stosowania plików „cookies” może wpłynąć na dostępność i funkcjonalności oferowane na stronie internetowej, aż do zablokowania możliwości jej prawidłowego użytkowania."
+    },
+    "moonPhases": {
+        "new": "Nów",
+        "waxingCrescent": "Przybywający sierp",
+        "q1": "Pierwsza kwadra",
+        "waxingGibbous": "Przybywający Księżyc garbaty",
+        "full": "Pełnia",
+        "wanningGibbous": "Ubywający Księżyc garbaty",
+        "q3": "Ostatnia kwadra",
+        "wanningCrescent": "Ubywający sierp"
+    },
+    "moonBehavior": {
+        "increases": "Zwiększa się",
+        "reduces": "Zmniejsza się"
+    }
+}

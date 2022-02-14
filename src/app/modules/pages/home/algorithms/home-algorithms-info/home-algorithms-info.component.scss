@@ -1,0 +1,35 @@
+@import "/src/assets/styling/variables.scss";
+
+.container-fluid {
+  padding-top: 75px;
+}
+
+p,
+dl {
+  margin: 0;
+}
+
+.algorithms {
+  margin-bottom: 15px;
+
+  &__about {
+    padding: 0 2em 1.5em 2em;
+    &--text {
+      text-indent: $valueOfIndent;
+    }
+  }
+
+  &__list {
+    padding: 0 2em 1.5em 2em;
+
+    &--text {
+      text-indent: $valueOfIndent;
+    }
+
+    &--index {
+      margin-left: 15px;
+      font-weight: 600;
+      color: $fontColor;
+    }
+  }
+}

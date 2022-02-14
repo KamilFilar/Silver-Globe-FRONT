@@ -1,0 +1,32 @@
+<div class="modal fade" id="sendUserEmailAlert" tabindex="-1" aria-labelledby="sendUserEmailAlert" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body rounded-2">
+        <div class="row modalContent">
+          <div class="col-12 modalContent__title">
+            <span class="modalContent__title--val">
+              {{ "alertsComponents.attention" | translate }}
+            </span>
+            <fa-icon [icon]="faTimes" class="fa-2x modalContent__title--icon" data-bs-dismiss="modal" title="Close">
+            </fa-icon>
+          </div>
+          <div class="col-12 modalContent__body">
+            <p class="modalContent__body--val">
+              <ng-content></ng-content>
+            </p>
+          </div>
+          <div class="col-12 modalContent__footer" *ngIf="showError === false && isValidEmail == true">
+            <p class="modalContent__footer__p">
+              <span class="modalContent__footer--subtitle">{{ "alertsComponents.email" | translate }}: </span>{{
+              userEmail }}
+            </p>
+            <p class="modalContent__footer__p">
+              <span class="modalContent__footer--subtitle">{{ "alertsComponents.sendDate" | translate }}: </span>{{
+              localSendDate }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

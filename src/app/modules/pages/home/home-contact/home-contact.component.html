@@ -1,0 +1,78 @@
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-lg-11 col-12">
+            <app-subtitle [value]="'homeContact.title' | translate"></app-subtitle>
+            <div class="row justify-content-center contact">
+                <div class="col-md-9 col-sm-10 col-11 contact--bg">
+                    <p class="contact__text" [ngClass]='fontSizeFunc()'>
+                        {{ 'homeContact.text' | translate }}
+                    </p>
+                    <div class="row justify-content-center">
+                        <div class="col-md-10 col-sm-11 col-12">
+                            <form [formGroup]="form" class="text-center">
+                                <mat-form-field appearance="fill">
+                                    <mat-label>
+                                        {{ 'homeContact.yourEmail' | translate }}
+                                    </mat-label>
+                                    <input matInput id='userEmail' formControlName="email" type="email">
+                                </mat-form-field>
+
+                                <span class="contact--error" *ngIf='showError.email === true'
+                                    [ngClass]='fontSizeFunc()'>
+                                    <span *ngIf="msgState == 1">
+                                        {{ 'homeContact.msg.required' | translate}}
+                                    </span>
+                                    <span *ngIf="msgState == 2">
+                                        {{ 'homeContact.msg.error' | translate}}
+                                    </span>
+                                </span>
+
+                                <mat-form-field appearance="fill">
+                                    <mat-label>
+                                        {{ 'homeContact.subject' | translate }} <sup>*</sup>
+                                    </mat-label>
+                                    <input matInput id='userSubject'>
+                                </mat-form-field>
+
+                                <mat-form-field appearance="fill">
+                                    <mat-label>
+                                        {{ 'homeContact.content' | translate }}
+                                    </mat-label>
+                                    <textarea matInput id="userContent" cdkTextareaAutosize
+                                        #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                                        formControlName="textarea">
+                                    </textarea>
+                                </mat-form-field>
+                                
+                                <p class="contact--error" *ngIf='showError.content === true && msgState == 1' [ngClass]='fontSizeFunc()'>
+                                    {{ 'homeContact.msg.required' | translate}}
+                                </p>
+
+                                <app-no-href-button 
+                                    [text]="'homeContact.btnText' | translate" 
+                                    (click)="sendUserEmail()"
+                                    data-bs-toggle="modal" 
+                                    data-bs-target="#sendUserEmailAlert">
+                                </app-no-href-button>
+                            </form>
+                        </div>
+                        <div class="contact__comment" [ngClass]='fontSizeFunc()'>
+                            <sup>*</sup> {{ 'homeContact.required' | translate }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-user-send-email [userEmail]='user.email' [userContent]='user.content'>
+    <span *ngIf='msgState == 3'>
+        {{ 'homeContact.msg.modalSuccess' | translate}}
+        <img [src]='msgIconPath' width="50" height="50" />
+    </span>
+    <span *ngIf='msgState == 1 || msgState == 2'>
+        {{ 'homeContact.msg.modalError' | translate }}
+        <img [src]='msgIconPath' width="50" height="50" />
+    </span>
+</app-user-send-email>

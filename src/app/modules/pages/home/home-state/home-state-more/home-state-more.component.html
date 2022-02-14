@@ -1,0 +1,48 @@
+<div class="card card-body">
+    <div class="row">
+        <div class="col-xxl-6 col-lg-5 col-12">
+            <div class="row justify-content-center datePickerBox">
+                <div class="col-12">
+                    <p class="datePickerBox--description">
+                        {{ 'homeStateMore.description' | translate }}
+                    </p>
+                </div>
+                <div class="col-12 text-center">
+                    <mat-form-field class="example-full-width" appearance="fill" class="datapicker">
+                        <mat-label>{{ 'homeStateMore.checkDate' | translate }}</mat-label>
+                        <input matInput [matDatepicker]="picker" (dateInput)="addEvent('input', $event)"
+                            (dateChange)="addEvent('change', $event)" />
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                    </mat-form-field>
+                </div>
+            </div>
+        </div>
+        <div class="col-xxl-6 col-lg-7 col-12">
+            <app-home-state-data [property]="'homeState.date' | translate" [APIdata]='value.date'>
+            </app-home-state-data>
+
+            <app-home-state-data [property]="'homeState.phase' | translate" [APIdataPhase]='value.phase'>
+            </app-home-state-data>
+
+            <app-home-state-data [property]="'homeState.calcPhase' | translate" [APIdata]='value.calcPhase'>
+            </app-home-state-data>
+
+            <app-home-state-data [property]="'homeState.age' | translate" [APIdata]='value.age'>
+            </app-home-state-data>
+
+            <app-home-state-data [property]="'homeState.behavior' | translate" [APIdataBehavior]='value.behaviour'>
+            </app-home-state-data>
+
+            <app-home-state-data [property]="'homeState.illumination' | translate" [APIdata]='value.illumination'>
+            </app-home-state-data>
+
+            <app-home-state-data [property]="'homeState.howFarIsMoon' | translate" [APIdata]='value.distance'>
+            </app-home-state-data>
+            
+            <app-home-state-data [property]="'homeState.nextNewMoon' | translate" [APIdata]='value.nextNew'
+                [isLast]=true>
+            </app-home-state-data>
+        </div>
+    </div>
+</div>

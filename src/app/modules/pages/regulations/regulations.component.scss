@@ -1,0 +1,33 @@
+@import "/src/assets/styling/variables.scss";
+
+.container-fluid {
+  margin: 80px 0;
+}
+
+.regulations {
+  &__firstLast {
+    font-weight: 600;
+
+    &--name {
+      color: $orange;
+    }
+  }
+
+  &__text {
+    text-indent: $valueOfIndent;
+
+    &--number {
+      color: $orange;
+      font-weight: 600;
+    }
+
+    &--special {
+      text-indent: 3em;
+      margin: 0;
+    }
+  }
+}
+
+p {
+  margin: 5px;
+}

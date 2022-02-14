@@ -1,0 +1,52 @@
+@import "/src/assets/styling/variables.scss";
+
+.modal-body {
+  border: 2px solid $orange;
+  background-color: $bgColorDark;
+}
+.modalContent {
+  &__title {
+    text-align: center;
+
+    &--val {
+      color: $orange;
+      font-family: $kalam;
+      font-size: $fontSizeHuge;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    &--icon {
+      color: $orange;
+      float: right;
+      margin-top: -20px;
+    }
+
+    &--icon:hover {
+      color: $orange2;
+      cursor: pointer;
+    }
+  }
+
+  &__body {
+    margin-top: 15px;
+
+    &--val {
+      font-size: $fontSizeLittle;
+      font-weight: 600;
+    }
+  }
+
+  &__footer {
+    font-size: $fontSizeLittle;
+
+    &__p {
+      margin: 0;
+    }
+
+    &--subtitle {
+      font-weight: 600;
+      color: orange;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@import "/src/assets/styling/variables.scss";
+
+.quotation {
+  text-align: center;
+  font-family: $cambria;
+  padding: 10px;
+  font-size: 1.8rem;
+  cursor: default;
+  background: linear-gradient($bgColorDark, rgb(15, 15, 15), rgb(10, 10, 10), rgb(5, 5, 5), black);
+  &--color {
+    color: $fontColor;
+  }
+}

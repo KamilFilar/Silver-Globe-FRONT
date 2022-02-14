@@ -1,0 +1,14 @@
+<div class="row justify-content-center slideIn--left">
+    <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-10 col-12 imgBox fadeIn">
+        <img [src]='blueMoon' class="imgBox--val"/>
+    </div>
+    <div class="col-xxl-9 col-xl-8 col-lg-7 col-12 textBox fadeIn" [ngClass]="fontSizeFunc()">
+        <p class="textBox__p">
+            <span class="textBox__p--color">{{ 'homeInfo.blueMoon.t1' | translate }}</span> 
+            {{ 'homeInfo.blueMoon.p1' | translate }}
+        </p>
+        <p class="textBox__p">
+            {{ 'homeInfo.blueMoon.p2' | translate}}
+        </p>
+    </div>
+</div>

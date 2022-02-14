@@ -14,7 +14,7 @@ export class EmailService {
     'Content-Type': 'application/json'
   })
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   sendEmail(content: String, subject: String, target: String) {
     const body = JSON.stringify({
@@ -23,6 +23,6 @@ export class EmailService {
       target: target,
     })
 
-    return this.http.post(this.basicURL+'email', body, { headers: this.headers }).toPromise();
+    return this.http.post(this.basicURL + 'email', body, { headers: this.headers }).toPromise();
   }
 }

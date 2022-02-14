@@ -1,0 +1,16 @@
+<div *ngIf="showImage(); else elseBlock" class="aboutpage">
+  <img class="aboutpage--image" [src]="img" />
+  <p class="aboutpage--text">
+    {{ "footer.about.text1" | translate }}
+    {{ "footer.about.text2" | translate }}
+  </p>
+</div>
+
+<ng-template #elseBlock>
+  <div class="aboutpage">
+    <p class="aboutpage--text">
+      {{ "footer.about.text1" | translate }}
+      {{ "footer.about.text2" | translate }}
+    </p>
+  </div>
+</ng-template>

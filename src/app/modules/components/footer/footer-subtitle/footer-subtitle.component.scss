@@ -1,0 +1,11 @@
+@import "/src/assets/styling/variables.scss";
+
+.subtitle {
+  cursor: default;
+  color: $fontColor;
+  text-align: center;
+  font-family: $cambria;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0.5em 0.2em 0.5em 0.2em;
+}

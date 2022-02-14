@@ -1,0 +1,38 @@
+<div class="row justify-content-center">
+    <div class="col-md-10 col-11 data" [ngClass]="{'noneBorder': isLast === true}">
+        <span class="data--property">{{ property }} </span>
+        <span class="data--value">{{ APIdata }}</span>
+
+        <span class="data--value" *ngIf="APIdataPhase == 'New'">
+            {{ 'moonPhases.new' | translate }}
+        </span>
+        <span class="data--value" *ngIf="APIdataPhase == 'Waxing Crescent'">
+            {{ 'moonPhases.waxingCrescent' | translate }}
+        </span>
+        <span class="data--value" *ngIf="APIdataPhase == 'First Quarter'">
+            {{ 'moonPhases.q1' | translate }}
+        </span>
+        <span class="data--value" *ngIf="APIdataPhase == 'Waxing Gibbous'">
+            {{ 'moonPhases.waxingGibbous' | translate }}
+        </span>
+        <span class="data--value" *ngIf="APIdataPhase == 'Full'">
+            {{ 'moonPhases.full' | translate }}
+        </span>
+        <span class="data--value" *ngIf="APIdataPhase == 'Wanning Gibbous'">
+            {{ 'moonPhases.wanningGibbous' | translate }}
+        </span>
+        <span class="data--value" *ngIf="APIdataPhase == 'Last Quarter'">
+            {{ 'moonPhases.q3' | translate }}
+        </span>
+        <span class="data--value" *ngIf="APIdataPhase == 'Wanning Crescent'">
+            {{ 'moonPhases.wanningCrescent' | translate }}
+        </span>
+
+        <span class="data--value" *ngIf="APIdataBehavior == 'Increases'">
+            {{ 'moonBehavior.increases' | translate }}
+        </span>
+        <span class="data--value" *ngIf="APIdataBehavior == 'Reduces'">
+            {{ 'moonBehavior.reduces' | translate }}
+        </span>
+    </div>
+</div>

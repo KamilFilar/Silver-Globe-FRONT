@@ -1,11 +1,8 @@
-<div class="container-fluid">
+<div class="container-fulid">
     <div class="row justify-content-center">
-        <div class="col-12 wrapperWelcome">
-            <p class="wrapperWelcome--text"></p>
-            <app-button 
-                [text]="btn.name" 
-                [href]='btn.href'>
-            </app-button>
+        <div class="col-12 welcome__box">
+            <p class="welcome__box--text"></p>
+            <app-button [text]="'homeWelcome.btnText' | translate" [href]='btnHref'></app-button>
         </div>
     </div>
 </div>

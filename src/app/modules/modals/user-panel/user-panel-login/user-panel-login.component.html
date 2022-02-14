@@ -1,0 +1,31 @@
+<div class="row justify-content-center modalBody">
+  <div class="col-lg-7 col-md-9 col-sm-10 col-11 modalBody__login" *ngIf="showForm == true">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>{{ "loginComponent.email" | translate }}:</mat-label>
+      <input matInput id="emailInput" type="email" />
+    </mat-form-field>
+  </div>
+  <div class="col-lg-7 col-md-9 col-sm-10 col-11 modalBody__pass" *ngIf="showForm == true">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>{{ "loginComponent.pass" | translate }}:</mat-label>
+      <input matInput type="password" id="passInput" />
+    </mat-form-field>
+  </div>
+  <div class="col-11 text-center modalBody__error">
+    <p [ngClass]="fontSizeFunc()">{{ errorMsg.question }}</p>
+    <p [ngClass]="fontSizeFunc()">
+      {{ errorMsg.answer }}
+      <span *ngIf="showIcon == true">
+        <fa-icon [icon]="faInfoCircle" class="modalBody__error--icon" [title]="'loginComponent.iconMsg' | translate">
+        </fa-icon>
+      </span>
+    </p>
+  </div>
+  <div class="col-12 text-center modalBody__loginBtn">
+    <app-no-href-button [text]="'loginComponent.logIn' | translate" (click)="login()" *ngIf="showForm == true">
+    </app-no-href-button>
+    <app-button [text]="'loginComponent.goToDashboard' | translate" [href]="loginBtn.href" *ngIf="showForm == false">
+      <fa-icon [icon]="faSignInAlt"></fa-icon>
+    </app-button>
+  </div>
+</div>

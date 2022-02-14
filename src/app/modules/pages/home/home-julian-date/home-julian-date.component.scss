@@ -1,0 +1,78 @@
+@import "/src/assets/styling/variables.scss";
+
+.container-fluid {
+  padding-top: 70px;
+}
+
+.julianText {
+  text-indent: $valueOfIndent;
+
+  &--1st,
+  &--2nd {
+    margin: 0;
+  }
+
+  &--href,
+  &--date {
+    text-decoration: none;
+    color: $orange;
+    transition-duration: 0.3s;
+  }
+
+  &--href:hover {
+    text-decoration: underline;
+    color: $orange2;
+    transition-duration: 0.3s;
+  }
+}
+
+.julianData {
+  margin-top: 10px;
+
+  &__out {
+    &__text {
+      padding: 10px 0;
+      margin: 0;
+
+      &--val {
+        color: $orange;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.datapicker {
+  margin: 10px 0 25px 0;
+  background-color: rgba(0, 0, 0, 0.21);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 70px;
+}
+
+mat-label,
+mat-datepicker-toggle,
+mat-datepicker {
+  color: rgb(245, 159, 0);
+  font-size: $fontSize;
+}
+::ng-deep .mat-form-field {
+  .mat-input-element {
+    color: white;
+  }
+}
+
+::ng-deep .mat-form-field.mat-focused {
+  .mat-form-field-label {
+    color: white;
+  }
+  .mat-form-field-ripple {
+    background-color: rgb(245, 159, 0);
+  }
+  .mat-form-field-required-marker {
+    color: rgb(245, 159, 0);
+  }
+  .mat-input-element {
+    color: rgb(245, 159, 0);
+  }
+}

@@ -1,0 +1,66 @@
+@import "/src/assets/styling/variables.scss";
+
+.modal-body {
+  width: 100%;
+  border: 1px solid $orange;
+  background-color: $bgColorDark;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition-duration: 0.2s;
+
+  &__text {
+    font-size: $fontSizeLittle;
+    text-align: left;
+    text-indent: $valueOfIndent;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    &--link {
+      color: $orange;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+    }
+
+    &--icon {
+      color: $orange;
+    }
+  }
+
+  &__btn {
+    float: right;
+    margin-left: 12px;
+    background: none;
+    border: 2px solid $orange;
+    border-radius: 8px;
+    padding: 3px 10px;
+    letter-spacing: 1px;
+    font-size: $fontSize;
+    font-weight: 600;
+    transition-duration: 0.5s;
+    color: $orange;
+
+    &:hover {
+      border: 2px solid $orange2;
+      color: $orange2;
+      transition-duration: 0.5s;
+    }
+  }
+
+  &__a {
+    text-decoration: none;
+    float: right;
+    margin-top: 10px;
+    color: grey;
+    letter-spacing: 0.75px;
+    font-size: $fontSizeLittle;
+    transition-duration: 0.25s;
+
+    &:hover {
+      color: rgb(156, 156, 156);
+      transition-duration: 0.25s;
+      text-decoration: underline;
+    }
+  }
+
+}

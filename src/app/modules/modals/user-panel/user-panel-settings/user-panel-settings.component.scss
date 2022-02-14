@@ -1,0 +1,58 @@
+@import "/src/assets/styling/variables.scss";
+@import "/src/assets/styling/material/radioBtn.scss";
+
+.modalFooter {
+  background: linear-gradient($bgColorDark2, rgb(40, 40, 40));
+  min-height: 40px;
+  line-height: 40px;
+  border-top: 2px solid $bgColorDark2;
+  border-left: 2px solid $bgColorDark2;
+  border-right: 2px solid $bgColorDark2;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-bottom: 3px;
+
+  &__text,
+  &__fontValue {
+    font-size: $fontSizeLittle;
+    color: $orange;
+    font-weight: 550;
+  }
+
+  &__subText {
+    font-weight: 550;
+  }
+
+  &__fontSize {
+    text-align: center;
+    height: 40px;
+    line-height: 20px;
+    display: inline-block;
+
+    &__btn {
+      margin: 8px 5px 0 5px;
+      padding: 0;
+      background-color: rgba(40, 40, 40, 0);
+      border: none;
+      outline: none;
+
+      &--icon {
+        color: $orange;
+        transition-duration: 0.3s;
+      }
+    }
+
+    &__btn:hover {
+      // &--icon don't work correctly
+      .modalFooter__fontSize__btn--icon {
+        color: $orange2;
+        transition-duration: 0.3s;
+      }
+    }
+  }
+
+  &__flag {
+    width: 45px;
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,41 @@
+<div class="row justify-content-center modalFooter">
+    <div class="col-lg-6 col-md-11 text-center">
+        <span class="modalFooter__text">{{ 'loginComponent.font.fontTitle' | translate}}</span>
+        <span class="modalFooter__subText"> (rozmiar: </span>
+        <span class="modalFooter__fontValue">{{ displayFontSize }}</span>
+        <span class="modalFooter__subText">px ):</span>
+        <div class="col-lg-3 col-2 align-middle modalFooter__fontSize">
+            <button class="modalFooter__fontSize__btn" (click)="setFontSizeMinus()"
+                title="{{ 'loginComponent.font.minus' | translate}}">
+                <fa-icon [icon]="faFont" class="modalFooter__fontSize__btn--icon fa-lg"></fa-icon>
+                <sup>
+                    <fa-icon [icon]="faMinus" class="modalFooter__fontSize__btn--icon"></fa-icon>
+                </sup>
+            </button>
+        </div>
+        <div class="col-2 align-middle modalFooter__fontSize">
+            <button class="modalFooter__fontSize__btn" (click)="setFontSizePlus()"
+                title="{{ 'loginComponent.font.plus' | translate}}">
+                <fa-icon [icon]="faFont" class="modalFooter__fontSize__btn--icon fa-lg"></fa-icon>
+                <sup>
+                    <fa-icon [icon]="faPlus" class="modalFooter__fontSize__btn--icon"></fa-icon>
+                </sup>
+            </button>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-11 text-center">
+        <span class="modalFooter__text">{{ 'loginComponent.lang' | translate}}</span>:
+        <mat-radio-group [(ngModel)]="selectLang" name="radioLang" [ngModelOptions]="{standalone: true}"
+            (change)="radioChangeLang($event)">
+            <mat-radio-button value="pl">
+                <img [src]='PLFlag' class="modalFooter__flag" />
+            </mat-radio-button>
+            <mat-radio-button value="en">
+                <img [src]='ENFlag' class="modalFooter__flag" />
+            </mat-radio-button>
+            <mat-radio-button value="du">
+                <img [src]='DUFlag' class="modalFooter__flag" />
+            </mat-radio-button>
+        </mat-radio-group>
+    </div>
+</div>

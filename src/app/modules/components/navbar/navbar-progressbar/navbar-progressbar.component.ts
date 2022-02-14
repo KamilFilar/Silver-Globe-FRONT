@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-navbar-progressbar',
   templateUrl: './navbar-progressbar.component.html',
-  styleUrls: ['./navbar-progressbar.component.scss']
+  styleUrls: ['./navbar-progressbar.component.scss'],
 })
 
 export class NavbarProgressbarComponent implements OnInit {

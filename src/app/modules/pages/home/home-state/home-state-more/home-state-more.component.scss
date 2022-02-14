@@ -1,0 +1,61 @@
+@import "/src/assets/styling/variables.scss";
+
+.card {
+  box-shadow: black 0px 5px 30px 5px;
+  border: 2px solid rgb(45, 45, 45);
+  background-color: $bgColorDark2;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+
+.datePickerBox {
+  margin-top: 50px;
+  transition-duration: 0.3s;
+
+  &--description {
+    padding: 0 10px 0 10px;
+    text-indent: $valueOfIndent;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .datePickerBox {
+    margin-top: 0;
+    transition-duration: 0.3s;
+  }
+}
+
+.datapicker {
+  margin: 10px 0 25px 0;
+  background-color: rgba(0, 0, 0, 0.21);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 70px;
+}
+
+mat-label,
+mat-datepicker-toggle,
+mat-datepicker {
+  color: rgb(245, 159, 0);
+  font-size: $fontSize;
+}
+::ng-deep .mat-form-field {
+  .mat-input-element {
+    color: white;
+  }
+}
+
+::ng-deep .mat-form-field.mat-focused {
+  .mat-form-field-label {
+    color: white;
+  }
+  .mat-form-field-ripple {
+    background-color: rgb(245, 159, 0);
+  }
+  .mat-form-field-required-marker {
+    color: rgb(245, 159, 0);
+  }
+  .mat-input-element {
+    color: rgb(245, 159, 0);
+  }
+}

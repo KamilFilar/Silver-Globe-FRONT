@@ -1,18 +1,4 @@
-.navbar-brand {
-  padding: 0 20px;
-  color: rgb(230, 230, 230);
-  font-size: 32px;
-  font-family: Kalam;
-  font-weight: 550;
-
-  &--color {
-    color: rgb(245, 245, 245);
-  }
-
-  &:hover {
-    cursor: pointer;
-  }
-}
+@import "/src/assets/styling/variables.scss";
 
 nav {
   background: rgba(0, 0, 0, 0);
@@ -20,17 +6,24 @@ nav {
 }
 
 .nav-color {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.85);
   transition-duration: 0.8s;
 }
 
 .navbar {
   flex-wrap: wrap;
-  padding: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
 
   &__btn {
     margin-right: 15px;
     padding: 0;
+
+    &--icon {
+      font-size: 40px;
+      color: $orange;
+    }
   }
 }
 

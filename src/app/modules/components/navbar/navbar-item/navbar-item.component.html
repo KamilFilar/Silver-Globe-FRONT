@@ -1,16 +1,16 @@
 <div class="row justify-content-center">
-    <li *ngIf="showIcon() == false" class="nav-item item col-xl-12 col-lg-3 col-md-4 col-sm-5 col-6">
-      <a class="nav-link item--href" href="#{{ href }}">
-        {{ text }}
-        <div class="item--links"></div>
-      </a>
-    </li>
-  </div>
-  
-  <div class="row justify-content-center">
-    <li *ngIf="showIcon() == true" class="nav-item item col-xl-12 col-lg-3 col-md-4 col-sm-5 col-6">
-      <a class="nav-link">
-        <fa-icon [icon]="faCogs" class="item--icon"></fa-icon>
-      </a>
-    </li>
-  </div>
+  <li *ngIf="showIcon() == false" class="nav-item item col-xl-12 col-lg-3 col-md-4 col-sm-5 col-6">
+    <a class="nav-link item--href" href="#{{ href }}">
+      {{ text }}
+      <div class="item--links"></div>
+    </a>
+  </li>
+</div>
+
+<div class="row justify-content-center">
+  <li *ngIf="showIcon() == true" class="nav-item item col-xl-12 col-lg-3 col-md-4 col-sm-5 col-6">
+    <a class="nav-link">
+      <fa-icon [icon]="faCogs" class="item--icon"></fa-icon>
+    </a>
+  </li>
+</div>

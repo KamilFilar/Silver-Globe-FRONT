@@ -1,0 +1,75 @@
+@import "/src/assets/styling/variables.scss";
+
+p {
+  margin: 0;
+}
+
+.margin {
+  &__small {
+    margin-left: 7px;
+  }
+
+  &__mid {
+    margin-left: 14px;
+  }
+
+  &__big {
+    margin-left: 21px;
+  }
+}
+
+.codebox {
+  color: rgb(224, 224, 224);
+  padding: 5px 15px 5px 15px;
+  font-family: Consolas, "Courier New";
+
+  &__comment {
+    color: rgb(139, 139, 139);
+  }
+
+  &__meta {
+    &--include {
+      color: rgb(58, 87, 255);
+    }
+
+    &--library {
+      color: rgb(0, 165, 0);
+    }
+  }
+
+  &__function {
+    &--keywords {
+      color: rgb(187, 0, 187);
+    }
+
+    &--main {
+      color: rgb(58, 87, 255);
+    }
+  }
+
+  &__code {
+    &__var {
+      &--type {
+        color: rgb(209, 0, 209);
+      }
+
+      &--new{
+        color: rgb(58, 87, 255);
+      }
+    }
+
+    &__syntax {
+      &--val {
+        color: rgb(231, 197, 0);
+      }
+
+      &--string{
+        color: rgb(0, 165, 0);
+      }
+
+      &--return {
+        color: rgb(209, 0, 209);
+      }
+    }
+  }
+}

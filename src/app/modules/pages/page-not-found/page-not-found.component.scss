@@ -1,0 +1,106 @@
+@import "/src/assets/styling/variables.scss";
+
+.container-fluid {
+  margin-top: 150px;
+}
+
+.pnf {
+  &__imagebox {
+    position: relative;
+    margin: -5px 0 0 -5px;
+    text-align: center;
+    animation: UFOfly 4s infinite;
+
+    &--value {
+      width: 90%;
+      height: auto;
+    }
+  }
+
+  &__box {
+    box-shadow: black 0px 5px 30px 5px;
+    border: 2px solid rgb(45, 45, 45);
+    background-color: $bgColorDark2;
+    border-radius: 25px;
+    padding: auto;
+    margin-bottom: 10px;
+    height: auto;
+  }
+
+  &__textbox {
+    text-indent: $valueOfIndent;
+    padding-top: 20px;
+    margin-left: 10px;
+
+    &--color {
+      font-weight: 600;
+      color: $fontColor;
+    }
+  }
+
+  &__causesbox {
+    margin-top: 15px;
+
+    &--title {
+      font-weight: 600;
+      color: $fontColor;
+      text-indent: $valueOfIndent;
+    }
+
+    &--list {
+      margin-left: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .pnf {
+    &__causesbox {
+      &--list {
+        margin-left: -10px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .pnf {
+    &__imagebox {
+      margin: 0;
+    }
+    &__box {
+      max-height: 430px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .pnf {
+    &__box {
+      max-height: 390px;
+    }
+  }
+}
+
+@keyframes UFOfly {
+  0% {
+    top: 0px;
+    left: -5px;
+  }
+  25% {
+    top: -20px;
+    left: 0px;
+  }
+  50% {
+    top: 0px;
+    left: -5px;
+  }
+  75% {
+    top: -20px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: -5px;
+  }
+}

@@ -6,47 +6,27 @@ import { faHamburger } from '@fortawesome/free-solid-svg-icons';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss'],
 })
+
 export class NavbarComponent implements OnInit {
-  private stateOfBtn = 0;
-  private changeState = false;
+  
   faHamburger = faHamburger;
+
   hrefs = {
     state: 'State',
     info: 'Informations',
     intresting: 'IntrestingFacts',
     calendar: 'Calendar',
-    algorithms: 'API',
+    algorithms: 'Algorithms',
     contact: 'Contact',
   };
   text = {
-    state: 'Aktualny stan',
-    info: 'Informacje',
-    intresting: 'Ciekawostki',
-    calendar: 'Kalendarz',
-    algorithms: 'API',
-    contact: 'Kontakt',
     setIcon: '',
   };
 
-  constructor() {}
+  private stateOfBtn = 0;
+  private changeState = false;
 
-  scrollToTop() {
-    const URL = 'http://localhost:4200/';
-    if (
-      window.location.href == URL ||
-      window.location.href == URL + '#Informations' ||
-      window.location.href == URL + '#State' ||
-      window.location.href == URL + '#IntrestingFacts' ||
-      window.location.href == URL + '#Calendar' ||
-      window.location.href == URL + '#API' ||
-      window.location.href == URL + '#Contact'
-    ) {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    } 
-    else {
-      location.href = '';
-    }
-  }
+  constructor() {}
 
   checkScreenWidth() {
     let width = window.innerWidth;
@@ -63,23 +43,24 @@ export class NavbarComponent implements OnInit {
   getState() {
     if (this.stateOfBtn === 0) {
       this.stateOfBtn = 1;
-    } 
-    else {
+    } else {
       this.stateOfBtn = 0;
     }
+    //console.log('state: '+this.stateOfBtn);
+
     return this.stateOfBtn;
   }
 
   changeNavColor() {
     let winScroll =
       document.body.scrollTop || document.documentElement.scrollTop;
+    let width = window.innerWidth;
+
     if (winScroll === 0 && this.stateOfBtn === 1) {
       return true;
-    } 
-    else if (winScroll > 0) {
+    } else if (winScroll > 0) {
       return true;
-    } 
-    else {
+    } else {
       return false;
     }
   }

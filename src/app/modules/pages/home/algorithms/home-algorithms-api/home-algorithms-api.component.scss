@@ -1,0 +1,36 @@
+@import "/src/assets/styling/variables.scss";
+
+.container-fluid {
+  margin-top: 30px;
+}
+
+.API {
+  margin-bottom: 100px;
+
+  &__about {
+    text-indent: $valueOfIndent;
+  }
+
+  &__requests {
+    background-color: $bgColorDark2;
+    border-radius: 12px;
+    margin-top: 20px;
+    border: 2px solid rgb(60, 60, 60);
+
+    &__moreBtn {
+      float: right;
+      width: auto;
+      padding: 4px;
+      margin-right: 5px;
+      margin-top: 3px;
+      border: none;
+      outline: none;
+      background: none;
+      color: $orange;
+    }
+
+    &__moreBtn:hover {
+      color: $orange2;
+    }
+  }
+}

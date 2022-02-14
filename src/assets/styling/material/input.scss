@@ -1,0 +1,37 @@
+@import "/src/assets/styling/variables.scss";
+
+::ng-deep .mat-form-field {
+  width: 100%;
+  height: auto;
+  background-color: $bgColorDark2;
+  border-radius: 8px;
+
+  .mat-form-field-label {
+    color: $orange;
+    font-size: 18px;
+  }
+
+  .mat-form-field-ripple {
+    background-color: $orange;
+  }
+
+  .mat-input-element {
+    margin-left: 7px;
+  }
+}
+
+::ng-deep .mat-form-field.mat-focused {
+  .mat-form-field-label {
+    color: white;
+  }
+  .mat-form-field-ripple {
+    background-color: white;
+  }
+  .mat-form-field-required-marker {
+    color: white;
+  }
+  .mat-input-element {
+    color: $orange;
+    margin-left: 7px;
+  }
+}

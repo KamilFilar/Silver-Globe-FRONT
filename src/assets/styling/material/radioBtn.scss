@@ -1,0 +1,17 @@
+@import "/src/assets/styling/variables.scss";
+::ng-deep .mat-radio-button {
+    margin-left: 10px;
+}
+
+::ng-deep .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element {
+  background-color: $orange2 !important;
+}
+
+::ng-deep .mat-radio-button.mat-accent .mat-radio-inner-circle {
+  background-color: $orange !important; /*inner circle color change*/
+}
+
+::ng-deep .mat-radio-button.mat-accent.mat-radio-checked
+  .mat-radio-outer-circle {
+  border-color: $orange !important; /*outer ring color change*/
+}

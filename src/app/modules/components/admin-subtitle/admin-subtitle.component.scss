@@ -1,0 +1,14 @@
+@import "/src/assets/styling/variables";
+
+.admin-subtitle {
+  color: $fontFocusColor;
+  font-family: $kalam;
+  text-align: center;
+  margin-top: -25px;
+  padding-bottom: 20px;
+
+  &--text {
+    font-weight: 600;
+    font-size: 1.8em;
+  }
+}

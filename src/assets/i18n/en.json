@@ -1,0 +1,391 @@
+{
+    "copySucces": "Copied successfully!",
+    "loginComponent": {
+        "loginPanelTitle": "Login panel",
+        "font": {
+            "fontTitle": "Font",
+            "plus": "Zoom +",
+            "minus": "Zoom -"
+        },
+        "lang": "Lang",
+        "email": "E-mail adress",
+        "pass": "Password",
+        "logIn": "Log in",
+        "goToDashboard": "Dashboard",
+        "iconMsg": "You cannot currently have an account!"
+    },
+    "cookiesModalComponent": {
+        "p1": "Another cookie information that you won't even pay attention to, but I need to inform you about it.",
+        "p2": "About what purposes cookies are used on this website, and an explanation of what they are on the subpage:",
+        "p3": "By continuing to browse the site you are agreeing to their use, otherwise google it further!",
+        "btn": {
+            "accept": "Accept",
+            "unaccept": "Reject"
+        }
+    },
+    "alertsComponents": {
+        "attention": "Attention!",
+        "email": "Email",
+        "sendDate": "Date sent"
+    },
+    "pageNotFound": {
+        "p1": "Whoops! Sneaky aliens broke something and",
+        "p2": "we can't find the specified page",
+        "p3": "To go back to the main page use the button below:",
+        "btnText": "Go back",
+        "casueInfo": "Probable causes of the error:",
+        "casue1": "Invalid page or subpage URL.",
+        "casue2": "The site may be temporarily unavailable due to introduced changes.",
+        "casue3": "Unclean cache (cache) files and browser cookies.",
+        "casue4": "Malware that forces an error message on certain pages and their subpages"
+    },
+    "homeWelcome": {
+        "btnText": "Explore"
+    },
+    "homeState": {
+        "title": "Current state",
+        "date": "Given date:",
+        "phase": "Moon phase:",
+        "calcPhase": "Exact phase value:",
+        "age": "Moon Age:",
+        "behavior": "Moon:",
+        "howFarIsMoon": "Distance from Earth:",
+        "illumination": "Illumination of moon:",
+        "nextNewMoon": "Another new moon will appear:"
+    },
+    "homeStateMore": {
+        "description": "Enter the date you are interested in in the field below or click the calendar icon to select it.",
+        "checkDate": "Select a date"
+    },
+    "homeCalendar": {
+        "title": "Moon's calendar",
+        "selectedDate": "Selected date:",
+        "phase": "Moon phase:",
+        "nextNew": "Next New Moon:",
+        "nextFQ": "Next First Quarter:",
+        "nextFull": "Next Full Moon:",
+        "nextLQ": "Next Last Quarter:"
+    },
+    "homeJulianDate": {
+        "title": "Julian Date",
+        "p1": "You probably already know a little bit about Julian dates from the information section, but if you haven't read it (see, see) then you must know that this is the date used for astronomical calculations, most often found under the symbol: JD According to this calculation, it can be assigned to any day following the date: ",
+        "p2": "January 1, 4713 BC",
+        "p3": "unique number.",
+        "p4": "The current date in Julian notation is displayed below (it was calculated for the time the page was loaded). If you want to write your own program, here is a link to the page where you will find a description, step by step such as such an algorithm to do: ",
+        "clickThere": "click here",
+        "p5": "You can compare your result with the values ​​below, but remember that the obtained values ​​may differ in the fractional part.",
+        "showDate": "Current Julian Date:",
+        "calcDate": "Calculated date:",
+        "checkDate": "Select a date"
+    },
+    "homeIntrestingFacts": {
+        "title": "Interesting facts",
+        "intrestingFact": "Curiosity",
+        "table": {
+            "1": "The average distance from the center of the Earth to the center of the Moon is 384,403km.",
+            "2": "The surface of the moon is slightly larger than the area of ​​the African continent.",
+            "3": "There is no 'dark side' of the moon. In fact, both sides are lit equally by the sun, but only one is visible from the Earth.",
+            "4": "Mons Huygens (pronounced Hajgens) is the tallest mountain on the moon, 4700 meters high.",
+            "5": "The moon travels around the Earth a distance of 2,413,402 km.",
+            "6": "The moon is moving away from the Earth at a rate of 3 cm every 100 years.",
+            "7": "Although the moon shines brightly in the night sky, it does not produce its own light. We see the moon because it reflects sunlight.",
+            "8": "The period of the orbit of the Earth by the moon is called the sideric month and it lasts 27.3 days.",
+            "9": "A lunar eclipse (total or partial) occurs when the earth is between the lunar and the sun.",
+            "10": "The moon is the fifth largest moon in the solar system."
+        },
+        "previous": "Previous",
+        "next": "Next"
+    },
+    "homeContact": {
+        "title": "Contact",
+        "text": "If you have an idea for the development of the website, you notice a mistake, you want to inform me about important issues regarding this website or unsubscribe from the newsletter, you can use the ready form below. Just fill in the required fields with the appropriate data, and the message will be delivered to me in an expedient manner! I usually reply within a few working days to the address indicated in the form. ",
+        "yourEmail": "Your email address",
+        "subject": "Subject",
+        "content": "Message content",
+        "btnText": "Send",
+        "required": "The field is not required.",
+        "msg": {
+            "modalSuccess": "Message successfully sent!",
+            "modalError": "An error occurred! The message could not be sent!",
+            "required": "The above field is required!",
+            "error": "Please enter a valid email address using lowercase letters!"
+        }
+    },
+    "homeAlgorithms": {
+        "api": {
+            "p1": "API is a skin from Apliccation Programming Interface that stands for a programming interface. API is a set of rules that closely describes how programs or subroutines communicate with each other. It is the main link that allows you to combine data and devices into an application and compose one a large network of connections thanks to which we do not have to build a monolithic application (it makes the work of programmers much easier). ",
+            "p2": "Oh, thanks to the API, applications can cooperate with each other. There are no restrictions on the use of the API, it can be used by a private person or by any global brand (depending on the license). From the technical side, the API is the code that controls any application or server access points. ",
+            "p3": "API plays an important role in modern Internet infrastructure because without application programming interfaces, users would have to constantly 'jump' between different applications to manually fill desired functions in them. this service, thanks to which you can save a lot of time in your project. ",
+            "getActualJD": "The query returns the current Julian date. It doesn't require any parameters.",
+            "getParamsJD": "The query returns a Julian date for a given date. Required parameters (type: number): day, month, year, hour, min, sec.",
+            "getCurrentPhase": "The query returns the current moon phase. It doesn't require any parameters.",
+            "getPhase": "The query returns the moon phase for the given date. Required parameters (type: number): day, month, year, hour, min, sec.",
+            "getSunInfo": "The query returns the current distance to the sun (query is under expansion). Does not require any parameters.",
+            "moreBtn": "More",
+            "copyBtn": "Copy"
+        },
+        "algorithms": {
+            "title": "Algorithms",
+            "p1": "In today's world, physics closely cooperates with computer science. We must realize that performing breakneck calculations with the modern advancement of technology is simply a waste of time, because we can outsource it to properly written programs.",
+            "p2": "Creating algorithms takes us to the world of mathematical abstraction, intricate concepts, complicated calculations. Learning programming is not only typing strange strings of characters, meaningless lines - it is also the art of understanding and describing the world.",
+            "p3": "Programming is the freedom of solutions and ideas, because the codes presented below solve the same problem (determining the weight on the moon for the mass of a given object) in four different, computer-understandable languages."
+        },
+        "stepList": {
+            "title": "Steps list",
+            "p1": "Below are presented what steps the algorithm must perform to correctly calculate the user's weight on the moon.",
+            "step": {
+                "1": "Declaration of numeric type variables: userWeight, gravityValue and result.",
+                "2": "The user enters his weight and it is assigned to the userWeight variable.",
+                "3": "The variable result receives the value of userWeight multiplied by gravityValue.",
+                "4": "The result that is in the variable result is printed on the screen."
+            },
+            "steps": {
+                "s1": "Step 1:",
+                "s2": "Step 2:",
+                "s3": "Step 3:",
+                "s4": "Step 4:"
+            }
+        },
+        "programs": {
+            "c": "C program",
+            "cplus": "Program in C ++",
+            "java": "Java Program",
+            "python": "Python Program",
+            "copyCodeBtn": "Copy"
+        },
+        "weight": {
+            "yourWeight": "Enter weight",
+            "moon": "Weight on the Moon",
+            "earth": "Weight on Earth"
+        }
+    },
+    "homeInfo": {
+        "title": "A few words about the Moon",
+        "blueMoon": {
+            "t1": "Blue Moon",
+            "p1": "- this occurs every two or three years. Refers to the third full moon of a season with four full moons and thus corrects the time of the last month of the season that would otherwise be expected too early. Each calendar year contains about 11 days more than the number of days in the 12 lunar cycles. Extra days accumulate, so every two or three years (seven times in the 19-year methonic cycle) during the year there is an additional full moon, which necessarily falls in one of the four seasons which gives this season four full moons instead of the usual three, and therefore a 'blue' moon. ",
+            "p2": "The name has nothing to do with the color of the dial. The Silver Globe does not turn blue, it is only to emphasize the rarity of this phenomenon. The Moon effect with a bluish tinge may, for example, occur in atmospheric conditions such as volcanic eruptions or during fires by particles The resulting clouds contain a mixture of particles of a wide range of sizes, most of which are smaller than 1 micrometer and tend to scatter blue light, for example after the forest fires in Sweden and Canada in 1950 and 1951 and after the eruption of Krakatau in 1883, which made the moon appear blue for almost two years. "
+        },
+        "kordylewski": {
+            "t1": "The Moons of Kordylewski",
+            "p1": "- apart from the natural satellite of the Moon, there are also two dust clouds known as dusty Earth satellites orbiting the Earth. They were discovered by Polish astronomer Kazimierz Kordylewski nearly 60 years ago. However, this discovery was treated rather as a hypothesis due to the difficulties in observing these objects . ",
+            "p2": "Kordylewski confirmed their existence by observing the faint local brightening of the sky background in places corresponding to the location of the librational points, coming from diffused sunlight on dust densities. Dust moons show phases similar to the Moon. A cloud that passes in front of the Moon has the greatest brightness two the days after the first quarter, and the second cloud two days before the last quarter. ",
+            "p3": "Dust clouds are found at the L4 and L5 libration points of the moon's orbit, orbiting the Earth at the same time as the Moon. These points form the vertices of equilateral triangles whose sides are equal to the radius of the Moon's orbit. L4 and L5 are not completely stable, because they are disturbed by the gravitational pull of the Sun. However, they are believed to be places where interplanetary dust can accumulate, at least temporarily. Dust clouds are extremely difficult to observe because they have a very low surface brightness. "
+        },
+        "mission": {
+            "t1": "Moon Exploration",
+            "p1": "- the development of large liquid propellant rocket engines in the early 20th century allowed for a practical look beyond the Earth's boundaries, which was a breakthrough, especially compared to the observation of space from the surface of our planet (known as astronomy) that had been done for millennia. Current rationale for space exploration includes scientific progress and ensuring the survival of humanity. ",
+            "p2": "A natural step in the exploration of space is to learn about our natural satellite, the moon. The first step in the field of moon observation was made with the invention of the telescope: Galileo, using a new instrument, observed craters and mountain ranges on its surface. Cold War space race between the USA and the Soviet Union led to a significant increase in interest in the terrestrial satellite. Unmanned probes, both those passing the moon and landing on its surface, were sent immediately after technological developments made this possible. You will find a complete list of moon-related missions ",
+            "p3": "The 1969 Moon landing of the first humans is seen as the culmination of the Cold War space race. Neil Armstrong, the Apollo 11 commander, became the first man to surface the Silver Globe, being the first to set foot on the moon at exactly the same distance. 02:56 GMT on July 21, 1969 (right pictured is astronaut Buzz Aldrin who was photographed by Neil Amstrong.) To date, October 2021, the last person to walk on lunar ground was Eugene Cernan, a member of the Apollo 17 mission in December 1972. ",
+            "p4": "Something else will be fine."
+        },
+        "julianDate": {
+            "t1": "Julian Days",
+            "p1": "- The date of Julian days was set by Joseph Scaliger in 1583. He named the new way of counting dates in honor of his father Julius Caesar Scaligero 'Julian days'. The Julian date is the number of days that have passed since January 1, 4713 BC, according to the Julian calendar (extended accordingly backwards), 12:00 universal time (zero meridian time). According to these calculations, each day following that date can be assigned a specific number used mainly for astronomical calculations. . ",
+            "t2": "Setting a Julian Date",
+            "p2": "- until 1925, the astronomical day began at noon, at 12:00 UTC, therefore the days begin at noon. In order to present the time of an event in this calculation, the Julian day number is added to the fractional part that specifies the fraction of a day that has elapsed since 12:00 noon This improved continuous count of time is referred to as Julian dates, since Julian dates are counted from noon and the numbers for our time are amazing large, MJD (Modified Julian Date) is being used more and more often. ",
+            "t3": "Application",
+            "p3": "- due to the fact that it is an easy way of counting, Julian days are used in almost all complicated astronomical algorithms. This system is also used among variable star observers or in the international universal time system, for example calculate how many days have passed between the given dates, just subtract the Julian days (less than the greater number). After subtracting, you can tell how many days are between one date and the other. "
+        },
+        "health": {
+            "t1": "Impact on health",
+            "p1": "- the moon goes through different phases and each of them emits different amounts of light. Depending on the given phase of the moon, the human body shows different behavior. The effect of the full moon on the ebb and flow of the seas and oceans has been scientifically proven. The full moon has a similar effect on the body. Many people complain of insomnia and difficulty falling asleep at this time, and some notice an increased appetite. During the day there may be problems with concentration, irrational behavior, mood swings or irritation. ",
+            "p2": "During the full moon, the production of the so-called hormone of happiness, or serotonin, is disturbed, resulting in insomnia or an increase in appetite. It can also affect the circulatory system, the female reproductive system and the functioning of the intestines. The phases of the moon are of particular importance for If their bodies are functioning as they are, their menstrual bleeding occurs around the new moon and ovulation occurs around the full moon. It is also worth noting the close connection between the moon and the liver, which in turn has an impact on the blood quality and energy of the whole body. "
+        },
+        "addmission": {
+            "t1": "Moon",
+            "p1": "(Latin Luna) - this is the only natural satellite of the Earth, but you have to bear in mind that there are also Kordylewski moons, about which you will learn a little more later. Our Moon is the fifth largest of the moons in the solar system The distance from the center of the Earth to the center of the moon varies (see the exact value below) but the average distance is assumed to be 384 399 km. The moon's diameter is 3474 km, and the gravitational acceleration on its surface is nearly 6 times weaker than on Earth. The moon makes a full orbit around the Earth in 27.3 days (the so-called sideric month), and periodic changes in the geometry of the Earth system –The Moon-the Sun causes the occurrence of the phases of the Moon repeating in a 29.53-day cycle (the so-called synodic month). ",
+            "t2": "Synodic Month",
+            "p2": "- (or in other words: lunation) is the mean time between the new moon. It is assumed that the synodic month lasts 29 days 12 hours 44 minutes and 3 seconds. The synodic month is more than 2 days longer than the sidereal month. this one is needed to bring the Moon back to the same position with respect to the Sun-Earth line. ",
+            "t3": "Sideric Month",
+            "p3": "- also known as the Sidereal Month, it is the average time the moon orbits the Earth. It lasts 27 days 7 hours 43 minutes and 11.5 seconds. So it is shorter than the Synodic Month.",
+            "t4": "Moon Phases",
+            "p4": "are used to determine what part of the Moon is illuminated by the Sun and therefore visible from the Earth. The Sun always illuminates only half of the Moon's surface, so these phases are the result of viewing the same half from different angles due to different positions of the Sun, Earth and Moon with respect to There are 4 phases: ",
+            "p5": "Remember that the phases of the moon are opposite to each other depending on whether we are in the northern or southern hemisphere of the Earth.",
+            "phase": {
+                "new": "New Moon",
+                "q1": "First Quarter",
+                "full": "Fullness",
+                "q3": "Last quarter",
+                "descNew": "- is when the Moon cannot be seen from the surface of the Earth with the naked eye (more professionally speaking, the Moon is conjunct the Sun when viewed from the Earth).",
+                "descQ1": "- The Earth, the Moon and the Sun form a right angle with each other. The Moon is approaching a full moon at this time. At this point, only the eastern part of the Moon is visible to observers on Earth.",
+                "descFull": "- the phase of the moon in which the Moon is opposed to the Sun, i.e. when the Moon is on the opposite side of the Earth from the Sun, so we can observe the fully illuminated disc of the Moon",
+                "descQ3": "- In this phase, the Earth, the Moon and the Sun also form a right angle with each other. At this point, only the western side of the Moon's visible side is visible to observers on Earth."
+            }
+        }
+    },
+    "navbar": {
+        "brand": {
+            "t1": "Silver",
+            "t2": "Glob",
+            "t3": ".pl"
+        },
+        "items": {
+            "state": "Current state",
+            "info": "Information",
+            "intresting": "Intresting facts",
+            "calendar": "Calendar",
+            "algorithms": "Algorithms",
+            "contact": "Contact"
+        }
+    },
+    "collapse-btn": {
+        "text0": "Hide",
+        "text1": "More"
+    },
+    "footer": {
+        "quotation": {
+            "p1": "Perfectionism is good",
+            "p2": " ideal and direction, ",
+            "p3": "but",
+            "p4": "an",
+            "p5": "impossible",
+            "p6": "",
+            "p7": "goal"
+        },
+        "newsletter": {
+            "text": "You don't want to be missed by the news on the website? Do you want to know faster than others about all the upcoming changes? Subscribe to our newsletter now!",
+            "errRequired": "Email is required!",
+            "errInvalid": "Email is invalid!",
+            "btnSubscribe": "Subscribe",
+            "btnClear": "Clear",
+            "invalid": "An error has occurred! Failed to subscribe to the newsleter.",
+            "exist": "This e-mail is already in our database!",
+            "allOk": "Successfully signed up for the newsletter!"
+        },
+        "about": {
+            "text1": "The page you are visiting is one of the parts of the engineering thesis created in 2021. The motivation for its creation was to familiarize users with the issues related to the natural satellite of the Earth",
+            "text2": "and a presentation of the algorithms related to the calculations of the Moon. The website will in the future have a mobile application presenting similar functionalities."
+        },
+        "reference": {
+            "usefullTitle": "It may be usefull",
+            "contactTitle": "Contact",
+            "politics": "Privacy Policy",
+            "author": "About the author",
+            "git": "My Github",
+            "fb": "My Profile",
+            "copyBtn": "Copy"
+        }
+    },
+    "admin": {
+        "title": "Admin panel",
+        "lastUpdate": "Last updated: ",
+        "sidebar": {
+            "title": "Manage",
+            "views": "Views",
+            "ai": "Prediction",
+            "return": "Back",
+            "logout": "Logout"
+        },
+        "general": {
+            "mobileDesktop": {
+                "today": "Today",
+                "yesterday": "Yesterday",
+                "usersUse": "users have used:",
+                "stats": "Statistics from",
+                "act": "current",
+                "month": "month",
+                "browsers": "Which browsers were users using this month"
+            },
+            "visits": {
+                "weekBASIC": "Views in the last seven days:",
+                "weekBASIC2": "Weekly overview:",
+                "todayText": "Today ",
+                "today": "the website was visited by:",
+                "yesterdayText": "Yesterday ",
+                "yesterday": "The website was visited",
+                "total": "Total pageviews: ",
+                "unique": "Unique pageviews: ",
+                "normal": "Repeated pageviews: ",
+                "sixMonths": "Page views in the last six months:",
+                "currentMonth": "Visits this month:",
+                "title1": "Page views relative to the world:",
+                "title2": "All unique page entries by country:",
+                "countryVisit": "Number of visiting countries:",
+                "numZones": "Number of time zones:",
+                "userFrom": "Usually the user is from:",
+                "uniqueVies": "unique entries.",
+                "usersZone": "Their time zone is:"
+            },
+            "session": {
+                "time": "Average session duration:",
+                "unit": "sec",
+                "week": "Statistics for the last seven days:"
+            }
+        },
+        "ai": {
+            "predictViews": "Expected number of entries",
+            "predictSession": "Predicted session length",
+            "predToday": "tomorrow",
+            "predWeek": "week",
+            "predMonth": "month",
+            "charWeek": "Session length graph",
+            "next7days": "in the next seven days",
+            "unit": "sec"
+        },
+        "newsletter": {
+            "users": {
+                "titleFind": "Search",
+                "titleRemove": "Remove",
+                "email": "User email",
+                "findBtn": "Find",
+                "removeBtn": "Delete",
+                "addressEmail": "Email address"
+            },
+            "sendEmail": {
+                "writeEmail": "Write a message",
+                "sendBtn": "Send",
+                "content": "Content",
+                "subject": "Subject",
+                "target": "The target address of the message",
+                "warning": "Warning!",
+                "warnMsg": "If you leave the subject of the message and the destination address blank, the given content will be sent as a newsletter message to all users in the database!"
+            }
+        }
+    },
+    "politics": {
+        "title": "Privacy Policy",
+        "p0": "Website Privacy Policy",
+        "name": "www.SilverGlob.pl",
+        "p1": "This Privacy Policy sets out the rules for the processing and protection of personal data provided by Users in connection with their use of XYZ services through the Website.",
+        "p2": "The administrator of personal data contained on the website is XYZ based in XYZ.",
+        "p3": "Out of concern for the security of the data entrusted to me, I have developed internal procedures and recommendations to prevent the disclosure of data to unauthorized persons. electronic, as well as all types of implementing acts and Community law acts. ",
+        "p4": "Personal data are processed on the basis of the consent expressed by the User and in cases where the law authorizes the Administrator to process personal data on the basis of legal provisions or to implement the contract concluded between the parties.",
+        "p5": "The website gathers information about users and their behavior in the following way:",
+        "p5a": "a) by information entered voluntarily in forms",
+        "p5b": "b) by collecting cookies [see the 'Cookies' subpage].",
+        "p6": "The website collects information voluntarily provided by the user.",
+        "p7": "The data provided in the form are processed for the purpose resulting from the function of a specific form.",
+        "p8": "Personal data left on the website will not be sold or made available to third parties, in accordance with the provisions of the Personal Data Protection Act.",
+        "p9": "I reserve the right to change the privacy policy of the website, which may be affected by the development of internet technology, possible changes to the law in the field of personal data protection and the development of my website. I will inform about any changes in a visible and understandable way.",
+        "p10": "The Website may contain links to other websites. Such websites operate independently of the Website and are not supervised in any way by the www.SrebrnyGlob.pl website. These websites may have their own privacy policies and regulations, with which I recommend to read. ",
+        "p11": "If in doubt about any of the provisions of this privacy policy, I am at your disposal - my data can be found in the tab at the bottom of the page."
+    },
+    "cookies": {
+        "title": "What are cookies?",
+        "p1": "I would also like to know the recipe for cookies from a photo. In the IT context, 'Cookies' are text data that is stored on devices used by users, thanks to which you can use slightly more advanced websites. at least the type of device and remember your preferences (e.g. whether the page theme should be dark or light, font size, language, etc.). ",
+        "p2": "Cookies usually contain a website address, storage time on the user's device and their own unique identifier. They are used to optimize websites. They also help in collecting various statistical data (e.g. this website collects data on the number of visits to on a given day, month, type of device used by the user, etc.). ",
+        "p3": "These files provide programmers with information on how the website is used, so that in the future they can make appropriate changes, beneficial to the user. As for personal data, they are also stored using cookies, but can only be collected in order to perform specific functions and activities for the person using the website (such data should always be encrypted so that an unauthorized person would not have access to them). ",
+        "p4": "Cookies can be divided into",
+        "p5": " two kinds",
+        "p6": "Session cookies",
+        "p7": "- are stored during the website session, i.e. until the user does not interrupt the ongoing session (e.g. by logging out or leaving the website).",
+        "p8": "Permanent cookies",
+        "p9": "- are stored for a predefined time, which is defined as a parameter contained in the cookie file (in this case, the user can interfere with these files, for example, delete them). An example of this may be authorization on the website and granting access token - if it expires after a specified time, we are automatically logged out. ",
+        "p10": "By default, the software used for browsing websites allows cookies to be placed on the end device. The user may properly configure the browser to block the automatic acceptance of cookies or obtain information each time that a file is sent to the user's device. Relevant information on the use of cookies and possible configurations are available in the browser settings. The level of restrictions on the use of cookies may affect the availability and functionalities offered on the website, until the possibility of its proper use is blocked. "
+    },
+    "moonPhases": {
+        "new": "New Moon",
+        "waxingCrescent": "Waxing Crescent",
+        "q1": "First Quarter",
+        "waxingGibbous": "Waxing Gibbous",
+        "full": "Full Moon",
+        "wanningGibbous": "Wanning Gibbous",
+        "q3": "Last Quarter",
+        "wanningCrescent": "Wanning Crescent"
+    },
+    "moonBehavior": {
+        "increases": "Increases",
+        "reduces": "Reduces"
+    }
+}

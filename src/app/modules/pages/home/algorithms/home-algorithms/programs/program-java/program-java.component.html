@@ -1,0 +1,61 @@
+<code class="codebox" id="JavaProgram">
+    <p class="codebox__comment">// {{ 'homeAlgorithms.programs.java' | translate }}</p>
+    <p class="codebox__meta">                                    
+        <span class="codebox__meta--include">import </span>
+        <span class="codebox__meta--library" >java.util.Scanner</span>
+    </p>
+    <p class="codebox__function">
+        <span class="codebox__function--keywords">class </span>
+        <span class="codebox__function--keywords"> MoonWeight</span>
+        <span>{{ ' {' }}</span>
+    </p>
+    <p class="codebox__function margin__small">
+        <span class="codebox__function--keywords">public static void </span>
+        <span class="codebox__function--main">main </span>
+        <span>(String[] args) {{ '{' }}</span>
+    </p>
+    <div class="codebox__code margin__mid">
+        <p class="codebox__code__var">
+            <span class="codebox__code__var--arg">Scanner</span>
+            <span class="codebox__code__var--name"> sc</span> = 
+            <span class="codebox__code__var--new">new </span>
+            <span class="codebox__code__var--arg"> Scanner</span>(<span class="codebox__code__var--syntax">System.in</span>);
+        </p>
+        <p class="codebox__code__var">
+            <span class="codebox__code__var--type">double</span>
+            <span class="codebox__code__var--name"> userWeight</span>;
+        </p>
+        <p class="codebox__code__var">
+            <span class="codebox__code__var--type">double</span>
+            <span class="codebox__code__var--name"> result</span>;
+        </p>
+        <p class="codebox__code__var">
+            <span class="codebox__code__var--type">double</span>
+            <span class="codebox__code__var--name"> gravityValue</span> = 1.62;
+        </p>
+        <p class="codebox__code__syntax">
+            <span class="codebox__code__syntax--val">System.out.print</span>(
+            <span class="codebox__code__syntax--string">"Podaj swoja wage: "</span>); 
+        </p>
+        <p class="codebox__code__syntax">
+            <span class="codebox__code__syntax--arg">userWeight</span> =
+            <span class="codebox__code__syntax--arg">sc</span>.<span class="codeboxx__code__syntax--val">nextDouble()</span>;
+        </p>
+        <p class="codebox__code__syntax">
+            <span class="codebox__code__syntax--arg">result</span> = 
+            <span class="codebox__code__syntax--arg">userWeight</span> *
+            <span class="codebox__code__syntax--arg">gravityValue</span>;
+        </p>
+        <p class="codebox__code__syntax">
+            <span class="codebox__code__syntax--val">System.out.println</span>(
+            <span class="codebox__code__syntax--string">"Wynik: "</span> +
+            <span class="codebox__code__syntax--arg">result</span>);
+        </p>
+    </div>
+    <p class="codebox__code__end margin__small">
+        <span class="codebox__code__end--st">{{ '}' }}</span>
+    </p>
+    <p class="codebox__code__end">
+        <span class="codebox__code__end--nd">{{ '}' }}</span>
+    </p>
+</code>

@@ -1,0 +1,22 @@
+<div class="modal fade" id="sendNewsletterAlert" tabindex="-1" aria-labelledby="sendNewsletterAlert" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body rounded-2">
+        <div class="row modalContent">
+          <div class="col-12 modalContent__title">
+            <span class="modalContent__title--val">
+              {{ "alertsComponents.attention" | translate }}
+            </span>
+            <fa-icon [icon]="faTimes" class="fa-2x modalContent__title--icon" data-bs-dismiss="modal" title="Close">
+            </fa-icon>
+          </div>
+          <div class="col-12 modalContent__body">
+            <p class="modalContent__body--val">
+              <ng-content></ng-content>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

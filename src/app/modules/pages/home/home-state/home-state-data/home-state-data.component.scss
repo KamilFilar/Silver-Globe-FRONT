@@ -1,0 +1,16 @@
+@import "/src/assets/styling/variables.scss";
+
+.data {
+  padding: 8px;
+  border-bottom: 0.1px dashed rgb(45, 45, 45);
+
+  &--value {
+    margin-left: 3px;
+    font-weight: 600;
+    color: $fontColor;
+  }
+}
+
+.noneBorder {
+  border-bottom: none;
+}

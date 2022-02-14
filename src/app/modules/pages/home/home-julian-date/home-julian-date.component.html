@@ -1,0 +1,45 @@
+<div class="container-fluid">
+    <app-subtitle [value]="'homeJulianDate.title' | translate"></app-subtitle>
+
+    <div class="row justify-content-center" [ngClass]="fontSizeFunc()">
+        <div class="col-11 julianText">
+            <p class="julianText--1st">
+                {{ 'homeJulianDate.p1' | translate }}
+                <span class="julianText--date">{{ 'homeJulianDate.p2' | translate }}</span>
+                {{ 'homeJulianDate.p3' | translate }}
+            </p>
+            <p class="julianText--2nd">
+                {{ 'homeJulianDate.p4' | translate }}
+                <a class="julianText--href" [href]='link' target="_blank"> {{ 'homeJulianDate.clickThere' | translate }}</a>.
+                {{ 'homeJulianDate.p5' | translate }}
+            </p>
+        </div>
+        <div class="col-11">
+            <div class="row justify-content-center julianData">
+                <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-7 col-sm-10 col-11 julianData__out">
+                    <p class="julianData__out__text">
+                        {{ 'homeJulianDate.showDate' | translate }}
+                        <span class="julianData__out__text--val">
+                            {{ currentJulianDate }}
+                        </span>
+                    </p>
+                    <p class="julianData__out__text">
+                        {{ 'homeJulianDate.calcDate' | translate }}
+                        <span class="julianData__out__text--val">
+                            {{ calcJulianDate }}
+                        </span>
+                    </p>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-7 col-sm-10 col-11">
+                    <mat-form-field class="example-full-width" appearance="fill" class="datapicker">
+                        <mat-label>{{ 'homeJulianDate.checkDate' | translate }}</mat-label>
+                        <input matInput [matDatepicker]="picker" (dateInput)="addEvent('input', $event)"
+                            (dateChange)="addEvent('change', $event)" />
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                    </mat-form-field>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

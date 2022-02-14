@@ -9,17 +9,17 @@ export class NewsletterService {
 
   basicURL = 'http://localhost:8080/api/newsletter/';
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   headers = new HttpHeaders({
     'Content-Type': 'application/json'
   })
 
-  addNewEmail(email: String){
+  addNewEmail(email: String) {
     const body = JSON.stringify({
       email: email
     })
 
-    return this.http.post(this.basicURL, body, {headers: this.headers }).toPromise();
+    return this.http.post(this.basicURL, body, { headers: this.headers }).toPromise();
   }
 }

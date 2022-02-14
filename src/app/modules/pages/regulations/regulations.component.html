@@ -1,0 +1,64 @@
+<app-navbar></app-navbar>
+<div class="container-fluid fadeIn">
+    <div class="row justify-content-center regulations">
+        <div class="col-sm-10 col-11">
+            <app-subtitle [value]="'politics.title' | translate"></app-subtitle>
+            <p class="regulations__firstLast" [ngClass]="fontSizeFunc()">
+                {{ "politics.p0" | translate }}
+                <span class="regulations__firstLast--name">{{
+                    "politics.name" | translate
+                    }}</span>
+            </p>
+            <p class="regulations__text" [ngClass]="fontSizeFunc()">
+                <span class="regulations__text--number">1.</span>
+                {{ "politics.p1" | translate }}
+            </p>
+            <p class="regulations__text" [ngClass]="fontSizeFunc()">
+                <span class="regulations__text--number">2.</span>
+                {{ "politics.p2" | translate }}
+            </p>
+            <p class="regulations__text--special">KRS: XYZ</p>
+            <p class="regulations__text--special">NIP: XYZ</p>
+            <p class="regulations__text--special">REGON: XYZ</p>
+            <p class="regulations__text" [ngClass]="fontSizeFunc()">
+                <span class="regulations__text--number">3.</span>
+                {{ "politics.p3" | translate }}
+            </p>
+            <p class="regulations__text" [ngClass]="fontSizeFunc()">
+                <span class="regulations__text--number">4.</span>
+                {{ "politics.p4" | translate }}
+            </p>
+            <p class="regulations__text" [ngClass]="fontSizeFunc()">
+                <span class="regulations__text--number">5.</span>
+                {{ "politics.p5" | translate }}
+            </p>
+            <p class="regulations__text--special">{{ "politics.p5a" | translate }}</p>
+            <p class="regulations__text--special">{{ "politics.p5b" | translate }}</p>
+            <p class="regulations__text" [ngClass]="fontSizeFunc()">
+                <span class="regulations__text--number">6.</span>
+                {{ "politics.p6" | translate }}
+            </p>
+            <p class="regulations__text" [ngClass]="fontSizeFunc()">
+                <span class="regulations__text--number">7.</span>
+                {{ "politics.p7" | translate }}
+            </p>
+            <p class="regulations__text" [ngClass]="fontSizeFunc()">
+                <span class="regulations__text--number">8.</span>
+                {{ "politics.p8" | translate }}
+            </p>
+            <p class="regulations__text" [ngClass]="fontSizeFunc()">
+                <span class="regulations__text--number">9.</span>
+                {{ "politics.p9" | translate }}
+            </p>
+            <p class="regulations__text" [ngClass]="fontSizeFunc()">
+                <span class="regulations__text--number">10.</span>
+                {{ "politics.p10" | translate }}
+            </p>
+            <p class="regulations__firstLast" [ngClass]="fontSizeFunc()">
+                {{ "politics.p11" | translate }}
+            </p>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

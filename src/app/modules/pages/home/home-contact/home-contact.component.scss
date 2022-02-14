@@ -1,0 +1,67 @@
+@import "/src/assets/styling/variables.scss";
+@import "/src/assets/styling/material/input.scss";
+
+.container-fluid {
+  background-image: linear-gradient(
+      to bottom,
+      $bgColorDark,
+      rgba(255, 255, 255, 0) 98%,
+      $bgColorDark
+    ),
+    url("./../../../../../assets/images/home-contact/earthUniv.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 100px 0;
+  margin: 10px 0 10px 0;
+  transition-duration: 0.25s;
+}
+
+.contact {
+  &--bg {
+    padding: 10px 15px 20px 15px;
+    background: rgba(20, 20, 20, 0.75);
+    border: 1px solid rgba(255, 166, 0, 0.65);
+    border-radius: 8px;
+    height: auto;
+  }
+
+  &__text {
+    text-indent: $valueOfIndent;
+    font-size: $fontSizeLittle;
+  }
+
+  &__comment {
+    margin: 5px 0;
+  }
+
+  &--error {
+    color: $red;
+    font-weight: 600;
+  }
+}
+
+input:focus{
+  background: none;
+  color: white;
+}
+
+mat-form-field {
+  margin: 15px auto;
+  border: 1px solid $orange;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 992px) {
+  .container-fluid {
+    padding-top: 50px;
+    transition-duration: 0.25s;
+  }
+
+  .contact {
+    &--bg {
+      padding: 10px 15px 10px 15px;
+    }
+  }
+}

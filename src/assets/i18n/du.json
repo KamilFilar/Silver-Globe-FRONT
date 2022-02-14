@@ -1,0 +1,391 @@
+{
+    "copySucces": "Erfolgreich kopiert!",
+    "loginComponent": {
+        "loginPanelTitle": "Login panel",
+        "font": {
+            "fontTitle": "Schriftart",
+            "plus": "Zoom +",
+            "minus": "Zoom -"
+        },
+        "lang": "Sprache",
+        "email": "E-mail adresse",
+        "pass": "Passwort",
+        "logIn": "Einloggen",
+        "goToDashboard": "Dashboard",
+        "iconMsg": "Sie können derzeit kein Konto haben!"
+    },
+    "cookiesModalComponent": {
+        "p1": "Eine weitere Cookie-Information, die Sie nicht einmal beachten werden, aber ich muss Sie darüber informieren.",
+        "p2": "Zu welchen Zwecken Cookies auf dieser Website verwendet werden, und eine Erklärung dazu auf der Unterseite:",
+        "p3": "Indem Sie weiter auf der Seite surfen, stimmen Sie deren Verwendung zu, ansonsten googeln Sie weiter!",
+        "btn": {
+            "accept": "Akzeptieren",
+            "unaccept": "Ablehnen"
+        }
+    },
+    "alertsComponents": {
+        "attention": "Achtung!",
+        "email": "Email",
+        "sendDate": "Datum gesendet"
+    },
+    "pageNotFound": {
+        "p1": "Ups! Hinterhältige Aliens haben etwas kaputt gemacht und",
+        "p2": "wir können die angegebene Seite nicht finden",
+        "p3": "Um zur Hauptseite zurückzukehren, verwenden Sie die Schaltfläche unten:",
+        "btnText": "Zurück",
+        "casueInfo": "Wahrscheinliche Fehlerursachen:",
+        "casue1": "Ungültige Seiten- oder Unterseiten-URL.",
+        "casue2": "Die Site kann aufgrund eingeführter Änderungen vorübergehend nicht verfügbar sein.",
+        "casue3": "Unsaubere Cache-(Cache-)Dateien und Browser-Cookies.",
+        "casue4": "Malware, die eine Fehlermeldung auf bestimmten Seiten und deren Unterseiten erzwingt"
+    },
+    "homeWelcome": {
+        "btnText": "Entdecken"
+    },
+    "homeState": {
+        "behavior": "Mond:",
+        "illumination": "Beleuchtung des Mondes:",
+        "title": "Aktueller Status",
+        "date": "Angegebenes Datum:",
+        "phase": "Mondphase:",
+        "calcPhase": "Exakter Phasenwert:",
+        "age": "Mondalter:",
+        "Verhalten": "Mond:",
+        "howFarIsMoon": "Entfernung von der Erde:",
+        "nextNewMoon": "Ein weiterer Neumond wird erscheinen:"
+    },
+    "homeStateMore": {
+        "description": "Geben Sie das gewünschte Datum in das Feld unten ein oder klicken Sie auf das Kalendersymbol, um es auszuwählen.",
+        "checkDate": "Wählen Sie ein Datum aus"
+    },
+    "homeCalendar": {
+        "title": "Mondkalender",
+        "selectedDate": "Ausgewähltes Datum:",
+        "phase": "Mondphase:",
+        "nextNew": "Nächster Neumond:",
+        "nextFQ": "Nächstes erstes Quartal:",
+        "nextFull": "Nächster Vollmond:",
+        "nextLQ": "Nächstes letztes Quartal:"
+    },
+    "homeJulianDate": {
+        "title": "Julianisches Datum",
+        "p1": "Sie wissen wahrscheinlich schon ein wenig über julianischen Daten aus dem Informationsteil, aber wenn Sie es nicht gelesen haben (siehe, siehe), dann müssen Sie wissen, dass dies das Datum ist, das für astronomische Berechnungen verwendet wird und am häufigsten gefunden wird unter dem Symbol: JD Nach dieser Berechnung kann es jedem Tag nach dem Datum zugeordnet werden: ",
+        "p2": "1. Januar 4713 v. Chr.",
+        "p3": "eindeutige Zahl.",
+        "p4": "Unten wird das aktuelle Datum in Julianischer Notation angezeigt (es wurde für den Zeitpunkt berechnet, zu dem die Seite geladen wurde). Wenn Sie ein eigenes Programm schreiben möchten, hier ist ein Link zu der Seite, auf der Sie eine Beschreibung finden, Schritt für Schritt wie ein solcher Algorithmus zu tun: ",
+        "clickThere": "hier klicken",
+        "p5": "Sie können Ihr Ergebnis mit den folgenden Werten vergleichen, aber denken Sie daran, dass sich die erhaltenen Werte im Bruchteil unterscheiden können.",
+        "showDate": "Aktuelles Julian Date:",
+        "calcDate": "Berechnetes Datum:",
+        "checkDate": "Wählen Sie ein Datum aus"
+    },
+    "homeIntrestingFacts": {
+        "title": "Interessante Fakten",
+        "intrestingFact": "Neugier",
+        "table": {
+            "1": "Die durchschnittliche Entfernung vom Erdmittelpunkt zum Mondmittelpunkt beträgt 384.403 km.",
+            "2": "Die Mondoberfläche ist etwas größer als die Fläche des afrikanischen Kontinents.",
+            "3": "Es gibt keine 'dunkle Seite' des Mondes. Tatsächlich werden beide Seiten gleichermaßen von der Sonne beleuchtet, aber nur eine ist von der Erde aus sichtbar.",
+            "4": "Mons Huygens (ausgesprochen Hajgens) ist mit 4700 Metern der höchste Berg auf dem Mond.",
+            "5": "Der Mond umrundet die Erde eine Strecke von 2.413.402 km.",
+            "6": "Der Mond entfernt sich alle 100 Jahre mit einer Geschwindigkeit von 3 cm von der Erde.",
+            "7": "Obwohl der Mond hell am Nachthimmel scheint, erzeugt er kein eigenes Licht. Wir sehen den Mond, weil er Sonnenlicht reflektiert.",
+            "8": "Die Periode der Erdumlaufbahn um den Mond wird siderischer Monat genannt und dauert 27,3 Tage.",
+            "9": "Eine Mondfinsternis (total oder partiell) tritt auf, wenn sich die Erde zwischen Mond und Sonne befindet.",
+            "10": "Der Mond ist der fünftgrößte Mond im Sonnensystem."
+        },
+        "previous": "Zurück",
+        "next": "Weiter"
+    },
+    "homeContact": {
+        "title": "Kontakt",
+        "text": "Wenn Sie eine Idee für die Entwicklung der Website haben, einen Fehler bemerken, mich über wichtige Themen dieser Website informieren oder sich vom Newsletter abmelden möchten, können Sie das untenstehende Formular verwenden. Einfach ausfüllen die erforderlichen Felder mit den entsprechenden Daten, und die Nachricht wird mir zügig zugestellt! Ich antworte in der Regel innerhalb weniger Werktage an die im Formular angegebene Adresse. ",
+        "yourEmail": "Ihre E-Mail Adresse",
+        "subject": "Thema",
+        "content": "Nachrichteninhalt",
+        "btnText": "Senden",
+        "required": "Das Feld ist nicht erforderlich.",
+        "msg": {
+            "modalSuccess": "Nachricht erfolgreich gesendet!",
+            "modalError": "Ein Fehler ist aufgetreten! Die Nachricht konnte nicht gesendet werden!",
+            "required": "Das obige Feld ist Pflicht!",
+            "error": "Bitte geben Sie eine gültige E-Mail-Adresse in Kleinbuchstaben ein!"
+        }
+    },
+    "homeAlgorithms": {
+        "api": {
+            "p1": "API ist ein Skin von Application Programming Interface, das für eine Programmierschnittstelle steht. API ist ein Regelwerk, das genau beschreibt, wie Programme oder Unterprogramme miteinander kommunizieren. Es ist das Hauptverbindungselement, das es Ihnen ermöglicht, Daten zu kombinieren und Geräte in eine Anwendung und stellen ein großes Netzwerk von Verbindungen zusammen, dank dem wir keine monolithische Anwendung erstellen müssen (es erleichtert die Arbeit der Programmierer viel). ",
+            "p2": "Oh, dank der API können Anwendungen miteinander kooperieren. Es gibt keine Einschränkungen bei der Verwendung der API, sie kann von einer Privatperson oder von jeder globalen Marke (je nach Lizenz) verwendet werden. Aus technischer Sicht ist die API der Code, der alle Anwendungs- oder Serverzugriffspunkte steuert. ",
+            "p3": "API spielt eine wichtige Rolle in der modernen Internet-Infrastruktur, denn ohne Anwendungsprogrammierschnittstellen müssten Benutzer ständig zwischen verschiedenen Anwendungen 'springen', um gewünschte Funktionen darin manuell zu füllen. Dieser Dienst, dank dem Sie viel sparen können Zeit in Ihrem Projekt.",
+            "getActualJD": "Die Abfrage gibt das aktuelle Julianische Datum zurück. Sie benötigt keine Parameter.",
+            "getParamsJD": "Die Abfrage gibt ein Julianisches Datum für ein gegebenes Datum zurück. Erforderliche Parameter (Typ: Zahl): Tag, Monat, Jahr, Stunde, Minute, Sekunde.",
+            "getCurrentPhase": "Die Abfrage gibt die aktuelle Mondphase zurück. Sie benötigt keine Parameter.",
+            "getPhase": "Die Abfrage liefert die Mondphase für das angegebene Datum. Erforderliche Parameter (Typ: Zahl): Tag, Monat, Jahr, Stunde, Min, Sek.",
+            "getSunInfo": "Die Abfrage gibt den aktuellen Abstand zur Sonne zurück (Abfrage wird erweitert). Benötigt keine Parameter.",
+            "moreBtn": "Mehr",
+            "copyBtn": "Kopieren"
+        },
+        "algorithms": {
+            "title": "Algorithmen",
+            "p1": "In der heutigen Welt arbeitet Physik eng mit der Informatik zusammen. Wir müssen uns bewusst machen, dass halsbrecherische Berechnungen mit dem modernen Fortschritt der Technik einfach Zeitverschwendung sind, weil wir sie in richtig geschriebene Programme auslagern können.",
+            "p2": "Das Erstellen von Algorithmen führt uns in die Welt der mathematischen Abstraktion, komplizierter Konzepte, komplizierter Berechnungen. Programmieren lernen bedeutet nicht nur das Tippen seltsamer Zeichenfolgen, bedeutungsloser Linien - es ist auch die Kunst, die Welt zu verstehen und zu beschreiben.",
+            "p3": "Programmieren ist die Freiheit von Lösungen und Ideen, denn die unten vorgestellten Codes lösen das gleiche Problem (Bestimmung des Gewichts auf dem Mond für die Masse eines gegebenen Objekts) in vier verschiedenen, computerverständlichen Sprachen."
+        },
+        "stepList": {
+            "title": "Schrittliste",
+            "p1": "Unten wird dargestellt, welche Schritte der Algorithmus ausführen muss, um das Gewicht des Benutzers auf dem Mond korrekt zu berechnen.",
+            "Schritt": {
+                "1": "Deklaration von Variablen vom numerischen Typ: userWeight, gravityValue und result.",
+                "2": "Der Benutzer gibt sein Gewicht ein und es wird der Variable userWeight zugewiesen.",
+                "3": "Die Variable result erhält den Wert von userWeight multipliziert mit GravityValue.",
+                "4": "Das in der Variablen result enthaltene Ergebnis wird auf dem Bildschirm ausgegeben."
+            },
+            "steps": {
+                "s1": "Schritt 1:",
+                "s2": "Schritt 2:",
+                "s3": "Schritt 3:",
+                "s4": "Schritt 4:"
+            }
+        },
+        "programs": {
+            "c": "C-Programm",
+            "cplus": "Programm in C++",
+            "java": "Java-Programm",
+            "python": "Python-Programm",
+            "copyCodeBtn": "Kopieren"
+        },
+        "weight": {
+            "yourWeight": "Gewicht eingeben",
+            "moon": "Gewicht auf dem Mond",
+            "earth": "Gewicht auf der Erde"
+        }
+    },
+    "homeInfo": {
+        "title": "Ein paar Worte zum Mond",
+        "blueMoon": {
+            "p1": "- dies geschieht alle zwei bis drei Jahre. Bezieht sich auf den dritten Vollmond einer Jahreszeit mit vier Vollmonden und korrigiert damit den sonst zu früh zu erwartenden Zeitpunkt des letzten Monats der Jahreszeit. Jedes Kalenderjahr enthält etwa 11 Tage mehr als die Anzahl der Tage in den 12 Mondzyklen. Zusätzliche Tage sammeln sich an, so dass alle zwei oder drei Jahre (siebenmal im 19-jährigen methonischen Zyklus) während des Jahres ein zusätzlicher Vollmond kommt, der zwangsläufig fällt in einer der vier Jahreszeiten, die in dieser Jahreszeit vier Vollmonde statt der üblichen drei gibt, und damit einen 'blauen' Mond. ",
+            "p2": "Der Name hat nichts mit der Farbe des Zifferblatts zu tun. Der Silver Globe wird nicht blau, sondern soll nur die Seltenheit dieses Phänomens betonen. Der Mondeffekt mit einem bläulichen Schimmer kann beispielsweise auftreten unter atmosphärischen Bedingungen wie Vulkanausbrüchen oder bei Bränden durch Partikel Die entstehenden Wolken enthalten eine Mischung aus Partikeln unterschiedlichster Größe, von denen die meisten kleiner als 1 Mikrometer sind und dazu neigen, blaues Licht zu streuen, zum Beispiel nach den Waldbränden in Schweden und Kanada 1950 und 1951 und nach dem Ausbruch des Krakatau 1883, der den Mond fast zwei Jahre lang blau erscheinen ließ."
+        },
+        "kordylewski": {
+            "t1": "Die Monde von Kordylewski",
+            "p1": "- neben dem natürlichen Mondsatelliten gibt es auch zwei Staubwolken, die als staubige Erdsatelliten die Erde umkreisen. Sie wurden vor fast 60 Jahren vom polnischen Astronomen Kazimierz Kordylewski entdeckt. Diese Entdeckung wurde jedoch eher behandelt als Hypothese aufgrund der Schwierigkeiten bei der Beobachtung dieser Objekte. ",
+            "p2": "Kordylewski bestätigte ihre Existenz, indem er die schwache lokale Aufhellung des Himmelshintergrunds an Stellen beobachtete, die der Lage der Librationspunkte entsprechen und von diffusem Sonnenlicht auf Staubdichten stammen. Staubmonde zeigen mondähnliche Phasen. Eine Wolke, die vor dem Mond vorbeizieht, hat die größte Helligkeit zwei Tage nach dem ersten Viertel und die zweite Wolke zwei Tage vor dem letzten Viertel. ",
+            "p3": "Staubwolken befinden sich an den Librationspunkten L4 und L5 der Mondbahn, die gleichzeitig mit dem Mond die Erde umkreisen. Diese Punkte bilden die Eckpunkte gleichseitiger Dreiecke, deren Seiten dem Radius des Mondes entsprechen L4 und L5 sind nicht vollständig stabil, weil sie durch die Anziehungskraft der Sonne gestört werden. Es wird jedoch angenommen, dass sie Orte sind, an denen sich interplanetarer Staub zumindest vorübergehend ansammeln kann. Staubwolken sind extrem schwer zu beobachten, weil sie eine sehr geringe Oberflächenhelligkeit."
+        },
+        "mission": {
+            "t1": "Mondforschung",
+            "p1": "- die Entwicklung großer Flüssigtreibstoff-Raketentriebwerke im frühen 20 Astronomie), die seit Jahrtausenden betrieben wurde. Derzeitige Gründe für die Erforschung des Weltraums umfassen den wissenschaftlichen Fortschritt und die Sicherung des Überlebens der Menschheit. ",
+            "p2": "Ein natürlicher Schritt bei der Erforschung des Weltraums ist es, unseren natürlichen Satelliten, den Mond, kennenzulernen. Der erste Schritt auf dem Gebiet der Mondbeobachtung wurde mit der Erfindung des Teleskops gemacht: Galileo beobachtete mit einem neuen Instrument Krater und Bergketten auf seiner Oberfläche. Der Weltraumwettlauf im Kalten Krieg zwischen den USA und der Sowjetunion führte zu einem deutlichen Anstieg des Interesses an dem terrestrischen Satelliten. Unbemannte Sonden, sowohl die den Mond passierten als auch auf seiner Oberfläche landeten, wurden unmittelbar nach der technologischen Entwicklung gesendet Entwicklungen haben dies möglich gemacht. Sie finden eine vollständige Liste der mondbezogenen Missionen",
+            "p3": "Die Mondlandung der ersten Menschen im Jahr 1969 gilt als Höhepunkt des Weltraumrennens im Kalten Krieg. Neil Armstrong, der Kommandant von Apollo 11, war der erste Mensch, der den Silver Globe auftauchte und als erster seinen Fuß betrat der Mond in genau der gleichen Entfernung, 02:56 GMT am 21. Juli 1969 (rechts im Bild ist der Astronaut Buzz Aldrin, der von Neil Amstrong fotografiert wurde). Mitglied der Apollo 17-Mission im Dezember 1972. ",
+            "p4": "Etwas anderes wird gut."
+        },
+        "julianDate": {
+            "t1": "Julianische Tage",
+            "p1": "- Das Datum der Julianischen Tage wurde 1583 von Joseph Scaliger festgelegt. Er nannte die neue Art der Datumszählung zu Ehren seines Vaters Julius Caesar Scaligero 'Julianische Tage'. Das Julische Datum ist die Anzahl der Tage, die seit dem 1. Januar 4713 v Berechnungen...",
+            "t2": "Ein Julianisches Datum einstellen",
+            "p2": "- bis 1925 begann der astronomische Tag mittags um 12:00 UTC, daher beginnen die Tage mittags. Um die Uhrzeit eines Ereignisses in dieser Berechnung darzustellen, wird die julianische Tageszahl zum Bruchteil, der den Bruchteil eines Tages angibt, der seit 12:00 Uhr mittags verstrichen ist Julian Date) wird immer häufiger verwendet.",
+            "t3": "Anwendung",
+            "p3": "- aufgrund der einfachen Zählweise werden Julianische Tage in fast allen komplizierten astronomischen Algorithmen verwendet. Dieses System wird auch bei variablen Sternbeobachtern oder im internationalen Weltzeitsystem verwendet, zum Beispiel berechnen wie viele Tage zwischen den angegebenen Daten vergangen sind, subtrahieren Sie einfach die julianischen Tage (weniger als die größere Zahl). Nach dem Subtrahieren können Sie feststellen, wie viele Tage zwischen einem Datum und dem anderen liegen. "
+        },
+        "health": {
+            "t1": "Auswirkungen auf die Gesundheit",
+            "p1": "- der Mond durchläuft verschiedene Phasen und jede von ihnen emittiert unterschiedlich viel Licht. Je nach Mondphase zeigt der menschliche Körper ein unterschiedliches Verhalten. Die Wirkung des Vollmonds auf Ebbe und Flut von der Meere und Ozeane ist wissenschaftlich belegt. Der Vollmond hat eine ähnliche Wirkung auf den Körper. Viele Menschen klagen zu dieser Zeit über Schlaflosigkeit und Einschlafschwierigkeiten, manche bemerken einen gesteigerten Appetit. Tagsüber kann es zu Konzentrationsproblemen, irrationales Verhalten, Stimmungsschwankungen oder Irritationen.",
+            "p2": "Während des Vollmondes ist die Produktion des sogenannten Glückshormons Serotonin gestört, was zu Schlaflosigkeit oder gesteigertem Appetit führt. Es kann auch das Kreislaufsystem, das weibliche Fortpflanzungssystem und die Funktion des Darms.Die Mondphasen sind von besonderer Bedeutung für Wenn ihr Körper so funktioniert wie er ist, treten ihre Menstruationsblutungen um den Neumond und der Eisprung um den Vollmond auf. Bemerkenswert ist auch der enge Zusammenhang zwischen den Mond und die Leber, was sich wiederum auf die Blutqualität und Energie des gesamten Körpers auswirkt."
+        },
+        "addmission": {
+            "t1": "Mond",
+            "p1": "(lateinisch Luna) - dies ist der einzige natürliche Satellit der Erde, aber Sie müssen bedenken, dass es auch Kordylewski-Monde gibt, über die Sie etwas später erfahren werden. Unser Mond ist der fünftgrößte der Monde im Sonnensystem Die Entfernung vom Mittelpunkt der Erde zum Mittelpunkt des Mondes variiert (genauer Wert unten), aber die durchschnittliche Entfernung wird mit 384 399 km angenommen Der Durchmesser des Mondes beträgt 3474 km und die die Gravitationsbeschleunigung auf seiner Oberfläche ist fast 6-mal schwächer als auf der Erde Der Mond umkreist die Erde in 27,3 Tagen (der sogenannte siderische Monat) und periodische Änderungen in der Geometrie des Erdsystems – Der Mond – die Die Sonne bewirkt das Auftreten der Mondphasen, die sich in einem 29,53-Tage-Zyklus (dem sogenannten synodischen Monat) wiederholen.",
+            "t2": "Synodischer Monat",
+            "p2": "- (oder anders ausgedrückt: Mondphase) ist die mittlere Zeit zwischen dem Neumond. Es wird angenommen, dass der synodische Monat 29 Tage 12 Stunden 44 Minuten und 3 Sekunden dauert. Der synodische Monat ist mehr als 2 Tage länger als der siderische Monat. Dieser wird benötigt, um den Mond in Bezug auf die Sonne-Erde-Linie wieder in die gleiche Position zu bringen. ",
+            "t3": "Sideric Monat",
+            "p3": "- auch als siderischer Monat bekannt, ist die durchschnittliche Zeit, in der der Mond die Erde umkreist. Er dauert 27 Tage 7 Stunden 43 Minuten und 11,5 Sekunden. Er ist also kürzer als der Synodische Monat.",
+            "t4": "Mondphasen",
+            "p4": "werden verwendet, um zu bestimmen, welcher Teil des Mondes von der Sonne beleuchtet wird und daher von der Erde aus sichtbar ist. Die Sonne beleuchtet immer nur die Hälfte der Mondoberfläche, daher sind diese Phasen das Ergebnis der Betrachtung derselben Hälfte aus verschiedenen Winkel aufgrund unterschiedlicher Positionen von Sonne, Erde und Mond in Bezug auf Es gibt 4 Phasen: ",
+            "p5": "Denken Sie daran, dass die Mondphasen einander entgegengesetzt sind, je nachdem, ob wir uns auf der Nord- oder Südhalbkugel der Erde befinden.",
+            "phase": {
+                "new": "Neumond",
+                "q1": "Erstes Quartal",
+                "full": "Fülle",
+                "q3": "Letztes Quartal",
+                "descNew": "- ist, wenn der Mond mit bloßem Auge von der Erdoberfläche aus nicht zu sehen ist (beruflich gesprochen steht der Mond von der Erde aus in Konjunktion mit der Sonne).",
+                "descQ1": "- Die Erde, der Mond und die Sonne bilden einen rechten Winkel zueinander. Der Mond nähert sich zu diesem Zeitpunkt einem Vollmond. Zu diesem Zeitpunkt ist nur der östliche Teil des Mondes für Beobachter auf der Erde sichtbar .",
+                "descFull": "- die Mondphase, in der der Mond der Sonne entgegengesetzt ist, d.h. wenn sich der Mond auf der der Sonne gegenüberliegenden Seite der Erde befindet, damit wir die vollständig beleuchtete Mondscheibe beobachten können",
+                "descQ3": "- In dieser Phase bilden Erde, Mond und Sonne auch einen rechten Winkel zueinander. Zu diesem Zeitpunkt ist für Beobachter auf der Erde nur die westliche Seite der sichtbaren Seite des Mondes sichtbar."
+            }
+        }
+    },
+    "navbar": {
+        "brand": {
+            "t1": "Silber",
+            "t2": "Glob",
+            "t3": ".pl"
+        },
+        "items": {
+            "state": "Aktueller Zustand",
+            "info": "Informationen",
+            "intresting": "Interessante Fakten",
+            "calendar": "Kalender",
+            "algorithms": "Algorithmen",
+            "contact": "Kontakt"
+        }
+    },
+    "collapse-btn": {
+        "text0": "Ausblenden",
+        "text1": "Mehr"
+    },
+    "footer": {
+        "quotation": {
+            "p1": "Perfektionismus ist gut",
+            "p2": " Ideal und Richtung, ",
+            "p3": "aber",
+            "p4": "ein",
+            "p5": "unmöglich",
+            "p6": "",
+            "p7": "Ziel"
+        },
+        "newsletter": {
+            "text": "Sie möchten nicht von den Neuigkeiten auf der Website übersehen werden? Sie möchten schneller als andere über alle anstehenden Änderungen informiert werden? Jetzt unseren Newsletter abonnieren!",
+            "errRequired": "E-Mail ist erforderlich!",
+            "errInvalid": "E-Mail ist ungültig!",
+            "btnSubscribe": "Abonnieren",
+            "btnClear": "Klar",
+            "invalid": "Ein Fehler ist aufgetreten! Der Newsletter konnte nicht abonniert werden.",
+            "exist": "Diese E-Mail ist bereits in unserer Datenbank!",
+            "allOk": "Erfolgreich für den Newsletter angemeldet!"
+        },
+        "about": {
+            "text1": "Die Seite, die Sie besuchen, ist Teil der im Jahr 2021 erstellten Ingenieurarbeit. Die Motivation für ihre Erstellung bestand darin, Benutzer mit den Problemen im Zusammenhang mit dem natürlichen Satelliten der Erde vertraut zu machen",
+            "text2": "und eine Präsentation der Algorithmen für die Berechnungen des Mondes. Die Website wird in Zukunft eine mobile Anwendung haben, die ähnliche Funktionalitäten bietet."
+        },
+        "reference": {
+            "usefullTitle": "Es kann nützlich sein",
+            "contactTitle": "Kontakt",
+            "politics": "Datenschutzerklärung",
+            "author": "Über den Autor",
+            "git": "Mein Github",
+            "fb": "Mein Profil",
+            "copyBtn": "Kopieren"
+        }
+    },
+    "admin": {
+        "title": "Admin-Panel",
+        "lastUpdate": "Zuletzt aktualisiert: ",
+        "sidebar": {
+            "title": "Verwalten",
+            "views": "Ansichten",
+            "ai": "Vorhersage",
+            "return": "Zurück",
+            "logout": "Abmelden"
+        },
+        "general": {
+            "mobileDesktop": {
+                "today": "Heute",
+                "yesterday": "Gestern",
+                "usersUse": "Benutzer haben verwendet:",
+                "stats": "Statistik von",
+                "act": "aktuell",
+                "month": "Monat",
+                "browsers": "Welche Browser haben Benutzer diesen Monat verwendet"
+            },
+            "visits": {
+                "weekBASIC": "Anzahl in den letzten sieben Tagen:",
+                "weekBASIC2": "Wochenübersicht:",
+                "todayText": "Heute ",
+                "today": "wurde die Website besucht von:",
+                "yesterdayText": "Gestern ",
+                "yesterday": "besuchte Website:",
+                "total": "Seitenaufrufe insgesamt: ",
+                "unique": "Einzigartige Seitenaufrufe: ",
+                "normal": "Wiederholte Seitenaufrufe: ",
+                "sixMonths": "Besuche in den letzten sechs Monaten:",
+                "currentMonth": "Besuche diesen Monat:",
+                "title1": "Ansichten relativ zur Welt:",
+                "title2": "Alle eindeutigen Seiteneinträge nach Land:",
+                "countryVisit": "Anzahl der Besucherländer:",
+                "numZones": "Anzahl der Zeitzonen:",
+                "userFrom": "Normalerweise stammt der Benutzer von:",
+                "uniqueVies": "eindeutige Einträge.",
+                "usersZone": "Ihre Zeitzone ist:"
+            },
+            "session": {
+                "time": "Durchschnittliche Sitzungsdauer:",
+                "unit": "sec",
+                "week": "Statistik der letzten sieben Tage:"
+            }
+        },
+        "ai": {
+            "predictViews": "Erwartete Anzahl von Einträgen",
+            "predictSession": "Vorhergesagte Sitzungsdauer",
+            "predToday": "morgen",
+            "predWeek": "Woche",
+            "predMonth": "Monat",
+            "charWeek": "Diagramm der Sitzungsdauer",
+            "next7days": "in den nächsten sieben Tagen",
+            "unit": "sec"
+        },
+        "newsletter": {
+            "users": {
+                "titleFind": "Suchen",
+                "titleRemove": "Entfernen",
+                "email": "E-Mail",
+                "findBtn": "Suchen",
+                "removeBtn": "Löschen",
+                "addressEmail": "E-Mail Adresse"
+            },
+            "sendEmail": {
+                "writeEmail": "Nachricht schreiben",
+                "sendBtn": "Senden",
+                "content": "Inhalt",
+                "subject": "Betreff",
+                "target": "Die Zieladresse der Nachricht",
+                "warning": "Warnung!",
+                "warnMsg": "Wenn Sie den Betreff der Nachricht und die Zieladresse leer lassen, wird der angegebene Inhalt als Newsletter-Nachricht an alle Benutzer in der Datenbank gesendet!"
+            }
+        }
+    },
+    "politics": {
+        "title": "Datenschutzerklärung",
+        "p0": "Datenschutzerklärung der Website",
+        "name": "www.SilverGlob.pl",
+        "p1": "Diese Datenschutzrichtlinie legt die Regeln für die Verarbeitung und den Schutz personenbezogener Daten fest, die von Benutzern im Zusammenhang mit ihrer Nutzung der XYZ-Dienste über die Website bereitgestellt werden.",
+        "p2": "Der Administrator der auf der Website enthaltenen personenbezogenen Daten ist XYZ mit Sitz in XYZ.",
+        "p3": "Aus Sorge um die Sicherheit der mir anvertrauten Daten habe ich interne Verfahren und Empfehlungen entwickelt, um die Weitergabe von Daten an Unbefugte zu verhindern. elektronische sowie alle Arten von Durchführungsrechtsakten und Rechtsakten des Gemeinschaftsrechts. ",
+        "p4": "Personenbezogene Daten werden auf Grundlage der Zustimmung des Benutzers verarbeitet und in Fällen, in denen das Gesetz den Administrator ermächtigt, personenbezogene Daten auf der Grundlage der gesetzlichen Bestimmungen zu verarbeiten oder den zwischen den Parteien geschlossenen Vertrag auszuführen.",
+        "p5": "Die Website sammelt Informationen über Benutzer und deren Verhalten auf folgende Weise:",
+        "p5a": "a) durch freiwillig in Formulare eingegebene Informationen",
+        "p5b": "b) durch das Sammeln von Cookies [siehe Unterseite 'Cookies'].",
+        "p6": "Die Website sammelt freiwillige Angaben des Nutzers.",
+        "p7": "Die im Formular angegebenen Daten werden zu dem Zweck verarbeitet, der sich aus der Funktion eines bestimmten Formulars ergibt.",
+        "p8": "Die auf der Website hinterlassenen personenbezogenen Daten werden gemäß den Bestimmungen des Datenschutzgesetzes weder verkauft noch an Dritte weitergegeben.",
+        "p9": "Ich behalte mir das Recht vor, die Datenschutzerklärung dieser Website zu ändern, die durch die Entwicklung der Internettechnologie, mögliche Gesetzesänderungen im Bereich des Datenschutzes und die Weiterentwicklung meiner Website beeinflusst werden kann. Ich werde über Änderungen sichtbar und verständlich informieren.",
+        "p10": "Die Website kann Links zu anderen Websites enthalten. Diese Websites funktionieren unabhängig von der Website und werden in keiner Weise von der Website www.SrebrnyGlob.pl überwacht. Diese Websites können ihre eigenen Datenschutzrichtlinien und -bestimmungen haben, mit denen Ich empfehle zu lesen.",
+        "p11": "Wenn Sie Zweifel an einer der Bestimmungen dieser Datenschutzerklärung haben, stehe ich Ihnen gerne zur Verfügung - meine Daten finden Sie in der Registerkarte am Ende der Seite."
+    },
+    "cookies": {
+        "title": "Was sind Cookies?",
+        "p1": "Ich würde auch gerne das Rezept für Cookies von einem Foto wissen. Im IT-Kontext sind 'Cookies' Textdaten, die auf den von Nutzern verwendeten Geräten gespeichert werden, dank derer Sie etwas fortgeschrittenere Websites nutzen können. zumindest den Gerätetyp und merken Sie sich Ihre Präferenzen (z. B. ob das Seitendesign dunkel oder hell sein soll, Schriftgröße, Sprache usw.). ",
+        "p2": "Cookies enthalten in der Regel eine Website-Adresse, Speicherdauer auf dem Gerät des Benutzers und eine eigene eindeutige Kennung. Sie werden verwendet, um Websites zu optimieren. Sie helfen auch bei der Erfassung verschiedener statistischer Daten (z. B. sammelt diese Website Daten über die Anzahl der Besuche) bis zu einem bestimmten Tag, Monat, vom Benutzer verwendeter Gerätetyp usw.). ",
+        "p3": "Diese Dateien geben Programmierern Informationen über die Nutzung der Website, damit sie in Zukunft entsprechende Änderungen zum Vorteil des Benutzers vornehmen können. Die personenbezogenen Daten werden ebenfalls unter Verwendung von Cookies gespeichert, können jedoch nur gesammelt, um bestimmte Funktionen und Aktivitäten für die Person, die die Website nutzt, auszuführen (solche Daten sollten immer verschlüsselt werden, damit Unbefugte keinen Zugriff darauf haben). ",
+        "p4": "Cookies können unterteilt werden in",
+        "p5": "zwei Arten",
+        "p6": "Sitzungscookies",
+        "p7": "- werden während der Website-Sitzung gespeichert, d. h. bis der Nutzer die laufende Sitzung nicht unterbricht (z. B. durch Ausloggen oder Verlassen der Website).",
+        "p8": "Permanente Cookies",
+        "p9": "- werden für eine vordefinierte Zeit gespeichert, die als Parameter in der Cookie-Datei definiert ist (in diesem Fall kann der Benutzer in diese Dateien eingreifen, z. B. löschen). Ein Beispiel hierfür kann sein: Autorisierung auf der Website und Gewährung des Zugriffstokens - wenn dieser nach einer bestimmten Zeit abläuft, werden wir automatisch abgemeldet.",
+        "p10": "Standardmäßig ermöglicht die zum Surfen auf den Websites verwendete Software das Setzen von Cookies auf dem Endgerät. Der Benutzer kann den Browser entsprechend konfigurieren, um die automatische Annahme von Cookies zu blockieren oder jedes Mal Informationen zu erhalten, wenn eine Datei an das Gerät des Benutzers. Relevante Informationen über die Verwendung von Cookies und mögliche Konfigurationen sind in den Browsereinstellungen verfügbar. Das Ausmaß der Einschränkungen der Verwendung von Cookies kann die Verfügbarkeit und die auf der Website angebotenen Funktionen beeinträchtigen, bis die Möglichkeit der ordnungsgemäßen Verwendung gesperrt wird. "
+    },
+    "moonPhases": {
+        "new": "Neumond",
+        "waxingCrescent": "Zunehmender Sichelmond",
+        "q1": "Erstes Viertel",
+        "waxingGibbous": "Zunehmender Dreiviertelmond",
+        "full": "Vollmond",
+        "wanningGibbous": "Abnehmender Dreiviertelmond",
+        "q3": "Letztes Viertel",
+        "wanningCrescent": "Abnehmender Sichelmond"
+    },
+    "moonBehavior": {
+        "increases": "Erhöht",
+        "reduces": "Reduziert"
+    }
+}

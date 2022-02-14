@@ -1,91 +1,90 @@
-.item {
-    transition-duration: 0.25s;
-    margin-top: 10px;
-  
-    &--href {
-      padding-left: 0.5em;
-      padding-right: 0.5em;
-      text-decoration: none;
-      color: orange;
-      font-family: Kalam;
-      font-size: 25px;
-      font-weight: 600;
-      letter-spacing: 1.5px;
-      transition: all 0.25s ease-out;
+@import "/src/assets/styling/variables.scss";
 
-      &:hover {
-        margin-top: -4px;
-        color: rgb(245, 245, 245);
-        transition: all 0.25s ease-out;
-      }
+.item {
+  transition-duration: 0.25s;
+  margin-top: 10px;
+
+  &--href {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-decoration: none;
+    color: $orange;
+    font-family: $cambria;
+    font-size: 22px;
+    font-weight: 600;
+    transition: all 0.25s ease-out;
+  }
+
+  &--href:hover {
+    margin-top: -4px;
+    color: rgb(245, 245, 245);
+    transition: all 0.25s ease-out;
+  }
+
+  &--links {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    border-width: 0.01px;
+    border-style: solid;
+    border-image: linear-gradient(
+      45deg,
+      rgba(245, 159, 0, 0.1),
+      rgb(245, 159, 0),
+      rgb(255, 189, 67),
+      rgb(255, 202, 104),
+      rgb(245, 245, 245),
+      rgb(255, 202, 104),
+      rgb(245, 159, 0),
+      rgb(255, 189, 67),
+      rgba(245, 159, 0, 0.1)
+    );
+    border-image-slice: 1;
+  }
+
+  &--icon {
+    color: $orange;
+    font-size: 2.2em;
+    padding-right: 0.5em;
+    transition-duration: 0.5s;
+  }
+
+  &--icon:hover {
+    color: rgb(235, 235, 235);
+    cursor: pointer;
+    transition-duration: 0.5s;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .nav-item {
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  .nav-link:hover {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .item {
+    transition-duration: 0.25s;
+    background: none;
+    &--href {
+      font-size: $fontSize;
     }
 
-  
     &--links {
-      width: 95%;
-      margin: 0 auto;
-      border-width: 0.01px;
-      border-style: solid;
+      width: 230px;
+      border-width: 1px;
       border-image: linear-gradient(
         45deg,
         rgba(245, 159, 0, 0.1),
-        rgb(245, 159, 0),
-        rgb(255, 189, 67),
-        rgb(255, 202, 104),
-        rgb(245, 245, 245),
-        rgb(255, 202, 104),
-        rgb(245, 159, 0),
-        rgb(255, 189, 67),
+        rgb(190, 190, 190),
+        rgb(228, 228, 228),
+        rgb(190, 190, 190),
         rgba(245, 159, 0, 0.1)
       );
       border-image-slice: 1;
     }
-  
-    &--icon {
-      color: orange;
-      font-size: 2.2em;
-      padding-right: 10px;
-      transition-duration: 0.5s;
-
-      &:hover {
-        color: rgb(235, 235, 235);
-        cursor: pointer;
-        transition-duration: 0.5s;
-      }
-    }
   }
-  
-  @media only screen and (max-width: 1199px) {
-    .nav-item {
-      text-align: center;
-      border-radius: 8px;
-    }
-  
-    .nav-link:hover {
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-  
-    .item {
-      transition-duration: 0.25s;
-      background: none;
-      
-      &--href {
-        font-size: 25px;
-      }
-  
-      &--links {
-        width: 230px;
-        border-width: 1px;
-        border-image: linear-gradient(
-          45deg,
-          rgba(245, 159, 0, 0.1),
-          rgb(190, 190, 190),
-          rgb(228, 228, 228),
-          rgb(190, 190, 190),
-          rgba(245, 159, 0, 0.1)
-        );
-        border-image-slice: 1;
-      }
-    }
-  }
+}

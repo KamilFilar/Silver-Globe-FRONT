@@ -1,27 +1,31 @@
+@import "/src/assets/styling/variables.scss";
+
 .btn {
-    margin: 5px 0;
-  
-    &--value {
-      display: flex;
-      flex-direction: row;
-      font-size: 23px;
-      font-family: Cambria, serif;
-      letter-spacing: 2px;
-      text-decoration: none;
-      color: orange;
-      transition-duration: 0.4s;
-    }
-  
-    &--value::after,
-    &--value::before {
-      content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
-      text-decoration: line-through;
-      margin: auto 0.5em;
-      line-height: 0.1px;
-    }
-  
-    &--value:hover {
-      color: rgb(255, 203, 105);
-      transition-duration: 0.4s;
-    }
+  margin: 10px 0 25px 0;
+
+  &--value {
+    display: flex;
+    flex-direction: row;
+
+    font-size: $fontSizeMid;
+    font-family: $cambria;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: $orange;
+    transition-duration: 0.3s;
   }
+
+  &--value::after,
+  &--value::before {
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration: line-through;
+    margin: auto 0.5em;
+
+    line-height: 0.1px;
+  }
+
+  &--value:hover {
+    color: $orange2;
+    transition-duration: 0.3s;
+  }
+}

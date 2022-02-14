@@ -1,0 +1,30 @@
+@import "/src/assets/styling/variables.scss";
+
+.aboutpage {
+  overflow: hidden;
+  position: relative;
+  &--image {
+    opacity: 0.33;
+    position: absolute;
+    object-fit: contain;
+    width: 320px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &--text {
+    position: relative;
+    margin: 15px 6px 15px 6px;
+    text-indent: $valueOfIndent;
+    font-size: $fontSizeLittle;
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  .aboutpage {
+    &--image {
+      width: 200px;
+    }
+  }
+}

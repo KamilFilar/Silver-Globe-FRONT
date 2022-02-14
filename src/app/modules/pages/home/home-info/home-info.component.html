@@ -1,23 +1,21 @@
 <div class="container-fluid">
-  <app-subtitle [value]="tittle"></app-subtitle>
-  <div class="row justify-content-center">
-    <div class="col-11 info">
-      <img [src]="imgSplash" class="info__img" />
-      <app-info-introduction></app-info-introduction>
-      <div class="text-center">
-        <app-collapse-button
-          [href]="more.href"
-          [ariacontrols]="more.ariacontrols"
-        ></app-collapse-button>
-      </div>
+    <app-subtitle [value]="'homeInfo.title' | translate"></app-subtitle>
+    <div class="row justify-content-center">
+        <div class="col-11 info">
+            <img [src]='imgSplash' class="info__img"/>
+            <app-info-admission></app-info-admission>
+            <div class="text-center">
+                <app-collapse-button [href]='more.href' [ariacontrols]='more.ariacontrols'></app-collapse-button>
+            </div> 
+        </div>
     </div>
-  </div>
-  <div class="row justify-content-center collapse" id="MoreInformations">
-    <div class="col-11">
-        <app-info-kordylweski></app-info-kordylweski>
-        <app-info-blue-moon></app-info-blue-moon>
-        <app-info-julian-date></app-info-julian-date>
-        <app-info-health></app-info-health>
+    <div class="row justify-content-center collapse" id='MoreInformations'>
+        <div class="col-11 more">
+            <app-info-moon-mission></app-info-moon-mission>
+            <app-info-blue-moon></app-info-blue-moon>
+            <app-info-kordylewski-moons></app-info-kordylewski-moons>
+            <app-info-julian-date></app-info-julian-date>
+            <app-info-health></app-info-health>
+        </div>
     </div>
-  </div>
 </div>

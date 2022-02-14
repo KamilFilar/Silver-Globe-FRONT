@@ -1,0 +1,26 @@
+<div class="row justify-content-center weight">
+    <div class="col-md-4 col-10 weight__input text-center">
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>{{ 'homeAlgorithms.weight.yourWeight' | translate }} [kg]</mat-label>
+            <input matInput type="text" value='80'(input)="getInputValue($event.target.value)"/>
+        </mat-form-field>
+    </div>
+    <div class="col-md-2 col-5 weight__result">
+        <p class="weight__result__text">
+            {{ 'homeAlgorithms.weight.earth' | translate }} 
+            <span class="weight__result__text--unit">[N]</span>:
+        </p>
+        <p class="weight__result__value">
+            {{ earthWeight }}
+        </p>
+    </div>
+    <div class="col-md-2 col-6 weight__result">
+        <p class="weight__result__text">
+            {{ 'homeAlgorithms.weight.moon' | translate }} 
+            <span class="weight__result__text--unit">[N]</span>:
+        </p>
+        <p class="weight__result__value">
+            {{ moonWeight }}
+        </p>
+    </div>
+</div>

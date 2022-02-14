@@ -1,0 +1,47 @@
+@import "/src/assets/styling/variables.scss";
+
+.container-fluid {
+  margin: 80px 0;
+}
+
+.cookies {
+  &__text {
+    text-indent: $valueOfIndent;
+
+    &--special {
+      color: $orange;
+      font-weight: 600;
+    }
+  }
+
+  &__img {
+    text-align: center;
+
+    &--val {
+      border: 3px solid rgb(15, 15, 15);
+      border-radius: 8px;
+      width: 100%;
+      height: auto;
+      transition-duration: 0.5s;
+    }
+  }
+}
+
+p {
+  margin: 5px;
+}
+
+li {
+  margin-left: 30px;
+}
+
+@media only screen and (min-width: 1450px) {
+  .cookies {
+    &__img {
+      &--val {
+        width: 75%;
+        transition-duration: 0.5s;
+      }
+    }
+  }
+}

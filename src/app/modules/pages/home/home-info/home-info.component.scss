@@ -1,5 +1,7 @@
+@import "/src/assets/styling/variables.scss";
+
 .container-fluid {
-  padding-top: 30px;
+  padding-top: 80px;
 }
 
 .info {
@@ -11,7 +13,7 @@
     width: 100%;
     height: auto;
     float: right;
-    shape-outside: url("./../../../../../assets/images/home/info/splashImage.gif");
+    shape-outside: url("../../../../../assets/images/home-info/splashImage.gif");
     shape-margin: 10px;
   }
 }

@@ -1,0 +1,50 @@
+@import "/src/assets/styling/variables.scss";
+
+.container-fluid {
+  padding-top: 85px;
+}
+
+.state {
+  &__data {
+    box-shadow: black 0px 5px 30px 5px;
+    border: 2px solid rgb(45, 45, 45);
+    background-color: $bgColorDark2;
+    border-radius: 25px;
+    height: auto;
+    margin: auto 0;
+    padding: 0;
+  }
+
+  &__img {
+    padding: 0;
+    text-align: center;
+
+    &--value {
+      width: 80%;
+      height: auto;
+      transition-duration: 0.3s;
+    }
+  }
+}
+
+.more {
+  margin-top: 20px;
+}
+
+mat-label,
+mat-datepicker-toggle,
+mat-datepicker {
+  color: rgb(245, 159, 0);
+}
+
+@media only screen and (min-width: 1400px) {
+  .state {
+    &__img {
+      &--value {
+        width: 65%;
+        height: auto;
+        transition-duration: 0.3s;
+      }
+    }
+  }
+}

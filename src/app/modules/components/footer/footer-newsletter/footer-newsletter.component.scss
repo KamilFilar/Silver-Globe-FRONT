@@ -1,0 +1,76 @@
+@import "/src/assets/styling/variables.scss";
+@import "/src/app/modules/components/button/button.component.scss";
+
+.newsletter {
+  &__text {
+    padding: 0 1em 0 1em;
+    text-indent: $valueOfIndent;
+    font-size: $fontSizeLittle;
+  }
+
+  &__form {
+    &__input {
+      display: block;
+      margin: 0 auto 0 auto;
+      padding: 0.35em;
+      margin-top: 12px;
+      text-align: center;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px;
+      border: 2px solid $orange;
+      color: $orange2;
+      width: 80%;
+      max-width: 300px;
+      min-width: auto;
+      background-color: rgb(15, 15, 15);
+      transition-duration: 1s;
+      font-size: $fontSizeLittle;
+      cursor: pointer;
+    }
+
+    &__input:focus {
+      outline: transparent;
+      color: $fontFocusColor;
+      background-color: black;
+      transition-duration: 1s;
+      cursor: auto;
+    }
+
+    &__btns {
+      text-align: center;
+      margin: 10px 0 15px;
+      outline: 0;
+
+      &__submit {
+        border: none;
+        margin-right: 5px;
+        background: none;
+      }
+
+      &__submit:focus {
+        outline: none;
+      }
+
+      &__btnRemove {
+        line-height: 100%;
+        color: $orange;
+        border: none;
+        background: none;
+        padding: 0;
+        transition-duration: 0.3s;
+      }
+
+      &__btnRemove:hover {
+        color: $orange2;
+        transition-duration: 0.3s;
+      }
+    }
+  }
+}
+
+.invalid-feedback {
+  text-align: center;
+  font-size: $fontSizeLittle;
+  margin: 5px 0;
+}

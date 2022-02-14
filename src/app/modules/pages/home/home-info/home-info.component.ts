@@ -5,14 +5,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home-info.component.html',
   styleUrls: ['./home-info.component.scss']
 })
+
 export class HomeInfoComponent implements OnInit {
 
   more = {
     href: '#MoreInformations',
     ariacontrols: '#MoreInformations'
   }
-  imgSplash = './../../../../../assets/images/home/info/splashImage.gif';
-  tittle = 'Słów kilka o Księżycu';
+  imgSplash = './../../../../../assets/images/home-info/splashImage.gif';
 
   constructor() { }
 
