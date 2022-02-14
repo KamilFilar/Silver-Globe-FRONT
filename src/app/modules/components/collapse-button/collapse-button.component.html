@@ -1,6 +1,14 @@
 <div class="btn">
-  <a class="btn--value" data-bs-toggle="collapse" href="{{ href }}" role="button" aria-expanded="false"
-    aria-controls="ariacontrols" (click)="getState()" (changeLangEvent)="getState($event)">
+  <a
+    class="btn--value"
+    data-bs-toggle="collapse"
+    href="{{ href }}"
+    role="button"
+    aria-expanded="false"
+    aria-controls="ariacontrols"
+    (click)="getState()"
+    (changeLangEvent)="getState($event)"
+  >
     <span *ngIf="stateOfBtn === 0">{{ "collapse-btn.text0" | translate }}</span>
     <span *ngIf="stateOfBtn === 1">{{ "collapse-btn.text1" | translate }}</span>
   </a>

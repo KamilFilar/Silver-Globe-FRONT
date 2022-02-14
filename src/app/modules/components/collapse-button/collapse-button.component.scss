@@ -1,12 +1,11 @@
 @import "/src/assets/styling/variables.scss";
 
 .btn {
-  margin: 10px 0 25px 0;
+  margin: 10px 0 25px;
 
   &--value {
     display: flex;
     flex-direction: row;
-
     font-size: $fontSizeMid;
     font-family: $cambria;
     letter-spacing: 2px;
@@ -20,7 +19,6 @@
     content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
     text-decoration: line-through;
     margin: auto 0.5em;
-
     line-height: 0.1px;
   }
 

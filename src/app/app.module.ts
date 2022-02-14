@@ -61,10 +61,6 @@ import { RequestInfoComponent } from './modules/pages/home/algorithms/home-algor
 import { HomeJulianDateComponent } from './modules/pages/home/home-julian-date/home-julian-date.component';
 import { HomeIntrestingFactsComponent } from './modules/pages/home/home-intresting-facts/home-intresting-facts.component';
 import { IntrestingFactItemComponent } from './modules/pages/home/home-intresting-facts/intresting-fact-item/intresting-fact-item.component';
-// Import calendar
-import { FullCalendarModule } from '@fullcalendar/angular';
-import dayGridPlugin from '@fullcalendar/daygrid';
-import interactionPlugin from '@fullcalendar/interaction';
 // Import programs
 import { ProgramCComponent } from './modules/pages/home/algorithms/home-algorithms/programs/program-c/program-c.component';
 import { ProgramJavaComponent } from './modules/pages/home/algorithms/home-algorithms/programs/program-java/program-java.component';
@@ -177,7 +173,6 @@ import { HomeAlgorithmsWeightComponent } from './modules/pages/home/algorithms/h
     MatRadioModule,
     MatSidenavModule,
     MatCheckboxModule,
-    FullCalendarModule, 
     ChartsModule
   ],
   providers: [

@@ -4,7 +4,7 @@
   width: auto;
   text-align: center;
   padding: 0;
-  margin: 10px;
+  margin: 10px 0;
 
   &--value {
     text-decoration: none;
@@ -13,7 +13,7 @@
     font-size: $fontSizeMid;
     font-family: $cambria;
     min-width: 170px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     border: 2px solid $orange;
     border-radius: 8px;
     padding: 0.2em;

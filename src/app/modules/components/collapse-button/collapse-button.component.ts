@@ -7,7 +7,6 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 
 export class CollapseButtonComponent implements OnInit {
-  
   @Input() href = '';
   @Input() ariacontrols = '';
   stateOfBtn = 1;
@@ -18,11 +17,13 @@ export class CollapseButtonComponent implements OnInit {
   getState() {
     if (this.stateOfBtn === 0) {
       this.stateOfBtn = 1;
-    } else {
+    } 
+    else {
       this.stateOfBtn = 0;
     }
     return this.stateOfBtn;
   }
 
   ngOnInit(): void {}
+  
 }

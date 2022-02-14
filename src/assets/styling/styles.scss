@@ -2,8 +2,9 @@
 @import "./variables.scss";
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
+// Declare font
 @font-face {
-  font-family: "Kalam";
+  font-family: Kalam;
   font-display: swap;
   src: local("Kalam"), url('./../fonts/Kalam-Light.ttf') format("truetype");
 }
