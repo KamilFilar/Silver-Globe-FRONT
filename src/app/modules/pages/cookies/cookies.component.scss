@@ -1,7 +1,7 @@
 @import "/src/assets/styling/variables.scss";
 
 .container-fluid {
-  margin: 80px 0;
+  margin: 120px 0 80px;
 }
 
 .cookies {
@@ -22,7 +22,7 @@
       border-radius: 8px;
       width: 100%;
       height: auto;
-      transition-duration: 0.5s;
+      transition-duration: 0.35s;
     }
   }
 }
@@ -40,7 +40,7 @@ li {
     &__img {
       &--val {
         width: 75%;
-        transition-duration: 0.5s;
+        transition-duration: 0.35s;
       }
     }
   }

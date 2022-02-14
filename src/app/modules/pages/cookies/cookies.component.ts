@@ -11,7 +11,6 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class CookiesComponent implements OnInit {
-
   imgCookie = './../../../../assets/images/cookies/cookie.jpg';
 
   fontSizeFunc() {
