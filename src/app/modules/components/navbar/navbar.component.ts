@@ -8,21 +8,17 @@ import { faHamburger } from '@fortawesome/free-solid-svg-icons';
 })
 
 export class NavbarComponent implements OnInit {
-  
   faHamburger = faHamburger;
-
   hrefs = {
     state: 'State',
     info: 'Informations',
     intresting: 'IntrestingFacts',
-    calendar: 'Calendar',
     algorithms: 'Algorithms',
-    contact: 'Contact',
+    contact: 'Contact'
   };
   text = {
     setIcon: '',
   };
-
   private stateOfBtn = 0;
   private changeState = false;
 
@@ -43,24 +39,24 @@ export class NavbarComponent implements OnInit {
   getState() {
     if (this.stateOfBtn === 0) {
       this.stateOfBtn = 1;
-    } else {
+    } 
+    else {
       this.stateOfBtn = 0;
     }
-    //console.log('state: '+this.stateOfBtn);
 
     return this.stateOfBtn;
   }
 
   changeNavColor() {
-    let winScroll =
-      document.body.scrollTop || document.documentElement.scrollTop;
-    let width = window.innerWidth;
+    let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
 
     if (winScroll === 0 && this.stateOfBtn === 1) {
       return true;
-    } else if (winScroll > 0) {
+    } 
+    else if (winScroll > 0) {
       return true;
-    } else {
+    } 
+    else {
       return false;
     }
   }

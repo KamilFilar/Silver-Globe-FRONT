@@ -11,7 +11,12 @@ export class NavbarBrandComponent implements OnInit {
   constructor() {}
 
   scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (window.location.href != 'http://localhost:4200/') {
+      location.href = 'http://localhost:4200/'
+    } 
+    else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   }
 
   ngOnInit(): void {}

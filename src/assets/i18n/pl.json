@@ -208,8 +208,7 @@
   "navbar": {
     "brand": {
       "t1": "Srebrny",
-      "t2": "Glob",
-      "t3": ".pl"
+      "t2": "Glob"
     },
     "items": {
       "state": "Aktualny stan",

@@ -9,21 +9,21 @@ import { faCogs } from '@fortawesome/free-solid-svg-icons';
 
 export class NavbarItemComponent implements OnInit {
   faCogs = faCogs;
-
   @Input() href = '';
   @Input() text = '';
 
   constructor() {}
 
-  ngOnInit(): void {
-    this.showIcon();
-  }
-
   showIcon() {
     if (this.text.length == 0) {
       return true;
-    } else {
+    } 
+    else {
       return false;
     }
+  }
+
+  ngOnInit(): void {
+    this.showIcon();
   }
 }

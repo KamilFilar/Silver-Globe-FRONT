@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class NavbarProgressbarComponent implements OnInit {
-  progress = 0;
+  private progress = 0;
 
   constructor() {}
 
@@ -20,10 +20,6 @@ export class NavbarProgressbarComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    window.addEventListener('scroll', () => this.calcScrollPosition());
-
-    setInterval(() => {
-      this.calcScrollPosition();
-    }, 1000);
+    window.onscroll = () => this.calcScrollPosition();
   }
 }

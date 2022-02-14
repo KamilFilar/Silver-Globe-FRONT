@@ -2,27 +2,25 @@
 
 .item {
   transition-duration: 0.25s;
-  margin-top: 10px;
 
   &--href {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
     text-decoration: none;
     color: $orange;
     font-family: $cambria;
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 600;
+    letter-spacing: 1px;
     transition: all 0.25s ease-out;
-  }
 
-  &--href:hover {
-    margin-top: -4px;
-    color: rgb(245, 245, 245);
-    transition: all 0.25s ease-out;
+    &:hover {
+      margin-top: -4px;
+      color: rgb(245, 245, 245);
+      transition: all 0.25s ease-out;
+    }
   }
 
   &--links {
-    width: 90%;
+    width: 100%;
     margin: 0 auto 0 auto;
     border-width: 0.01px;
     border-style: solid;
@@ -43,15 +41,15 @@
 
   &--icon {
     color: $orange;
-    font-size: 2.2em;
-    padding-right: 0.5em;
-    transition-duration: 0.5s;
-  }
+    font-size: 2.2rem;
+    padding-right: 0.5rem;
+    transition-duration: 0.25s;
 
-  &--icon:hover {
-    color: rgb(235, 235, 235);
-    cursor: pointer;
-    transition-duration: 0.5s;
+    &:hover {
+      color: rgb(235, 235, 235);
+      cursor: pointer;
+      transition-duration: 0.25s;
+    }
   }
 }
 

@@ -1,23 +1,53 @@
 <div class="container">
-  <nav class="navbar navbar-expand-xl fixed-top" [ngClass]="{ 'nav-color': changeNavColor() }">
+  <nav
+    class="navbar navbar-expand-xl fixed-top"
+    [ngClass]="{ 'nav-color': changeNavColor() }"
+  >
     <app-navbar-brand></app-navbar-brand>
-
-    <button class="navbar-toggler navbar__btn" type="button" data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-      aria-label="Toggle navigation" (click)="getState()">
+    <button
+      class="navbar-toggler navbar__btn"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      (click)="getState()"
+    >
       <fa-icon [icon]="faHamburger" class="navbar__btn--icon"></fa-icon>
     </button>
-
-    <div class="collapse navbar-collapse navbar__items" id="navbarSupportedContent">
+    <div
+      class="collapse navbar-collapse navbar__items"
+      id="navbarSupportedContent"
+    >
       <ul class="navbar-nav me-auto">
-        <app-navbar-item [href]="hrefs.info" [text]="'navbar.items.info' | translate"></app-navbar-item>
-        <app-navbar-item [href]="hrefs.intresting" [text]="'navbar.items.intresting' | translate"></app-navbar-item>
-        <app-navbar-item [href]="hrefs.state" [text]="'navbar.items.state' | translate"></app-navbar-item>
-        <app-navbar-item [href]="hrefs.algorithms" [text]="'navbar.items.algorithms' | translate"></app-navbar-item>
-        <app-navbar-item [href]="hrefs.contact" [text]="'navbar.items.contact' | translate"></app-navbar-item>
+        <app-navbar-item
+          [href]="hrefs.info"
+          [text]="'navbar.items.info' | translate"
+        ></app-navbar-item>
+        <app-navbar-item
+          [href]="hrefs.intresting"
+          [text]="'navbar.items.intresting' | translate"
+        ></app-navbar-item>
+        <app-navbar-item
+          [href]="hrefs.state"
+          [text]="'navbar.items.state' | translate"
+        ></app-navbar-item>
+        <app-navbar-item
+          [href]="hrefs.algorithms"
+          [text]="'navbar.items.algorithms' | translate"
+        ></app-navbar-item>
+        <app-navbar-item
+          [href]="hrefs.contact"
+          [text]="'navbar.items.contact' | translate"
+        ></app-navbar-item>
       </ul>
       <ul class="navbar-nav">
-        <app-navbar-item [text]="text.setIcon" data-bs-toggle="modal" data-bs-target="#userPanelModal">
+        <app-navbar-item
+          [text]="text.setIcon"
+          data-bs-toggle="modal"
+          data-bs-target="#userPanelModal"
+        >
         </app-navbar-item>
       </ul>
     </div>

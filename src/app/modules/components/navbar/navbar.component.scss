@@ -1,7 +1,7 @@
 @import "/src/assets/styling/variables.scss";
 
 nav {
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.35);
   transition-duration: 0.5s;
 }
 
@@ -12,19 +12,7 @@ nav {
 
 .navbar {
   flex-wrap: wrap;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-
-  &__btn {
-    margin-right: 15px;
-    padding: 0;
-
-    &--icon {
-      font-size: 40px;
-      color: $orange;
-    }
-  }
+  padding: 5px 0 0;
 }
 
 .navbar-toggler:focus,
