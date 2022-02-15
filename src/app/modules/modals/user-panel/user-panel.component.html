@@ -1,20 +1,86 @@
-<div class="modal fade" id="userPanelModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
-  aria-labelledby="userPanelModalLabel" aria-hidden="true">
+<div
+  class="modal fade"
+  id="userPanelModal"
+  tabindex="-1"
+  data-bs-backdrop="static"
+  data-bs-keyboard="false"
+  aria-labelledby="userPanelModalLabel"
+  aria-hidden="true"
+>
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content">
       <div class="modal-body rounded-2">
         <div class="row modalHeader">
           <div class="col-12 text-end">
             <button class="modalHeader__btn" data-bs-dismiss="modal">
-              <fa-icon [icon]="faTimes" class="modalHeader__btn--icon fa-2x"></fa-icon>
+              <fa-icon
+                [icon]="faTimes"
+                class="modalHeader__btn--icon fa-2x"
+              ></fa-icon>
             </button>
           </div>
           <div class="col-12 modalHeader__title">
-            {{ "loginComponent.loginPanelTitle" | translate }}
+            {{ "settingsComponent.tittle" | translate }}
           </div>
         </div>
-        <app-user-panel-login></app-user-panel-login>
-        <app-user-panel-settings></app-user-panel-settings>
+        <!-- Font size settings box -->
+        <div class="row justify-content-center modalFooter">
+          <div class="col-lg-6 col-md-11 text-center">
+            <span class="modalFooter__text">
+              {{ "settingsComponent.font.fontTitle" | translate }}
+            </span>
+            <span class="modalFooter__subText"> ({{ "settingsComponent.font.size" | translate }}: </span>
+            <span class="modalFooter__fontValue">{{ displayFontSize }}</span>
+            <span class="modalFooter__subText">px ):</span>
+            <div class="col-lg-3 col-2 align-middle modalFooter__fontSize">
+              <button
+                class="modalFooter__fontSize__btn"
+                (click)="setFontSizeMinus()"
+                title="{{ 'settingsComponent.font.minus' | translate }}"
+              >
+                <fa-icon [icon]="faFont" class="fa-lg"></fa-icon>
+                <sup>
+                  <fa-icon [icon]="faMinus"></fa-icon>
+                </sup>
+              </button>
+            </div>
+            <div class="col-2 align-middle modalFooter__fontSize">
+              <button
+                class="modalFooter__fontSize__btn"
+                (click)="setFontSizePlus()"
+                title="{{ 'settingsComponent.font.plus' | translate }}"
+              >
+                <fa-icon [icon]="faFont" class="fa-lg"></fa-icon>
+                <sup>
+                  <fa-icon [icon]="faPlus"></fa-icon>
+                </sup>
+              </button>
+            </div>
+          </div>
+          <!-- Lang settings box -->
+          <div class="col-lg-6 col-md-11 text-center">
+            <span class="modalFooter__text">
+              {{ "settingsComponent.lang" | translate }}</span>:
+            <mat-radio-group
+              [(ngModel)]="selectLang"
+              name="radioLang"
+              [ngModelOptions]="{ standalone: true }"
+              (change)="radioChangeLang($event)"
+            >
+              <mat-radio-button value="pl">
+                <img [src]="PLFlag" width="45px" height="auto"/>
+              </mat-radio-button>
+
+              <mat-radio-button value="en">
+                <img [src]="ENFlag" width="45px" height="auto" />
+              </mat-radio-button>
+              
+              <mat-radio-button value="de">
+                <img [src]="DUFlag" width="45px" height="auto" />
+              </mat-radio-button>
+            </mat-radio-group>
+          </div>
+        </div>
       </div>
     </div>
   </div>

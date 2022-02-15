@@ -1,18 +1,14 @@
 {
   "copySucces": "Skopiowano pomyślnie!",
-  "loginComponent": {
-    "loginPanelTitle": "Panel logowania",
+  "settingsComponent": {
+    "tittle": "Ustawienia",
     "font": {
       "fontTitle": "Czcionka",
+      "size": "rozmiar",
       "plus": "Powiększ",
       "minus": "Zmniejsz"
     },
-    "lang": "Język",
-    "email": "Adres e-mail",
-    "pass": "Hasło",
-    "logIn": "Zaloguj",
-    "goToDashboard": "Dashboard",
-    "iconMsg": "Aktualnie nie możesz posiadać konta!"
+    "lang": "Język"
   },
   "cookiesModalComponent": {
     "p1": "Kolejna inforamcja o cookies na którą nawet nie zwrócisz uwagi, ale musze Cię o tym poinformować.",

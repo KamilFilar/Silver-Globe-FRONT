@@ -33,8 +33,7 @@ import { NoHrefButtonComponent } from './modules/components/no-href-button/no-hr
 // Import modals
 import { CookiesInfoComponent } from './modules/modals/cookies-info/cookies-info.component';
 import { UserPanelComponent } from './modules/modals/user-panel/user-panel.component';
-import { UserPanelLoginComponent } from './modules/modals/user-panel/user-panel-login/user-panel-login.component';
-import { UserPanelSettingsComponent } from './modules/modals/user-panel/user-panel-settings/user-panel-settings.component';
+
 import { UserSendEmailComponent } from './modules/modals/alerts/user/user-send-email/user-send-email.component';
 import { UserNewsletterComponent } from './modules/modals/alerts/user/user-newsletter/user-newsletter.component';
 import { AlertCopyComponent } from './modules/modals/alerts/alert-copy/alert-copy.component';
@@ -121,8 +120,6 @@ import { HomeAlgorithmsWeightComponent } from './modules/pages/home/algorithms/h
     HomeInfoComponent,
     CookiesInfoComponent,
     UserPanelComponent,
-    UserPanelLoginComponent,
-    UserPanelSettingsComponent,
     HomeAlgorithmsApiComponent,
     RequestComponent,
     RequestInfoComponent,
