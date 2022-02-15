@@ -7,8 +7,12 @@
     <div class="newsletter__form">
       <form [formGroup]="form" (ngSubmit)="onSubmit()">
         <div class="form-group">
-          <input type="text" formControlName="email" class="newsletter__form__input"
-            [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+          <input
+            type="text"
+            formControlName="email"
+            class="newsletter__form__input"
+            [ngClass]="{ 'is-invalid': submitted && f.email.errors }"
+          />
           <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
             <div *ngIf="f.email.errors.required">
               {{ "footer.newsletter.errRequired" | translate }}
@@ -19,14 +23,22 @@
           </div>
         </div>
         <div class="form-group newsletter__form__btns">
-          <button type="submit" class="newsletter__form__btns__submit" data-bs-toggle="modal"
-            data-bs-target="#sendNewsletterAlert">
+          <button
+            type="submit"
+            class="newsletter__form__btns__submit"
+            data-bs-toggle="modal"
+            data-bs-target="#sendNewsletterAlert"
+          >
             <span class="btn--value">
               {{ "footer.newsletter.btnSubscribe" | translate }}
             </span>
           </button>
-          <button type="button" (click)="onReset()" class="newsletter__form__btns__btnRemove"
-            title="{{ 'footer.newsletter.btnClear' | translate }}">
+          <button
+            type="button"
+            (click)="onReset()"
+            class="newsletter__form__btns__btnRemove"
+            title="{{ 'footer.newsletter.btnClear' | translate }}"
+          >
             <fa-icon [icon]="faTrashAlt" class="fa-lg"></fa-icon>
           </button>
         </div>
@@ -35,6 +47,7 @@
   </div>
 </div>
 
+<!-- Custom modal alerts -->
 <app-user-newsletter>
   <span *ngIf="msgState === 0">
     {{ "footer.newsletter.invalid" | translate }}

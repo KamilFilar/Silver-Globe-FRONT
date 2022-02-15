@@ -10,20 +10,20 @@
     font-family: $cambria;
     letter-spacing: 2px;
     text-decoration: none;
-    color: $orange;
+    color: orange;
     transition-duration: 0.3s;
+
+    &:hover {
+      color: $orange2;
+      transition-duration: 0.3s;
+    }
   }
 
   &--value::after,
   &--value::before {
     content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
     text-decoration: line-through;
-    margin: auto 0.5em;
+    margin: auto 0.5rem;
     line-height: 0.1px;
-  }
-
-  &--value:hover {
-    color: $orange2;
-    transition-duration: 0.3s;
   }
 }

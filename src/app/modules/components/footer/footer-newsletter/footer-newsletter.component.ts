@@ -1,13 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 // import { NewsletterService } from 'src/app/config/newsletter.service';
-import {
-  AbstractControl,
-  FormBuilder,
-  FormGroup,
-  Validators,
-} from '@angular/forms';
+import { AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
-
 
 @Component({
   selector: 'app-footer-newsletter',
@@ -16,7 +10,6 @@ import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 })
 
 export class FooterNewsletterComponent implements OnInit {
-  
   newsletter = 'Newsletter';
   faTrashAlt = faTrashAlt;
   msgState!: number;
@@ -29,7 +22,7 @@ export class FooterNewsletterComponent implements OnInit {
   constructor(
     // private newsletterService: NewsletterService,
     private formBuilder: FormBuilder
-  ) { }
+  ) {}
 
   get f(): { [key: string]: AbstractControl } {
     return this.form.controls;
@@ -40,8 +33,7 @@ export class FooterNewsletterComponent implements OnInit {
 
     if (this.form.invalid) {
       this.msgState = 0;
-      this.msgIconPath =
-        './../../../../../assets/images/materials/emoji/face-concerned.png';
+      this.msgIconPath = './../../../../../assets/images/materials/emoji/face-concerned.png';
       return;
     }
 

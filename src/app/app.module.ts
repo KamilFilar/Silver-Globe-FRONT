@@ -27,7 +27,6 @@ import { FooterSubtitleComponent } from './modules/components/footer/footer-subt
 import { FooterReferenceComponent } from './modules/components/footer/footer-reference/footer-reference.component';
 import { FooterNewsletterComponent } from './modules/components/footer/footer-newsletter/footer-newsletter.component';
 import { FooterCopyrightComponent } from './modules/components/footer/footer-copyright/footer-copyright.component';
-import { FooterAboutpageComponent } from './modules/components/footer/footer-aboutpage/footer-aboutpage.component';
 import { FooterQuotationComponent } from './modules/components/footer/footer-quotation/footer-quotation.component';
 import { CopyCodeBtnComponent } from './modules/pages/home/algorithms/home-algorithms/copy-code-btn/copy-code-btn.component';
 import { NoHrefButtonComponent } from './modules/components/no-href-button/no-href-button.component';
@@ -104,7 +103,6 @@ import { HomeAlgorithmsWeightComponent } from './modules/pages/home/algorithms/h
     FooterReferenceComponent,
     FooterNewsletterComponent,
     FooterCopyrightComponent,
-    FooterAboutpageComponent,
     FooterQuotationComponent,
     NavbarProgressbarComponent,
     HomeComponent,

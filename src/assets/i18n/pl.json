@@ -244,17 +244,17 @@
       "allOk": "Pomyślnie zapisano się do newslettera!"
     },
     "about": {
-      "text1": "Strona na której się znajdujesz jest jedną z części pracy inżynierskiej stworzonej w 2021 roku. Motywacją do jej stworzenia było przybliżenie użytkownikom zagadnień związanych z naturalnym satelitą Ziemi ",
-      "text2": "oraz prezentacja algorytmów związanych z obliczeniami dotyczącymi Księżyca. Witryna w przyszłości będzie posiadać aplikację mobilną, prezentującą podobne funkcjonalności."
+      "text1": "Strona ma na celu przybliżenie użytkownikom zagadnień związanych z naturalnym satelitą Ziemi oraz ukazanie bliskiego związku fizyki z informatyką w dzisiejszym świecie. Witryna w najbliższej przyszłości będzie posiadać aplikację mobilną, prezentującą podobne funkcjonalności."
     },
     "reference": {
       "usefullTitle": "Może się przydać",
       "contactTitle": "Kontakt",
       "politics": "Polityka prywatności",
       "author": "O autorze",
+      "email": "FilarKamil04@gmail.com",
       "git": "Mój Github",
-      "fb": "Mój profil",
-      "copyBtn": "Kopiuj"
+      "fb": "Mój profil Facebook",
+      "in": "Mój profil Linkedin"
     }
   },
   "politics": {

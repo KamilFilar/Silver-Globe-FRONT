@@ -3,36 +3,17 @@
 .footer {
   &__content {
     background-color: black;
+
+    article {
+      p {
+        margin: 15px 6px;
+        text-indent: $valueOfIndent;
+        font-size: $fontSizeLittle;
+      }
+    }
   }
 }
 
 .faicon {
-  color: $fontColor;
-}
-
-.reference {
-  font-size: $fontSizeLittle;
-  padding: 0;
-  margin: 7px 0 8px -5px;
-  &__content {
-    text-decoration: none;
-    color: white;
-    transition-duration: 0.8s;
-
-    &__text {
-      padding-left: 3px;
-    }
-  }
-  &__content:hover {
-    padding-left: 0.5em;
-    color: $fontColor;
-    cursor: pointer;
-    transition-duration: 0.5s;
-  }
-}
-
-@media only screen and (max-width: 1300px) and (min-width: 970px) {
-  .spadding {
-    padding: 0 0px 0 12px;
-  }
+  color: orange;
 }

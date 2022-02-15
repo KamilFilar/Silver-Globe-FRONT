@@ -2,15 +2,21 @@
 
 .copyright {
   text-align: center;
-  padding: 5px 0 5px 0;
-  background: linear-gradient(rgb(5, 5, 5), black, rgb(5, 5, 5), rgb(10, 10, 10));
+  padding: 5px 0;
+  background: linear-gradient(
+    rgb(5, 5, 5),
+    black,
+    rgb(5, 5, 5),
+    rgb(10, 10, 10)
+  );
   &--color {
-    color: $fontColor;
+    color: orange;
     text-decoration: none;
   }
   &--signature {
-    color: $fontColor;
-    font-family: $kalam;
+    margin-left: 3px;
+    color: orange;
+    font-family: Kalam;
     font-size: $fontSize;
   }
 }

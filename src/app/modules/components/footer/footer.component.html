@@ -2,35 +2,68 @@
   <app-footer-quotation></app-footer-quotation>
   <div class="row justify-content-center footer__content">
     <div class="col-lg-3 col-12">
-      <app-footer-aboutpage></app-footer-aboutpage>
+      <article>
+        <p> {{ "footer.about.text1" | translate }} </p>
+      </article>
     </div>
     <div class="col-lg-9 col-12 footer__content">
       <div class="row justify-content-center">
         <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <app-footer-subtitle [text]="'footer.reference.usefullTitle' | translate"></app-footer-subtitle>
-          <app-footer-reference [text]="'footer.reference.politics' | translate" [href]="politics.link">
+          <app-footer-subtitle
+            [text]="'footer.reference.usefullTitle' | translate"
+          ></app-footer-subtitle>
+
+          <app-footer-reference
+            [text]="'footer.reference.politics' | translate"
+            [href]="links.politics"
+          >
             <fa-icon [icon]="faAngleDoubleRight" class="faicon"></fa-icon>
           </app-footer-reference>
-          <app-footer-reference [text]="cookies.text" [href]="cookies.link">
+
+          <app-footer-reference 
+            [text]="links.cookiesText" 
+            [href]="links.cookies"
+          >
             <fa-icon [icon]="faAngleDoubleRight" class="faicon"></fa-icon>
           </app-footer-reference>
-          <app-footer-reference [text]="'footer.reference.author' | translate" [href]="author.href">
+
+          <app-footer-reference
+            [text]="'footer.reference.author' | translate"
+            [href]="links.author"
+          >
             <fa-icon [icon]="faAngleDoubleRight" class="faicon"></fa-icon>
           </app-footer-reference>
         </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12 spadding">
-          <app-footer-subtitle [text]="'footer.reference.contactTitle' | translate"></app-footer-subtitle>
-          <div class="col-12 reference">
-            <div class="reference__content" title="footer.reference.copyBtn' | translate"
-              (click)="copyEmail('FilarKamil04@gmail.com')" data-bs-toggle="modal" data-bs-target="#copyAlert">
-              <fa-icon [icon]="faMailBulk" class="faicon"></fa-icon>
-              <span class="reference__content__text">{{ contact.text }}</span>
-            </div>
-          </div>
-          <app-footer-reference [text]="'footer.reference.git' | translate" [href]="github">
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+          <app-footer-subtitle
+            [text]="'footer.reference.contactTitle' | translate"
+          ></app-footer-subtitle>
+
+          <app-footer-reference
+            [text]="'footer.reference.email' | translate"
+            [email]="links.email"
+          >
+          </app-footer-reference>
+
+          <app-footer-reference
+            [text]="'footer.reference.git' | translate"
+            [href]="links.github"
+          >
             <fa-icon [icon]="faGithub" class="faicon"></fa-icon>
           </app-footer-reference>
-          <app-footer-reference [text]="'footer.reference.fb' | translate" [href]="fb">
+
+          <app-footer-reference
+          [text]="'footer.reference.in' | translate"
+          [href]="links.linkedIN"
+        >
+          <fa-icon [icon]="faLinkedinIn" class="faicon"></fa-icon>
+        </app-footer-reference>
+
+          <app-footer-reference
+            [text]="'footer.reference.fb' | translate"
+            [href]="links.fb"
+          >
             <fa-icon [icon]="faFacebook" class="faicon"></fa-icon>
           </app-footer-reference>
         </div>
@@ -42,7 +75,3 @@
   </div>
   <app-footer-copyright></app-footer-copyright>
 </div>
-
-<app-alert-copy>
-  {{ "copySucces" | translate }}
-</app-alert-copy>

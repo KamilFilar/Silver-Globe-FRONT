@@ -1,6 +1,11 @@
 <div class="col-12 reference">
-  <a class="reference__content" href="{{ href }}">
+  <a *ngIf="email!='';" class="reference__content" href="mailto:FilarKamil04@gmail.com">
+    <fa-icon [icon]="faMailBulk" class="faicon"></fa-icon>
+    {{ text }}
+  </a>
+  <a *ngIf="email==''" class="reference__content" href="{{ href }}">
     <ng-content></ng-content>
     {{ text }}
   </a>
+  
 </div>
