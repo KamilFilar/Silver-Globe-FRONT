@@ -37,8 +37,6 @@ import { UserPanelLoginComponent } from './modules/modals/user-panel/user-panel-
 import { UserPanelSettingsComponent } from './modules/modals/user-panel/user-panel-settings/user-panel-settings.component';
 import { UserSendEmailComponent } from './modules/modals/alerts/user/user-send-email/user-send-email.component';
 import { UserNewsletterComponent } from './modules/modals/alerts/user/user-newsletter/user-newsletter.component';
-import { AdminNewsletterComponent } from './modules/modals/alerts/admin/admin-newsletter/admin-newsletter.component';
-import { AdminSendEmailComponent } from './modules/modals/alerts/admin/admin-send-email/admin-send-email.component';
 import { AlertCopyComponent } from './modules/modals/alerts/alert-copy/alert-copy.component';
 // Import pages
 import { RegulationsComponent } from './modules/pages/regulations/regulations.component';
@@ -140,8 +138,6 @@ import { HomeAlgorithmsWeightComponent } from './modules/pages/home/algorithms/h
     NoHrefButtonComponent,
     UserSendEmailComponent,
     UserNewsletterComponent,
-    AdminNewsletterComponent,
-    AdminSendEmailComponent,
     IntrestingFactItemComponent,
     AlertCopyComponent,
     HomeAlgorithmsWeightComponent
