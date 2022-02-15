@@ -3,7 +3,11 @@
     <p class="modal-body__text">
       {{ "cookiesModalComponent.p1" | translate }}
       {{ "cookiesModalComponent.p2" | translate }}
-      <span class="modal-body__text--link" routerLink="{{ href.target }}" routerLinkActive="active">
+      <span
+        class="modal-body__text--link"
+        routerLink="{{ href.target }}"
+        routerLinkActive="active"
+      >
         {{ href.name }}
       </span>
       <fa-icon [icon]="faCookieBite" class="modal-body__text--icon"></fa-icon>.
@@ -12,7 +16,12 @@
     <button class="modal-body__btn" (click)="modal.close(); isAcceptCookies()">
       {{ "cookiesModalComponent.btn.accept" | translate }}
     </button>
-    <a class="modal-body__a" href="https://www.google.com" (click)="modal.dismiss()" aria-label="Close">
+    <a
+      class="modal-body__a"
+      href="https://www.google.com"
+      (click)="modal.dismiss()"
+      aria-label="Close"
+    >
       {{ "cookiesModalComponent.btn.unaccept" | translate }}
     </a>
   </div>

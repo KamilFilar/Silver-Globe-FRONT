@@ -2,7 +2,7 @@
 
 .modal-body {
   width: 100%;
-  border: 1px solid $orange;
+  border: 1px solid orange;
   background-color: $bgColorDark;
   padding-left: 10px;
   padding-right: 10px;
@@ -16,14 +16,20 @@
     padding-right: 15px;
 
     &--link {
-      color: $orange;
+      color: orange;
       font-weight: 600;
-      cursor: pointer;
       outline: none;
+      transition-duration: 0.3s;
+
+      &:hover {
+        color: $orange2;
+        cursor: pointer;
+        transition-duration: 0.3s;
+      }
     }
 
     &--icon {
-      color: $orange;
+      color: orange;
     }
   }
 
@@ -31,14 +37,14 @@
     float: right;
     margin-left: 12px;
     background: none;
-    border: 2px solid $orange;
+    border: 2px solid orange;
     border-radius: 8px;
     padding: 3px 10px;
     letter-spacing: 1px;
     font-size: $fontSize;
     font-weight: 600;
     transition-duration: 0.5s;
-    color: $orange;
+    color: orange;
 
     &:hover {
       border: 2px solid $orange2;
@@ -62,5 +68,4 @@
       text-decoration: underline;
     }
   }
-
 }

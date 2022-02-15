@@ -10,7 +10,6 @@ import { faCookieBite } from '@fortawesome/free-solid-svg-icons';
 })
 
 export class CookiesInfoComponent implements AfterViewInit {
-  
   faCookieBite = faCookieBite;
   href = {
     name: 'Cookies',
@@ -42,5 +41,4 @@ export class CookiesInfoComponent implements AfterViewInit {
   ngAfterViewInit() {
     this.openModal();
   }
-  
 }
