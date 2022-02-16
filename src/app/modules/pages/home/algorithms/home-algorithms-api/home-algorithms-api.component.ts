@@ -4,21 +4,24 @@ import { faArrowDown, faArrowUp } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-home-algorithms-api',
   templateUrl: './home-algorithms-api.component.html',
-  styleUrls: ['./home-algorithms-api.component.scss', './../../../../../../assets/styling/global/fontSize.scss']
+  styleUrls: [
+    './home-algorithms-api.component.scss', 
+    './../../../../../../assets/styling/global/fontSize.scss'
+  ]
 })
 
 export class HomeAlgorithmsApiComponent implements OnInit {
-
   API = 'API';
   types = {
     get: 'GET',
     post: 'POST'
   }
   values = {
-    getActualJD: 'http://localhost:8080/api/moon/current-julian-date',
-    getParamsJD: 'http://localhost:8080/api/moon/julian-date?day=&month=&year=&hour=&minutes=&sec=',
-    getCurrentPhase: 'http://localhost:8080/api/moon/current-phase',
-    getPhase: 'http://localhost:8080/api/moon/phase?day=&month=&year=&hour=&minutes=&sec=',
+    getActualJD: 'http://localhost:8015/api/moon/julian-date',
+    getParamsJD: 'http://localhost:8015/api/moon/julian-date/YourDateString',
+    getCurrentPhase: 'http://localhost:8015/api/moon/phase',
+    getPhase: 'http://localhost:8015/api/moon/phase/YourDateString',
+    getWeight: 'http://localhost:8015/api/moon/weight?userWeight='
   }
   stateOfIcon = 0;
   iconName: any;
@@ -47,5 +50,4 @@ export class HomeAlgorithmsApiComponent implements OnInit {
     this.changeIcon();
     this.fontSizeFunc();
   }
-
 }

@@ -32,9 +32,7 @@ export class HomeAlgorithmsWeightComponent implements OnInit {
   getWeight(weight: number){
     this.moonService.calcWeight(weight).then(
       (res) => {
-        this.weightObj = res;
-        console.log(this.weightObj);
-        
+        this.weightObj = res;  
         this.moonWeight = this.weightObj.moon.toFixed(2);
         this.earthWeight = this.weightObj.earth.toFixed(2);
       }

@@ -100,14 +100,12 @@
   },
   "homeAlgorithms": {
     "api": {
-      "p1": "API jest to skórt od Apliccation Programming Interface oznaczający interfejs programistyczny. API to zestawienie regół ściśle opisujące, w jaki sposób programy czy podprogramy komunikują się ze sobą. Stanowi główny łącznik, który pozwala łączyć dane i urządzenia w aplikację i komponować jedną wielką sieć powiązań dzięki czemu nie musimy budować monolitycznej aplikacji (znacznie ułatwia pracę programistom).",
-      "p2": "O właśnie dzięki API aplikacje mogą współpracować ze sobą. Nie istnieją żadne ogarniczenia co do wykorzystania API, można go używać prywatna osoba, bądź dowolna globalna marka (w zależności od licencji). Od strony technicznej API jest kodem, który kontroluje wszelkie punkty dostępowe aplikacji lub serwera.",
-      "p3": "API odgrywa istotną rolę w nowoczesnej infrastrukturze internetowej ponieważ bez interfejsów programowania aplikacji użytkownicy musieliby ciągle „przeskakiwać” między różnymi aplikacjami, aby ręcznie wypełniać w nich pożądane funkcje. Jeżeli jesteś troszkę bardziej zaawansowanym użytkownikiem udostępniam kilka zapytań typu GET z których korzysta ten serwis, dzięki czemu możesz w swoim projekcie zoszczędzić sporo czasu.",
+      "p1": "API jest to skórt od Apliccation Programming Interface oznaczający interfejs programistyczny. API to zestawienie regół ściśle opisujące, w jaki sposób programy czy podprogramy komunikują się ze sobą. Stanowi główny łącznik, który pozwala łączyć dane i urządzenia w aplikację i komponować jedną wielką sieć powiązań dzięki czemu nie musimy budować monolitycznej aplikacji (znacznie ułatwia pracę programistom). To właśnie dzięki API aplikacje mogą współpracować ze sobą. Nie istnieją żadne ogarniczenia co do wykorzystania API, można go używać prywatna osoba, bądź dowolna globalna marka (w zależności od licencji). Od strony technicznej API jest kodem, który kontroluje wszelkie punkty dostępowe aplikacji lub serwera. API odgrywa istotną rolę w nowoczesnej infrastrukturze internetowej ponieważ bez interfejsów programowania aplikacji użytkownicy musieliby ciągle „przeskakiwać” między różnymi aplikacjami, aby ręcznie wypełniać w nich pożądane funkcje. Jeżeli jesteś troszkę bardziej zaawansowanym użytkownikiem udostępniam kilka zapytań typu GET z których korzysta ten serwis, dzięki czemu możesz w swoim projekcie zoszczędzić sporo czasu.",
       "getActualJD": "Zapytanie zwraca aktualną datę juliańską. Nie wymaga żadnych parametrów.",
-      "getParamsJD": "Zapytanie zwraca datę juliańską dla wskazanej daty.  Wymagane parametry (typu: number): day, month, year, hour, min, sec.",
+      "getParamsJD": "Zapytanie zwraca datę juliańską dla wskazanej daty. Wymaga podania parametru zawierającego datę dla jakiej ma zostać zwrócony winik.",
       "getCurrentPhase": "Zapytanie zwraca aktualną fazę księżyca. Nie wymaga żadnych parametrów.",
-      "getPhase": "Zapytanie zwraca fazę księżyca dla wskazanej daty. Wymagane parametry (typu: number): day, month, year, hour, min, sec.",
-      "getSunInfo": "Zapytanie zwraca aktualny dystans do słońca (zapytanie jest w rozbudowie). Nie wymaga żadnych parametrów.",
+      "getPhase": "Zapytanie zwraca fazę księżyca dla wskazanej daty. Wymaga podania parametru zawierającego datę dla jakiej ma zostać zwrócony winik.",
+      "getWeight": "Zapytanie zwraca wartość ciężaru na Księżycu i Ziemii dla wskazanej wagi.",
       "moreBtn": "Więcej",
       "copyBtn": "Kopiuj"
     },

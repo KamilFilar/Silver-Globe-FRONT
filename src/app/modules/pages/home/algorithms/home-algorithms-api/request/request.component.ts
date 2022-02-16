@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { faCopy, faArrowDown, faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faCopy } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-request',
@@ -8,7 +8,6 @@ import { faCopy, faArrowDown, faArrowUp } from '@fortawesome/free-solid-svg-icon
 })
 
 export class RequestComponent implements OnInit {
-
   @Input() type = '';
   @Input() value = '';
   @Input() descritpion = '';
@@ -24,7 +23,7 @@ export class RequestComponent implements OnInit {
     if(localStorage.getItem('storageLang') === 'en'){
       this.copyText = 'Copied successfully!';
     }
-    if(localStorage.getItem('storageLang') === 'du'){
+    if(localStorage.getItem('storageLang') === 'de'){
       this.copyText = 'Erfolgreich kopiert!';
     }
   }
@@ -43,5 +42,4 @@ export class RequestComponent implements OnInit {
   ngOnInit(): void {
     this.getMsg();
   }
-
 }

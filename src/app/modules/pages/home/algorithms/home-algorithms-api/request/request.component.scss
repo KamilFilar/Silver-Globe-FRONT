@@ -1,14 +1,14 @@
 @import "/src/assets/styling/variables.scss";
 
 .icon {
-  color: $orange;
+  color: orange;
   transition-duration: 0.25s;
-}
 
-.icon:hover {
-  cursor: pointer;
-  color: $orange2;
-  transition-duration: 0.25s;
+  &:hover {
+    cursor: pointer;
+    color: $orange2;
+    transition-duration: 0.25s;
+  }
 }
 
 .request {

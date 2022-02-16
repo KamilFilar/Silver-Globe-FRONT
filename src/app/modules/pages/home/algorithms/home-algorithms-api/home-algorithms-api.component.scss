@@ -21,16 +21,15 @@
       float: right;
       width: auto;
       padding: 4px;
-      margin-right: 5px;
-      margin-top: 3px;
+      margin: 3px 5px 0 0;
       border: none;
       outline: none;
       background: none;
-      color: $orange;
-    }
+      color: orange;
 
-    &__moreBtn:hover {
-      color: $orange2;
+      &:hover {
+        color: $orange2;
+      }
     }
   }
 }

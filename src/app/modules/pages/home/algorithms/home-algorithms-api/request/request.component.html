@@ -1,26 +1,32 @@
 <div class="container-fluid">
-    <div class="row justify-content-center request">
-        <div class="col-2 request--get text-center" *ngIf='type==="GET"'>
-            {{ type }}
-        </div>
-        <div class="col-2 request--post text-center" *ngIf='type==="POST"'>
-            {{ type }}
-        </div>
-        <div class="col-xl-10 col-md-9 col-sm-11 col-12 request__val">
-            {{ value }}
-        </div>
-        <div class="col-1 request__copy">
-            <fa-icon [icon]="faCopy" class="icon fa-lg" [title]="'homeAlgorithms.api.copyBtn' | translate" (click)="copyRequest(value)"
-            data-bs-toggle="modal" data-bs-target="#copyAlert"></fa-icon>
-        </div>
-        <div class="col-md-9 col-12">
-            <app-request-info>
-                {{ descritpion }}
-            </app-request-info>
-        </div>
+  <div class="row justify-content-center request">
+    <div class="col-2 request--get text-center" *ngIf="type === 'GET'">
+      {{ type }}
     </div>
+    <div class="col-2 request--post text-center" *ngIf="type === 'POST'">
+      {{ type }}
+    </div>
+    <div class="col-xl-10 col-md-9 col-sm-11 col-12 request__val">
+      {{ value }}
+    </div>
+    <div class="col-1 request__copy">
+      <fa-icon
+        [icon]="faCopy"
+        class="icon fa-lg"
+        [title]="'homeAlgorithms.api.copyBtn' | translate"
+        (click)="copyRequest(value)"
+        data-bs-toggle="modal"
+        data-bs-target="#copyAlert"
+      ></fa-icon>
+    </div>
+    <div class="col-md-9 col-12">
+      <app-request-info>
+        {{ descritpion }}
+      </app-request-info>
+    </div>
+  </div>
 </div>
 
 <app-alert-copy>
-    {{ 'copySucces' | translate }}
+  {{ "copySucces" | translate }}
 </app-alert-copy>
