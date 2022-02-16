@@ -73,22 +73,27 @@ export class UserPanelComponent implements OnInit {
     if (localStorage.getItem('fontSize') == 'li') {
       localStorage.setItem('fontSize', 'sm');
       this.displayFontSize = 18;
+      return;
     }
     if (localStorage.getItem('fontSize') == 'sm') {
       localStorage.setItem('fontSize', 'md');
       this.displayFontSize = 19;
+      return;
     }
     if (localStorage.getItem('fontSize') == 'md') {
       localStorage.setItem('fontSize', 'bg');
       this.displayFontSize = 20;
+      return;
     }
     if (localStorage.getItem('fontSize') == 'bg') {
       localStorage.setItem('fontSize', 'hg');
       this.displayFontSize = 21;
+      return;
     }
     if (localStorage.getItem('fontSize') == 'hg') {
       localStorage.setItem('fontSize', 'li');
       this.displayFontSize = 17;
+      return;
     }
   }
 
@@ -97,21 +102,26 @@ export class UserPanelComponent implements OnInit {
     if (localStorage.getItem('fontSize') == 'hg') {
       localStorage.setItem('fontSize', 'bg');
       this.displayFontSize = 21;
+      return;
     }
     if (localStorage.getItem('fontSize') == 'bg') {
       localStorage.setItem('fontSize', 'md');
       this.displayFontSize = 20;
+      return;
     }
     if (localStorage.getItem('fontSize') == 'md') {
       localStorage.setItem('fontSize', 'sm');
       this.displayFontSize = 19;
+      return;
     }
     if (localStorage.getItem('fontSize') == 'sm') {
       localStorage.setItem('fontSize', 'li');
       this.displayFontSize = 18;
+      return;
     }
     if (localStorage.getItem('fontSize') == 'li') {
       this.displayFontSize = 17;
+      return;
     }
   }
 
@@ -119,5 +129,4 @@ export class UserPanelComponent implements OnInit {
     this.checkStorageLang();
     this.checkStorageFontSize();
   }
-  
 }

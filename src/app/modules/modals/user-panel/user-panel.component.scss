@@ -71,15 +71,12 @@
       background-color: rgba(40, 40, 40, 0);
       border: none;
       outline: none;
+      color: orange;
+      transition-duration: 0.3s;
 
-      fa-icon {
-        color: orange;
+      &:hover {
+        color: $orange2;
         transition-duration: 0.3s;
-
-        &:hover {
-          color: $orange2;
-          transition-duration: 0.3s;
-        }
       }
     }
   }
