@@ -1,67 +1,108 @@
-<div class="container-fluid intrestingFactsComponent">
-    <div class="title">
-        <app-subtitle [value]="'homeIntrestingFacts.title' | translate"></app-subtitle>
-    </div>
-    <div class="row justify-content-center" [ngClass]="fontSizeFunc()">
-        <div class="col-xl-8 col-lg-9 col-md-10 col-sm-11 col-12">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active text-center">
-                        <app-intresting-fact-item [text]="'homeIntrestingFacts.table.1' | translate"
-                            [id]="listOfId.one"></app-intresting-fact-item>
-                    </div>
-                    <div class="carousel-item">
-                        <app-intresting-fact-item [text]="'homeIntrestingFacts.table.2' | translate"
-                            [id]="listOfId.two"></app-intresting-fact-item>
-                    </div>
-                    <div class="carousel-item">
-                        <app-intresting-fact-item [text]="'homeIntrestingFacts.table.3' | translate"
-                            [id]="listOfId.three"></app-intresting-fact-item>
-                    </div>
-                    <div class="carousel-item">
-                        <app-intresting-fact-item [text]="'homeIntrestingFacts.table.4' | translate"
-                            [id]="listOfId.four"></app-intresting-fact-item>
-                    </div>
-                    <div class="carousel-item">
-                        <app-intresting-fact-item [text]="'homeIntrestingFacts.table.5' | translate"
-                            [id]="listOfId.five"></app-intresting-fact-item>
-                    </div>
-                    <div class="carousel-item">
-                        <app-intresting-fact-item [text]="'homeIntrestingFacts.table.6' | translate"
-                            [id]="listOfId.six"></app-intresting-fact-item>
-                    </div>
-                    <div class="carousel-item">
-                        <app-intresting-fact-item [text]="'homeIntrestingFacts.table.7' | translate"
-                            [id]="listOfId.seven"></app-intresting-fact-item>
-                    </div>
-                    <div class="carousel-item">
-                        <app-intresting-fact-item [text]="'homeIntrestingFacts.table.8' | translate"
-                            [id]="listOfId.eight"></app-intresting-fact-item>
-                    </div>
-                    <div class="carousel-item">
-                        <app-intresting-fact-item [text]="'homeIntrestingFacts.table.9' | translate"
-                            [id]="listOfId.nine"></app-intresting-fact-item>
-                    </div>
-                    <div class="carousel-item">
-                        <app-intresting-fact-item [text]="'homeIntrestingFacts.table.10' | translate"
-                            [id]="listOfId.ten"></app-intresting-fact-item>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev" title="Previous">
-                    <span aria-hidden="true">
-                        <fa-icon [icon]="faArrowAltCircleLeft" class="fa-2x"></fa-icon>
-                    </span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next" title="Next">
-                    <span aria-hidden="true">
-                        <fa-icon [icon]="faArrowAltCircleRight" class="fa-2x"></fa-icon>
-                    </span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+<div class="container-fluid">
+  <div class="title">
+    <app-subtitle
+      [value]="'homeIntrestingFacts.title' | translate"
+    ></app-subtitle>
+  </div>
+  <div class="row justify-content-center" [ngClass]="fontSizeFunc()">
+    <div class="col-xl-8 col-lg-9 col-md-10 col-sm-11 col-12">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+      <!-- Carusel content -->
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <app-intresting-fact-item
+              [text]="'homeIntrestingFacts.table.1' | translate"
+              [id]="listOfId.one"
+            ></app-intresting-fact-item>
+          </div>
+          <div class="carousel-item">
+            <app-intresting-fact-item
+              [text]="'homeIntrestingFacts.table.2' | translate"
+              [id]="listOfId.two"
+            ></app-intresting-fact-item>
+          </div>
+          <div class="carousel-item">
+            <app-intresting-fact-item
+              [text]="'homeIntrestingFacts.table.3' | translate"
+              [id]="listOfId.three"
+            ></app-intresting-fact-item>
+          </div>
+          <div class="carousel-item">
+            <app-intresting-fact-item
+              [text]="'homeIntrestingFacts.table.4' | translate"
+              [id]="listOfId.four"
+            ></app-intresting-fact-item>
+          </div>
+          <div class="carousel-item">
+            <app-intresting-fact-item
+              [text]="'homeIntrestingFacts.table.5' | translate"
+              [id]="listOfId.five"
+            ></app-intresting-fact-item>
+          </div>
+          <div class="carousel-item">
+            <app-intresting-fact-item
+              [text]="'homeIntrestingFacts.table.6' | translate"
+              [id]="listOfId.six"
+            ></app-intresting-fact-item>
+          </div>
+          <div class="carousel-item">
+            <app-intresting-fact-item
+              [text]="'homeIntrestingFacts.table.7' | translate"
+              [id]="listOfId.seven"
+            ></app-intresting-fact-item>
+          </div>
+          <div class="carousel-item">
+            <app-intresting-fact-item
+              [text]="'homeIntrestingFacts.table.8' | translate"
+              [id]="listOfId.eight"
+            ></app-intresting-fact-item>
+          </div>
+          <div class="carousel-item">
+            <app-intresting-fact-item
+              [text]="'homeIntrestingFacts.table.9' | translate"
+              [id]="listOfId.nine"
+            ></app-intresting-fact-item>
+          </div>
+          <div class="carousel-item">
+            <app-intresting-fact-item
+              [text]="'homeIntrestingFacts.table.10' | translate"
+              [id]="listOfId.ten"
+            ></app-intresting-fact-item>
+          </div>
         </div>
+        <!-- End carusel content -->
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+          title="Previous"
+        >
+          <span aria-hidden="true">
+            <fa-icon [icon]="faArrowAltCircleLeft" class="fa-2x"></fa-icon>
+          </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+          title="Next"
+        >
+          <span aria-hidden="true">
+            <fa-icon [icon]="faArrowAltCircleRight" class="fa-2x"></fa-icon>
+          </span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
     </div>
+  </div>
 </div>

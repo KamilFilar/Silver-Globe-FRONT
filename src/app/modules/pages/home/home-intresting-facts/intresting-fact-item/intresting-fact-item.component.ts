@@ -15,5 +15,4 @@ export class IntrestingFactItemComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

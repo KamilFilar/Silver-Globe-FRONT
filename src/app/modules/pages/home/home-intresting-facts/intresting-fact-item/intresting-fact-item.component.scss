@@ -2,24 +2,26 @@
 
 .content {
   width: 80%;
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
-  font-weight: 600;
   transition-duration: 0.3s;
 
   &__title {
-    color: $orange;
+    font-family: Kalam;
+    color: orange;
+    font-weight: 600;
     &--id {
       color: $orange2;
     }
   }
 
   &__text {
-    margin: 0 auto;
-    width: 80%;
+    margin: 0;
+    width: 100%;
+    font-weight: 500;
 
     &--quote {
-      color: $orange;
+      color: orange;
     }
   }
 }

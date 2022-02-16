@@ -1,13 +1,18 @@
 @import "/src/assets/styling/variables.scss";
 
-.intrestingFactsComponent {
-  background-image: linear-gradient(to bottom, $bgColorDark, rgba(255, 255, 255, 0) 93%, $bgColorDark),
+.container-fluid {
+  background-image: linear-gradient(
+      to bottom,
+      $bgColorDark,
+      rgba(255, 255, 255, 0) 93%,
+      $bgColorDark
+    ),
     url("../../../../../assets/images/home-intrestingfacts/moonLamp.jpg");
   height: auto;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0 200px 0;
+  padding: 100px 0 200px;
   transition-duration: 0.25s;
 }
 
@@ -24,7 +29,7 @@
 }
 
 .carousel-item {
-  padding: 20px 0 15px;
+  padding: 20px 0;
 }
 
 .carousel-item.active {
@@ -33,5 +38,5 @@
 
 .carousel-control-next,
 .carousel-control-prev {
-  color: $orange;
+  color: orange;
 }

@@ -4,11 +4,13 @@ import { faArrowAltCircleLeft, faArrowAltCircleRight } from '@fortawesome/free-s
 @Component({
   selector: 'app-home-intresting-facts',
   templateUrl: './home-intresting-facts.component.html',
-  styleUrls: ['./home-intresting-facts.component.scss', './../../../../../assets/styling/global/fontSize.scss']
+  styleUrls: [
+    './home-intresting-facts.component.scss', 
+    './../../../../../assets/styling/global/fontSize.scss'
+  ]
 })
 
 export class HomeIntrestingFactsComponent implements OnInit {
-
   faArrowAltCircleLeft = faArrowAltCircleLeft;
   faArrowAltCircleRight = faArrowAltCircleRight;
   listOfId = {
