@@ -11,8 +11,8 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 // Import API 
 import { HttpClientModule, HttpClient } from '@angular/common/http';
-import { EmailService } from './config/services/email.service';
 import { MoonService } from './config/services/moon.service';
+import { EmailService } from './config/services/email.service';
 import { NewsletterService } from './config/services/newsletter.service';
 // Import components
 import { SubtitleComponent } from './modules/components/subtitle/subtitle.component';

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-// import { MoonService } from 'src/app/config/moon.service';
+import { MoonService } from 'src/app/config/services/moon.service';
 
 @Component({
   selector: 'app-home-algorithms-weight',
@@ -8,17 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class HomeAlgorithmsWeightComponent implements OnInit {
-
   weightObj: any;
   moonWeight = 0;
   earthWeight = 0;
 
   constructor(
-    // private moonService: MoonService
+    private moonService: MoonService
   ) { }
 
   getInputValue(searchValue: string) {
-    let isNum = /^\d+$/.test(searchValue);
+    if(searchValue == '') {
+      this.moonWeight = 0;
+      this.earthWeight = 0;
+    }
+
+    const isNum = /^\d+$/.test(searchValue);
     if(isNum == true) {
       let value: number =+ searchValue;
       this.getWeight(value);
@@ -26,18 +30,18 @@ export class HomeAlgorithmsWeightComponent implements OnInit {
   }
 
   getWeight(weight: number){
-    // this.moonService.getUserWeight(weight).then(
-    //   (res) => {
-    //     this.weightObj = res;
-    //     this.moonWeight = this.weightObj.moon.toFixed(2);
-    //     this.earthWeight = this.weightObj.earth.toFixed(2);
-    //   }
-    // )
+    this.moonService.calcWeight(weight).then(
+      (res) => {
+        this.weightObj = res;
+        console.log(this.weightObj);
+        
+        this.moonWeight = this.weightObj.moon.toFixed(2);
+        this.earthWeight = this.weightObj.earth.toFixed(2);
+      }
+    )
   }  
 
   ngOnInit(): void {
-    // Calc by default for 80kg
     this.getWeight(80);
   }
-
 }

@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 
 export class MoonService {
 
-  basicURL = 'http://localhost:8080/api/moon/';
+  basicURL = 'http://localhost:8015/api/moon/';
 
   constructor(private http: HttpClient) { }
 

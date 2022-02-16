@@ -1,41 +1,54 @@
 <div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-lg-11 col-12">
-            <div class="row algorithms">
-                <div class="col-lg-7 col-12 algorithms__about">
-                    <app-subtitle [value]="'homeAlgorithms.algorithms.title' | translate"></app-subtitle>
-                    <p class="algorithms__about--text" [ngClass]="fontSizeFunc()">{{ 'homeAlgorithms.algorithms.p1' |
-                        translate }}</p>
-                    <p class="algorithms__about--text" [ngClass]="fontSizeFunc()">
-                        {{ 'homeAlgorithms.algorithms.p2' | translate }}
-                        {{ 'homeAlgorithms.algorithms.p3' | translate }}
-                    </p>
-                </div>
-                <div class="col-lg-5 col-12 algorithms__list">
-                    <app-subtitle [value]="'homeAlgorithms.stepList.title' | translate"></app-subtitle>
-                    <p class="algorithms__list--text" [ngClass]="fontSizeFunc()">
-                        {{ 'homeAlgorithms.stepList.p1' | translate }}
-                    </p>
-                    <dl [ngClass]="fontSizeFunc()">
-                        <p>
-                            <span class="algorithms__list--index">{{ 'homeAlgorithms.stepList.steps.s1' | translate }}
-                            </span>{{ 'homeAlgorithms.stepList.step.1' | translate }}
-                        </p>
-                        <p>
-                            <span class="algorithms__list--index">{{ 'homeAlgorithms.stepList.steps.s2' | translate }}
-                            </span>{{ 'homeAlgorithms.stepList.step.2' | translate }}
-                        </p>
-                        <p>
-                            <span class="algorithms__list--index">{{ 'homeAlgorithms.stepList.steps.s3' | translate }}
-                            </span>{{ 'homeAlgorithms.stepList.step.3' | translate }}
-                        </p>
-                        <p>
-                            <span class="algorithms__list--index">{{ 'homeAlgorithms.stepList.steps.s4' | translate }}
-                            </span>{{ 'homeAlgorithms.stepList.step.4' | translate }}
-                        </p>
-                    </dl>
-                </div>
-            </div>
+  <div class="row justify-content-center">
+    <div class="col-lg-11 col-12">
+      <div class="row algorithms">
+        <div class="col-lg-7 col-12 algorithms__about">
+          <app-subtitle
+            [value]="'homeAlgorithms.algorithms.title' | translate"
+          ></app-subtitle>
+          <p class="algorithms__about--text" [ngClass]="fontSizeFunc()">
+            {{ "homeAlgorithms.algorithms.p1" | translate }}
+          </p>
+          <p class="algorithms__about--text" [ngClass]="fontSizeFunc()">
+            {{ "homeAlgorithms.algorithms.p2" | translate }}
+            {{ "homeAlgorithms.algorithms.p3" | translate }}
+          </p>
         </div>
+        <div class="col-lg-5 col-12 algorithms__list">
+          <app-subtitle 
+            [value]="'homeAlgorithms.stepList.title' | translate"
+          ></app-subtitle>
+          <p class="algorithms__list--text" [ngClass]="fontSizeFunc()">
+            {{ "homeAlgorithms.stepList.p1" | translate }}
+          </p>
+          <dl [ngClass]="fontSizeFunc()">
+            <p>
+                <span class="algorithms__list--index">
+                  {{ "homeAlgorithms.stepList.steps.s1" | translate }} 
+                </span>
+                {{ "homeAlgorithms.stepList.step.1" | translate }}
+            </p>
+            <p>
+                <span class="algorithms__list--index">
+                    {{ "homeAlgorithms.stepList.steps.s2" | translate }} 
+                </span>
+                {{ "homeAlgorithms.stepList.step.2" | translate }}
+            </p>
+            <p>
+                <span class="algorithms__list--index">
+                    {{ "homeAlgorithms.stepList.steps.s3" | translate }} 
+                </span>
+                {{ "homeAlgorithms.stepList.step.3" | translate }}
+            </p>
+            <p>
+                <span class="algorithms__list--index">
+                    {{ "homeAlgorithms.stepList.steps.s4" | translate }} 
+                </span>
+                {{ "homeAlgorithms.stepList.step.4" | translate }}
+            </p>
+          </dl>
+        </div>
+      </div>
     </div>
+  </div>
 </div>

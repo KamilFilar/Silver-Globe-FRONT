@@ -1,38 +1,38 @@
 @import "/src/assets/styling/variables.scss";
 
 mat-form-field {
-    border: 1px solid orange;
-    width: 80%;
+  border: 1px solid orange;
+  width: 80%;
 }
 
 .weight {
-    margin: 30px 0;   
+  margin: 30px 0;
 
-    &__result {
-        text-align: center;
-        margin: auto 0;
-        font-weight: 600;
-        padding-top: 15px;
+  &__result {
+    text-align: center;
+    margin: auto 0;
+    font-weight: 600;
+    padding-top: 15px;
 
-        &__text {
-            font-size: $fontSizeLittle;
+    &__text {
+      font-size: $fontSizeLittle;
 
-            &--unit {
-                color: $orange;
-            }
-        }
-
-        &__value {
-            font-size: $fontSize;
-            color: $orange;
-        }
+      &--unit {
+        color: orange;
+      }
     }
+
+    &__value {
+      font-size: $fontSize;
+      color: orange;
+    }
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .weight {
-        &__result {
-            padding-top: 0;
-        }
+  .weight {
+    &__result {
+      padding-top: 0;
     }
+  }
 }
