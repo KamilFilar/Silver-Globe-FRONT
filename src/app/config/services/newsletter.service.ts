@@ -7,7 +7,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 export class NewsletterService {
 
-  basicURL = 'http://localhost:8080/api/newsletter/';
+  basicURL = 'http://localhost:8015/api/newsletter/';
 
   constructor(private http: HttpClient) { }
 

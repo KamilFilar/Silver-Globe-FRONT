@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-// import { NewsletterService } from 'src/app/config/newsletter.service';
+import { NewsletterService } from 'src/app/config/services/newsletter.service';
 import { AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 
@@ -17,10 +17,10 @@ export class FooterNewsletterComponent implements OnInit {
   form!: FormGroup;
   submitted = false;
   emailToAdd!: String;
-  emailExist: any;
+  emailObj: any;
 
   constructor(
-    // private newsletterService: NewsletterService,
+    private newsletterService: NewsletterService,
     private formBuilder: FormBuilder
   ) {}
 
@@ -39,21 +39,21 @@ export class FooterNewsletterComponent implements OnInit {
 
     this.emailToAdd = this.form.value.email;
 
-    // this.newsletterService
-    //   .getSingleEmail(this.emailToAdd)
-    //   .then((res) => {
-    //     this.emailExist = res;
-    //     this.msgState = 1;
-    //     this.msgIconPath =
-    //       './../../../../../assets/images/materials/emoji/face-concerned.png';
-    //     return;
-    //   })
-    //   .catch((err) => {
-    //     this.msgState = 2;
-    //     this.msgIconPath =
-    //       './../../../../../assets/images/materials/emoji/happy.png';
-    //     this.newsletterService.addNewEmail(this.emailToAdd);
-    //   });
+    this.newsletterService.addNewEmail(this.emailToAdd).then(
+      (res) => {
+        this.emailObj = res;
+        this.msgState = 2;
+        this.msgIconPath = './../../../../../assets/images/materials/emoji/happy.png';
+        return;
+      })
+      .catch(
+        (err) => {
+          this.emailObj = err;
+          this.msgState = 1;
+          this.msgIconPath = './../../../../../assets/images/materials/emoji/face-concerned.png';
+          return;
+        }
+      )
   }
 
   onReset(): void {
