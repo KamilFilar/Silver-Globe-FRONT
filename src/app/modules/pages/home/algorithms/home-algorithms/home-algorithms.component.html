@@ -1,38 +1,54 @@
 <app-home-algorithms-info></app-home-algorithms-info>
 <div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-xl-11 col-lg-11 col-12">
-            <div class="row justify-content-center">
-                <div class="col-xl-5 col-lg-7 col-sm-10 col-11 code">
-                    <app-program-c></app-program-c>
-                    <app-copy-code-btn [parameter]='C' (click)="copyFunction(C)"
-                    data-bs-toggle="modal" data-bs-target="#copyAlert"></app-copy-code-btn>
-                </div>
-                <div class="col-xl-5 col-lg-7 col-sm-10 col-11 code">
-                    <app-program-java></app-program-java>
-                    <app-copy-code-btn [parameter]='Java' (click)="copyFunction(Java)"
-                    data-bs-toggle="modal" data-bs-target="#copyAlert"></app-copy-code-btn>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-xl-5 col-lg-7 col-sm-10 col-11 code">
-                    <app-program-python></app-program-python>
-                    <app-copy-code-btn [parameter]='Python' (click)="copyFunction(Python)"
-                    data-bs-toggle="modal" data-bs-target="#copyAlert"></app-copy-code-btn>
-                </div>
-                <div class="col-xl-5 col-lg-7 col-sm-10 col-11 code">
-                    <app-program-cplus></app-program-cplus>
-                    <app-copy-code-btn [parameter]='CPlus' (click)="copyFunction(CPlus)"
-                    data-bs-toggle="modal" data-bs-target="#copyAlert"></app-copy-code-btn>
-                </div>
-            </div>
+  <div class="row justify-content-center">
+    <div class="col-xl-11 col-lg-11 col-12">
+      <div class="row justify-content-center">
+        <div class="col-xl-5 col-lg-7 col-sm-10 col-11 code">
+          <app-program-c></app-program-c>
+          <app-copy-code-btn
+            [parameter]="C"
+            (click)="copyFunction(C)"
+            data-bs-toggle="modal"
+            data-bs-target="#copyAlert"
+          ></app-copy-code-btn>
         </div>
+        <div class="col-xl-5 col-lg-7 col-sm-10 col-11 code">
+          <app-program-java></app-program-java>
+          <app-copy-code-btn
+            [parameter]="Java"
+            (click)="copyFunction(Java)"
+            data-bs-toggle="modal"
+            data-bs-target="#copyAlert"
+          ></app-copy-code-btn>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xl-5 col-lg-7 col-sm-10 col-11 code">
+          <app-program-python></app-program-python>
+          <app-copy-code-btn
+            [parameter]="Python"
+            (click)="copyFunction(Python)"
+            data-bs-toggle="modal"
+            data-bs-target="#copyAlert"
+          ></app-copy-code-btn>
+        </div>
+        <div class="col-xl-5 col-lg-7 col-sm-10 col-11 code">
+          <app-program-cplus></app-program-cplus>
+          <app-copy-code-btn
+            [parameter]="CPlus"
+            (click)="copyFunction(CPlus)"
+            data-bs-toggle="modal"
+            data-bs-target="#copyAlert"
+          ></app-copy-code-btn>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
 <app-home-algorithms-weight></app-home-algorithms-weight>
 <app-home-algorithms-api></app-home-algorithms-api>
 
 <!-- Modal component -->
 <app-alert-copy>
-    {{ 'copySucces' | translate }}
+  {{ "copySucces" | translate }}
 </app-alert-copy>

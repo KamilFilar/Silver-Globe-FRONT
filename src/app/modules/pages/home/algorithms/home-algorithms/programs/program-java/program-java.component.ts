@@ -12,5 +12,4 @@ export class ProgramJavaComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

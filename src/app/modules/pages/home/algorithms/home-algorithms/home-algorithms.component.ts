@@ -8,7 +8,6 @@ import { faCopy } from '@fortawesome/free-solid-svg-icons';
 })
 
 export class HomeAlgorithmsComponent implements OnInit {
-
   faCopy = faCopy;
   C = 'CProgram';
   Java = 'JavaProgram';
@@ -25,7 +24,7 @@ export class HomeAlgorithmsComponent implements OnInit {
     if(localStorage.getItem('storageLang') === 'en'){
       this.copyText = 'Copied successfully!';
     }
-    if(localStorage.getItem('storageLang') === 'du'){
+    if(localStorage.getItem('storageLang') === 'de'){
       this.copyText = 'Erfolgreich kopiert!';
     }
   }
@@ -51,6 +50,5 @@ export class HomeAlgorithmsComponent implements OnInit {
     this.fontSizeFunc();
     this.getMsg();
   }
-  
 }
 

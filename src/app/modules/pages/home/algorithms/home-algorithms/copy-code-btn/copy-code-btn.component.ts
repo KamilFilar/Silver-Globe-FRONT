@@ -8,7 +8,6 @@ import { faCopy } from '@fortawesome/free-solid-svg-icons';
 })
 
 export class CopyCodeBtnComponent implements OnInit {
-
   @Input() parameter =  '';
   faCopy = faCopy;
   

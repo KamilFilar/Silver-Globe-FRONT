@@ -1,16 +1,16 @@
-@import "/src/assets/styling/variables.scss";
-
 .code {
   display: inline-block;
   position: relative;
-  background: linear-gradient(rgb(40, 40, 40), rgb(40, 40, 40)) padding-box,
-    radial-gradient(circle, black 70%, $orange 100%) border-box;
+  background: 
+    linear-gradient(rgb(40, 40, 40), rgb(40, 40, 40)) padding-box,
+    radial-gradient(circle, black 70%, orange 100%) border-box;
   border: 5px solid transparent;
   border-radius: 25px;
   margin: 20px 25px;
   transition-duration: 0.5s;
-}
-.code:hover {
-  border: 5px solid $orange;
-  transition-duration: 0.5s;
+
+  &:hover {
+    border: 5px solid orange;
+    transition-duration: 0.5s;
+  }
 }
