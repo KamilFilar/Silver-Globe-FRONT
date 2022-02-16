@@ -1,7 +1,7 @@
 @import "/src/assets/styling/variables.scss";
 
 .container-fluid {
-  padding-top: 80px;
+  padding-top: 30px;
 }
 
 .info {
@@ -10,10 +10,8 @@
   &__img {
     min-width: 400px;
     max-width: 600px;
-    width: 100%;
-    height: auto;
     float: right;
     shape-outside: url("../../../../../assets/images/home-info/splashImage.gif");
-    shape-margin: 10px;
+    shape-margin: 5px;
   }
 }

@@ -1,5 +1,5 @@
 {
-  "copySucces": "Skopiowano pomyślnie!",
+  "copySuccess": "Skopiowano pomyślnie!",
   "settingsComponent": {
     "tittle": "Ustawienia",
     "font": {
@@ -155,16 +155,8 @@
     },
     "kordylewski": {
       "t1": "Księżyce Kordylewskiego",
-      "p1": " - oprócz naturalnego satelity Księżyca, wokół Ziemi krążą również dwa obłoki pyłowe zwane pyłowymi satelitami Ziemi. Odkryte zostały przez polskiego astronoma Kazimierza Kordylewskiego blisko 60 lat temu. Odkrycie to traktowano jednak raczej jako hipotezę ze względu na trudności w obserwacji tych obiektów. ",
-      "p2": "Kordylewski potwierdził ich istnienie obserwując słabe lokalne pojaśnienie tła nieba w miejscach odpowiadających położeniu punktów libracyjnych, pochodzące od rozproszonego światła słonecznego na zagęszczeniach pyłu. Księżyce pyłowe wykazują fazy podobne do Księżyca. Obłok, który porusza się przed Księżycem ma największą jasność dwa dni po pierwszej kwadrze, drugi obłok natomiast dwa dni przed ostatnią kwadrą. ",
-      "p3": "Obłoki pyłowe znajdują się w punktach libracyjnych L4 i L5 orbity księżyca, obiegające Ziemię w tym samym czasie co Księżyc. Punkty te tworzą wierzchołki trójkątów równobocznych, których boki są równe promieniowi orbity Księżyca. L4 i L5 nie są całkowicie stabilne, ponieważ są zakłócane przez przyciąganie grawitacyjne Słońca. Uważa się jednak, że są to miejsca, w których może gromadzić się pył międzyplanetarny, przynajmniej tymczasowo. Pyłowe obłoki libracyjne są wyjątkowo trudne do obserwacji ponieważ mają bardzo małą jasność powierzchniową "
-    },
-    "mission": {
-      "t1": "Eksploracja księżyca",
-      "p1": " - rozwój dużych silników rakietowych na paliwo płynne na początku XX wieku pozwolił na praktyczne spojrzenie poza granice Ziemi. Był to przełom, zwłaszcza w porównaniu do obserwacji kosmosu z powierzchni naszej planety (znanej jako astronomia) która była dokonywana od tysiącleci. Bieżące przesłanki za eksploracją kosmosu to m.in. postęp naukowy i zapewnienie przetrwania ludzkości.",
-      "p2": "Naturalnym krokiem w ekslporacji kosmosu jest poznanie naszego naturalnego satelity - księżyca. Pierwszy krok w dziedzinie obserwacji Księżyca został poczyniony wraz z wynalazkiem teleskopu: Galileusz przy wykorzystaniu nowego instrumentu obserwował na jego powierzchni kratery i pasma górskie. Zimnowojenny wyścig kosmiczny pomiędzy USA a Związkiem Radzieckim doprowadził do znacznego zwiększenia zainteresowania ziemskim satelitą. Bezzałogowe sondy, zarówno te przelatujące obok Księżyca, jak i lądujące na jego powierzchni, wysłano bezzwłocznie po tym, jak rozwój techniki stworzył taką możliwość. Pełną listę misji związanych z księżycem znajdziesz ",
-      "p3": "Lądowanie na Księżycu pierwszych ludzi w roku 1969 uznaje się za moment kulminacyjny kosmicznego wyścigu w czasie zimnej wojny. Neil Armstrong, dowódca misji Apollo 11, stał się pierwszym człowiekiem na powierzchni Srebrnego Globu, jako pierwszy stawiając stopę na Księżycu dokładnie o 02:56 GMT 21 lipca 1969 roku (po prawej na zdjęciu widzimy astronautę Buzz Aldrina, który został sfotografowany przez Neila Amstronga). Do dziś, październik 2021, ostatnią osobą, która stąpała po księżycowym gruncie, był Eugene Cernan, członek misji Apollo 17 w grudniu 1972.",
-      "p4": "Coś się jeszcze dopisze."
+      "p1": "- oprócz naturalnego satelity Księżyca, wokół Ziemi krążą również dwa obłoki pyłowe zwane pyłowymi satelitami Ziemi. Odkryte zostały przez polskiego astronoma Kazimierza Kordylewskiego blisko 60 lat temu. Odkrycie to traktowano jednak raczej jako hipotezę ze względu na trudności w obserwacji tych obiektów. Kordylewski potwierdził ich istnienie obserwując słabe lokalne pojaśnienie tła nieba w miejscach odpowiadających położeniu punktów libracyjnych, pochodzące od rozproszonego światła słonecznego na zagęszczeniach pyłu. Księżyce pyłowe wykazują fazy podobne do Księżyca. Obłok, który porusza się przed Księżycem ma największą jasność dwa dni po pierwszej kwadrze, drugi obłok natomiast dwa dni przed ostatnią kwadrą. ",
+      "p2": "Obłoki pyłowe znajdują się w punktach libracyjnych L4 i L5 orbity księżyca, obiegające Ziemię w tym samym czasie co Księżyc. Punkty te tworzą wierzchołki trójkątów równobocznych, których boki są równe promieniowi orbity Księżyca. L4 i L5 nie są całkowicie stabilne, ponieważ są zakłócane przez przyciąganie grawitacyjne Słońca. Uważa się jednak, że są to miejsca, w których może gromadzić się pył międzyplanetarny, przynajmniej tymczasowo. Pyłowe obłoki libracyjne są wyjątkowo trudne do obserwacji ponieważ mają bardzo małą jasność powierzchniową."
     },
     "julianDate": {
       "t1": "Dni Juliańskie",

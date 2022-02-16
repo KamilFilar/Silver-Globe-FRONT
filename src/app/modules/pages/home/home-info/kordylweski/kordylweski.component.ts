@@ -22,5 +22,4 @@ export class KordylweskiComponent implements OnInit {
   ngOnInit(): void {
     this.fontSizeFunc();
   }
-
 }

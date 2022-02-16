@@ -63,12 +63,12 @@ import { ProgramJavaComponent } from './modules/pages/home/algorithms/home-algor
 import { ProgramPythonComponent } from './modules/pages/home/algorithms/home-algorithms/programs/program-python/program-python.component';
 import { ProgramCplusComponent } from './modules/pages/home/algorithms/home-algorithms/programs/program-cplus/program-cplus.component';
 // Import info
-import { InfoAdmissionComponent } from './modules/pages/home/home-info/info-admission/info-admission.component';
-import { InfoKordylewskiMoonsComponent } from './modules/pages/home/home-info/info-kordylewski-moons/info-kordylewski-moons.component';
-import { InfoJulianDateComponent } from './modules/pages/home/home-info/info-julian-date/info-julian-date.component';
-import { InfoBlueMoonComponent } from './modules/pages/home/home-info/info-blue-moon/info-blue-moon.component';
-import { InfoHealthComponent } from './modules/pages/home/home-info/info-health/info-health.component';
-import { InfoMoonMissionComponent } from './modules/pages/home/home-info/info-moon-mission/info-moon-mission.component';
+import { IntroductionComponent } from './modules/pages/home/home-info/introduction/introduction.component';
+import { BlueMoonComponent } from './modules/pages/home/home-info/blue-moon/blue-moon.component';
+import { KordylweskiComponent } from './modules/pages/home/home-info/kordylweski/kordylweski.component';
+import { JulianDateComponent } from './modules/pages/home/home-info/julian-date/julian-date.component';
+import { HealthComponent } from './modules/pages/home/home-info/health/health.component';
+
 // Import materials
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
@@ -124,12 +124,6 @@ import { HomeAlgorithmsWeightComponent } from './modules/pages/home/algorithms/h
     RequestComponent,
     RequestInfoComponent,
     HomeJulianDateComponent,
-    InfoAdmissionComponent,
-    InfoKordylewskiMoonsComponent,
-    InfoJulianDateComponent,
-    InfoBlueMoonComponent,
-    InfoHealthComponent,
-    InfoMoonMissionComponent,
     HomeIntrestingFactsComponent,
     HomeContactComponent,
     NoHrefButtonComponent,
@@ -137,7 +131,14 @@ import { HomeAlgorithmsWeightComponent } from './modules/pages/home/algorithms/h
     UserNewsletterComponent,
     IntrestingFactItemComponent,
     AlertCopyComponent,
-    HomeAlgorithmsWeightComponent
+    HomeAlgorithmsWeightComponent,
+
+    // Home info
+    IntroductionComponent,
+    BlueMoonComponent,
+    KordylweskiComponent,
+    JulianDateComponent,
+    HealthComponent
   ],
   imports: [
     BrowserModule,
