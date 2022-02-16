@@ -8,7 +8,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 export class EmailService {
 
-  basicURL = 'http://localhost:8080/api/nodeMailer/';
+  basicURL = 'http://localhost:8015/api/nodeMailer/';
 
   headers = new HttpHeaders({
     'Content-Type': 'application/json'
@@ -16,13 +16,13 @@ export class EmailService {
 
   constructor(private http: HttpClient) { }
 
-  sendEmail(content: String, subject: String, target: String) {
+  sendEmail(content: String, subject: String, sender: String) {
     const body = JSON.stringify({
-      content: content,
+      msg: content,
       subject: subject,
-      target: target,
+      email: sender,
     })
-
+    
     return this.http.post(this.basicURL + 'email', body, { headers: this.headers }).toPromise();
   }
 }

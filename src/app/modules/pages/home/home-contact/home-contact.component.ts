@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { EmailService } from 'src/app/config/services/email.service';
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -16,6 +17,7 @@ export class HomeContactComponent implements OnInit {
   form!: FormGroup;
   msgState!: number; // 1 = required, 2 = invalid, 3 = success
   msgIconPath!: string;
+  emailObj: any;
   showError = {
     email: false,
     content: false,
@@ -25,7 +27,10 @@ export class HomeContactComponent implements OnInit {
     content: '',
   };
 
-  constructor(private formBuilder: FormBuilder) {}
+  constructor(
+    private formBuilder: FormBuilder,
+    private emailService: EmailService
+    ) {}
 
   get f(): { [key: string]: AbstractControl } {
     return this.form.controls;
@@ -82,7 +87,19 @@ export class HomeContactComponent implements OnInit {
       }
       this.msgState = 3;
       this.msgIconPath = './../../../../../assets/images/materials/emoji/happy.png';
-      // this.sendEmailService.sendEmailFromUser(email, content, subject);
+      this.emailService.sendEmail(content, subject, email).then(
+        (res) => {
+          this.emailObj = res;
+          console.log(this.emailObj)
+        }
+      )
+      .catch(
+        (err) => {
+          this.emailObj = err;
+          console.log(this.emailObj);
+          
+        }
+      );
     }
   }
 
