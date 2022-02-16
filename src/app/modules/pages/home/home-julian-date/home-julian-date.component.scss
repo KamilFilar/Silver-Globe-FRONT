@@ -15,14 +15,14 @@
   &--href,
   &--date {
     text-decoration: none;
-    color: $orange;
+    color: orange;
     transition-duration: 0.3s;
-  }
 
-  &--href:hover {
-    text-decoration: underline;
-    color: $orange2;
-    transition-duration: 0.3s;
+    &:hover {
+      text-decoration: underline;
+      color: $orange2;
+      transition-duration: 0.3s;
+    }
   }
 }
 
@@ -35,7 +35,7 @@
       margin: 0;
 
       &--val {
-        color: $orange;
+        color: orange;
         font-weight: 600;
       }
     }
@@ -56,6 +56,7 @@ mat-datepicker {
   color: rgb(245, 159, 0);
   font-size: $fontSize;
 }
+
 ::ng-deep .mat-form-field {
   .mat-input-element {
     color: white;
