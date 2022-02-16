@@ -1,35 +1,17 @@
 <div class="row justify-content-center slideIn--left">
   <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-10 col-12 imgBox fadeIn">
-    <img [src]="blueMoon" class="imgBox--val" />
+      <img [src]='blueMoon' class="imgBox--val"/>
   </div>
-  <div
-    class="col-xxl-9 col-xl-8 col-lg-7 col-12 textBox fadeIn"
-    [ngClass]="fontSizeFunc()"
-  >
-    <p class="textBox__p">
-      <span class="textBox__p--color">Błękitny Księżyc</span>
-      - zjawisko to występuje co dwa lub trzy lata. Odnosi się do trzeciej pełni
-      księżyca w sezonie z czterema pełniami księżyca i koryguje w ten sposób
-      czas ostatniego miesiąca sezonu, który w innym wypadku byłby oczekiwany
-      zbyt wcześnie. Każdy rok kalendarzowy zawiera około 11 dni więcej niż
-      liczba dni w 12 cyklach księżycowych. Dodatkowe dni kumulują się, więc co
-      dwa lub trzy lata (siedem razy w 19-letnim cyklu metonicznym) w ciągu roku
-      przypada dodatkowa pełnia księżyca, która koniecznie przypada na jedną z
-      czterech pór roku, co daje temu sezonowi cztery pełne księżyce zamiast
-      zwykłych trzech, a zatem „niebieski” księżyc.
-    </p>
-    <p class="textBox__p">
-      <b>Nazwa nie ma nic wspólnego z kolorem tarczy.</b> Srebrny Glob nie staje się
-      niebieski, ma to jedynie zaakcentować rzadkość tego zjawiska. Efekt
-      Księżyca z niebieskawym odcieniem może np. wystąpić w warunkach
-      atmosferycznych takich jak erupcje wulkanów czy podczas pożarów przez
-      cząsteczki dymu czy kurzu w atmosferze. Chmury powstałe w ten sposób
-      zawierają mieszaninę cząstek o szerokim zakresie rozmiarów, z których
-      większość jest mniejsza niż 1 mikrometr oraz mają tendencję do
-      rozpraszania niebieskiego światła. Przykładem może być sytuacja po
-      pożarach lasów w Szwecji i Kanadzie w 1950 i 1951r. oraz po erupcji
-      Krakatau w 1883r., która spowodowała, że księżyc przez prawie dwa lata
-      wydawał się niebieski.
-    </p>
+  <div class="col-xxl-9 col-xl-8 col-lg-7 col-12 textBox fadeIn" [ngClass]="fontSizeFunc()">
+      <p class="textBox__p">
+          <span class="textBox__p--color">
+            {{ 'homeInfo.blueMoon.t1' | translate }}
+          </span> 
+          {{ 'homeInfo.blueMoon.p1' | translate }}
+      </p>
+      <p class="textBox__p">
+          <b>{{ 'homeInfo.blueMoon.p2' | translate}}</b>
+          {{ 'homeInfo.blueMoon.p3' | translate}}
+      </p>
   </div>
 </div>
