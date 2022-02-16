@@ -1,7 +1,7 @@
 @import "/src/assets/styling/variables.scss";
 
 .card {
-  box-shadow: black 0px 5px 30px 5px;
+  box-shadow: black 0px 5px 30px;
   border: 2px solid rgb(45, 45, 45);
   background-color: $bgColorDark2;
   border-radius: 25px;
@@ -13,7 +13,7 @@
   transition-duration: 0.3s;
 
   &--description {
-    padding: 0 10px 0 10px;
+    padding: 0 10px;
     text-indent: $valueOfIndent;
   }
 }
@@ -39,6 +39,7 @@ mat-datepicker {
   color: rgb(245, 159, 0);
   font-size: $fontSize;
 }
+
 ::ng-deep .mat-form-field {
   .mat-input-element {
     color: white;

@@ -19,10 +19,8 @@
     padding: 0;
     text-align: center;
 
-    &--value {
-      width: 80%;
-      height: auto;
-      transition-duration: 0.3s;
+    &--transition {
+      transition-duration: 0.5s;
     }
   }
 }

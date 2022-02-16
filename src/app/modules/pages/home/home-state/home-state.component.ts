@@ -1,20 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-// import { MoonService } from 'src/app/config/moon.service';
+import { MoonService } from 'src/app/config/services/moon.service';
 
 @Component({
   selector: 'app-home-state',
   templateUrl: './home-state.component.html',
-  styleUrls: ['./home-state.component.scss', './../../../../../assets/styling/global/fontSize.scss']
+  styleUrls: [
+    './home-state.component.scss', 
+    './../../../../../assets/styling/global/fontSize.scss'
+  ]
 })
 
 export class HomeStateComponent implements OnInit {
-
   btn = {
     href: '#moreData',
     ariacontrols: 'moreData',
   }
   // Var for actual state
-  state: any;
+  stateObj: any;
   value = {
     date: '',
     phase: '',
@@ -28,24 +30,24 @@ export class HomeStateComponent implements OnInit {
   }
 
   constructor(
-    // private moon: MoonService
+    private moonService: MoonService
   ) { }
 
   getState() {
-    // this.moon.getCurrentPhase().subscribe(
-    //   res => {
-    //     this.state = res;
-    //     this.value.date = this.getFormatedDate(this.state.date);
-    //     this.value.phase = this.state.actualPhase;
-    //     this.value.age = this.state.age;
-    //     this.value.behaviour = this.state.behaviour;
-    //     this.value.calcPhase = this.state.calcPhase;
-    //     this.value.distance = this.state.distance + ' km';
-    //     this.value.illumination = this.getPercentValue(this.state.illumination) + '%';
-    //     this.value.nextNew = this.getFormatedDate(this.state.phases.nextnew_date);
-    //     this.value.imagesPath = this.state.img;
-    //   }
-    // )
+    this.moonService.getCurrentPhase().then(
+      (res) => {
+        this.stateObj = res;
+        this.value.date = this.getFormatedDate(this.stateObj.date);
+        this.value.phase = this.stateObj.actualPhase;
+        this.value.age = this.stateObj.age;
+        this.value.behaviour = this.stateObj.behaviour;
+        this.value.calcPhase = this.stateObj.calcPhase;
+        this.value.distance = this.stateObj.distance + ' km';
+        this.value.illumination = this.getPercentValue(this.stateObj.illumination) + '%';
+        this.value.nextNew = this.getFormatedDate(this.stateObj.nextPhases.nextnew_date);
+        this.value.imagesPath = this.stateObj.img;
+      }
+    )
   }
 
   getPercentValue(val: string) {
@@ -56,9 +58,12 @@ export class HomeStateComponent implements OnInit {
   getFormatedDate(val: string) {
     let date = new Date(val);
     let lang = "pl-PL";
-    let result = date.toLocaleDateString(lang, { day: "2-digit", month: '2-digit', year: "numeric" })
-      + ' ' + date.toLocaleTimeString(lang, { hour: "2-digit", minute: "2-digit", second: "2-digit" });
-    return result;
+    let result = 
+      date.toLocaleDateString(lang, { day: "2-digit", month: '2-digit', year: "numeric" })
+      + ' ' + 
+      date.toLocaleTimeString(lang, { hour: "2-digit", minute: "2-digit", second: "2-digit" });
+    
+      return result;
   }
 
   fontSizeFunc() {

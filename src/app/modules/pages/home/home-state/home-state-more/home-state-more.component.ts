@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { DateAdapter } from '@angular/material/core';
 import { MatDatepickerInputEvent } from '@angular/material/datepicker';
-// import { MoonService } from 'src/app/config/moon.service';
+import { MoonService } from 'src/app/config/services/moon.service';
 
 @Component({
   selector: 'app-home-state-more',
@@ -10,15 +10,11 @@ import { MatDatepickerInputEvent } from '@angular/material/datepicker';
 })
 
 export class HomeStateMoreComponent implements OnInit {
-
   @Input() property = '';
   @Input() APIdata = '';
   @Input() isLast!: boolean;
-  img1 = '../../../../../../assets/images/common/moonFirst.gif';
-  img2 = '../../../../../../assets/images/common/moonBlack.gif';
-  lang = "pl-PL";
   // Var for calc state
-  state: any;
+  stateObj: any;
   value = {
     date: '',
     phase: '',
@@ -33,7 +29,7 @@ export class HomeStateMoreComponent implements OnInit {
 
   constructor(
     private dateAdapter: DateAdapter<Date>,
-    // private moon: MoonService
+    private moonService: MoonService
   ) {
     this.dateAdapter.setLocale(localStorage.getItem('storageLang'));
   }
@@ -42,29 +38,22 @@ export class HomeStateMoreComponent implements OnInit {
 
   addEvent(type: string, event: MatDatepickerInputEvent<Date>) {
     this.events.push(`${type}: ${event.value}`);
+    let date = new Date();
+    let dateString = event.value?.toDateString() + ' ' + date.toTimeString();
 
-    let day = event.value!?.getDate();
-    let month = event.value!?.getMonth();
-    let year = event.value!?.getFullYear();
-    let time = new Date();
-    let hour = time.getHours();
-    let min = time.getMinutes();
-    let sec = time.getSeconds();
-
-    // this.moon.getPhase(day, month, year, hour, min, sec).subscribe(
-    //   res => {
-    //     this.state = res;
-    //     this.value.date = this.getFormatedDate(this.state.date);
-    //     this.value.phase = this.state.actualPhase;
-    //     this.value.age = this.state.age;
-    //     this.value.behaviour = this.state.behaviour;
-    //     this.value.calcPhase = this.state.calcPhase;
-    //     this.value.distance = this.state.distance + ' km';
-    //     this.value.illumination = this.getPercentValue(this.state.illumination) + '%';
-    //     this.value.nextNew = this.getFormatedDate(this.state.phases.nextnew_date);
-    //     this.value.imagesPath = this.state.img;
-    //   }
-    // )
+    this.moonService.calcPhase(dateString!).then(
+      (res) => {
+        this.stateObj = res;
+        this.value.date = this.getFormatedDate(this.stateObj.date);
+        this.value.phase = this.stateObj.actualPhase;
+        this.value.age = this.stateObj.age;
+        this.value.behaviour = this.stateObj.behaviour;
+        this.value.calcPhase = this.stateObj.calcPhase;
+        this.value.distance = this.stateObj.distance + ' km';
+        this.value.illumination = this.getPercentValue(this.stateObj.illumination) + '%';
+        this.value.nextNew = this.getFormatedDate(this.stateObj.nextPhases.nextnew_date);
+      }
+    )
   }
 
   getPercentValue(val: string) {
@@ -74,9 +63,13 @@ export class HomeStateMoreComponent implements OnInit {
 
   getFormatedDate(val: string) {
     let date = new Date(val);
-    let result = date.toLocaleDateString(this.lang, { day: "2-digit", month: '2-digit', year: "numeric" })
-      + ' ' + date.toLocaleTimeString(this.lang, { hour: "2-digit", minute: "2-digit", second: "2-digit" });
-    return result;
+    let lang = "pl-PL";
+    let result = 
+      date.toLocaleDateString(lang, { day: "2-digit", month: '2-digit', year: "numeric" })
+      + ' ' + 
+      date.toLocaleTimeString(lang, { hour: "2-digit", minute: "2-digit", second: "2-digit" });
+    
+      return result;
   }
 
   getPhase(phase: string) {

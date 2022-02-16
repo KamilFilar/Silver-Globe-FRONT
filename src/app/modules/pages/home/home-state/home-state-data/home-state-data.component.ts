@@ -7,7 +7,6 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 
 export class HomeStateDataComponent implements OnInit {
-
   @Input() property = '';
   @Input() APIdata = '';
   @Input () APIdataPhase = '';
@@ -18,5 +17,4 @@ export class HomeStateDataComponent implements OnInit {
 
   ngOnInit(): void {    
   }
-
 }
